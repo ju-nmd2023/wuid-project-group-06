@@ -68,15 +68,17 @@ header {
 /*HEAD*/
 
 .new-men {
-  width: 708px;
-  height: 450px;
   grid-row: span 1;
   grid-column: span 1;
   display: flex;
+  width: 90rem;
+  height: 28.125rem;
+  gap: 1.5rem;
+  margin: auto;
 }
 
-.logo{
-    width: 15%;
+.logo {
+  width: 15%;
 }
 
 .sale-accessories-shoes {
