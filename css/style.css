@@ -76,7 +76,7 @@ header {
 
 .nav-category {
   list-style: none;
-  padding: 20px 7% 15px 7%;
+  padding: 20px 5% 15px 5%;
 }
 
 .nav-category li {
@@ -102,14 +102,12 @@ header {
 }
 
 .new-men {
-  grid-row: span 1;
-  grid-column: span 1;
   display: flex;
+  justify-content: center;
+  margin: auto;
   width: 90rem;
   height: 28.125rem;
   gap: 1.5rem;
-  margin: auto;
-  padding-left: 0.5rem;
   padding-bottom: 1.5rem;
   flex: 1 1 0;
 }
@@ -123,16 +121,18 @@ header {
 }
 
 .sale-accessories-shoes {
-  width: 464px;
-  height: 295px;
   width: 90rem;
   height: 18.4rem;
-  grid-row: span 1;
-  grid-column: span 1;
   display: flex;
+  justify-content: center;
+  margin: auto;
   gap: 1.5rem;
-  padding-left: 0.35rem;
   padding-bottom: 1.5rem;
+}
+
+.slideshow {
+  width: 92rem;
+  margin: auto;
 }
 
 /*FOOTER*/
