@@ -75,8 +75,8 @@ header {
   display: flex;
 }
 
-.logo{
-    width: 15%;
+.logo {
+  width: 15%;
 }
 
 .sale-accessories-shoes {
@@ -92,6 +92,22 @@ header {
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr;
 }
+
+/*FOOTER*/
+footer {
+  background-color: pink;
+  color: white;
+  bottom: 0;
+  width: 100vw;
+  font-size: 16px;
+}
+
+footer * {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
 /* CATEGORY PAGE */
 
 /* PRODUCT PAGE */
