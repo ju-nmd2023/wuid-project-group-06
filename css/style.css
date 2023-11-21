@@ -1,0 +1,75 @@
+* {
+    font-family: 'Nexa', sans-serif;     
+}
+
+/* HOME PAGE */
+
+li, a, button {
+    text-decoration: none;
+}
+
+a.active{
+    border-bottom: 1px solid #000000;
+    padding: 30px 5% 10px 5%;
+    color: black;
+}
+
+.nav-gender a:hover {
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5% 10px 5%;
+    border-bottom: 1px solid #A8A39D;
+}
+
+.nav-gender {
+    list-style: none;
+}
+
+.nav-gender li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-gender li a {
+    transition: all 0.3s ease 0s;
+    color: #A8A39D;
+}
+
+.nav-icons {
+    list-style: none;
+    color: black;
+}
+
+.nav-icons:hover .fa-regular.fa-user{
+    color: #000000;
+}
+
+.nav-icons a{
+    list-style: none;
+    color: black;
+}
+
+.nav-icons li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-icons li a {
+    transition: all 0.3s ease 0s;
+}
+
+
+/* CATEGORY PAGE */
+
+/* PRODUCT PAGE */
+
+/* CART PAGE */
+
+/* PAYMENT PAGE */
+
+/* CONFIRMATION PAGE*/
