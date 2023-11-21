@@ -99,7 +99,8 @@ header {
 
 .new-men {
   display: flex;
-  justify-items: center;
+  justify-content: center;
+  margin: auto;
   width: 90rem;
   height: 28.125rem;
   gap: 1.5rem;
@@ -116,12 +117,11 @@ header {
 }
 
 .sale-accessories-shoes {
-  width: 464px;
-  height: 295px;
   width: 90rem;
   height: 18.4rem;
   display: flex;
-  justify-items: center;
+  justify-content: center;
+  margin: auto;
   gap: 1.5rem;
   padding-bottom: 1.5rem;
 }
