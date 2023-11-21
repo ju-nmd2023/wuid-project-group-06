@@ -66,6 +66,9 @@ header {
 }
 
 /*HEAD*/
+.logo {
+  width: 15%;
+}
 
 .new-men {
   grid-row: span 1;
@@ -74,19 +77,28 @@ header {
   width: 90rem;
   height: 28.125rem;
   gap: 1.5rem;
-  margin: auto;
+  padding-left: 0.5rem;
+  padding-bottom: 1.5rem;
+  flex: 1 1 0;
 }
 
-.logo {
-  width: 15%;
+.new {
+  flex: 1;
+}
+
+.men {
+  flex: 1;
 }
 
 .sale-accessories-shoes {
-  width: 464px;
-  height: 295px;
+  width: 90rem;
+  height: 18.4rem;
   grid-row: span 1;
   grid-column: span 1;
   display: flex;
+  gap: 1.5rem;
+  padding-left: 0.35rem;
+  padding-bottom: 1.5rem;
 }
 
 .grid-home {
