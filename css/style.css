@@ -7,7 +7,9 @@
 
 /*Navigation bar 1*/
 
-li, a, button {
+li,
+a,
+button {
   text-decoration: none;
 }
 
@@ -90,21 +92,17 @@ header {
   padding: 5px;
 }
 
-
 /*HEAD*/
 .logo {
   width: 15%;
 }
 
 .new-men {
-  grid-row: span 1;
-  grid-column: span 1;
   display: flex;
+  justify-items: center;
   width: 90rem;
   height: 28.125rem;
   gap: 1.5rem;
-  margin: auto;
-  padding-left: 0.5rem;
   padding-bottom: 1.5rem;
   flex: 1 1 0;
 }
@@ -122,11 +120,9 @@ header {
   height: 295px;
   width: 90rem;
   height: 18.4rem;
-  grid-row: span 1;
-  grid-column: span 1;
   display: flex;
+  justify-items: center;
   gap: 1.5rem;
-  padding-left: 0.35rem;
   padding-bottom: 1.5rem;
 }
 
