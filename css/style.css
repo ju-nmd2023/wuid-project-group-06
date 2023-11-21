@@ -7,8 +7,14 @@
 
 /*Navigation bar 1*/
 
-li, a, button {
+li,
+a,
+button {
   text-decoration: none;
+}
+
+ul {
+  list-style: none;
 }
 
 a.active {
@@ -90,7 +96,6 @@ header {
   padding: 5px;
 }
 
-
 /*HEAD*/
 .logo {
   width: 15%;
@@ -132,17 +137,124 @@ header {
 
 /*FOOTER*/
 footer {
-  background-color: pink;
-  color: white;
-  bottom: 0;
-  width: 100vw;
-  font-size: 16px;
+  background-color: whitesmoke;
 }
 
 footer * {
   box-sizing: border-box;
   border: none;
   outline: none;
+}
+
+.row {
+  padding: 2em 2em;
+}
+
+.row.primary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr;
+  margin-left: 5%;
+}
+
+.first-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#footer-header {
+  color: black;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 1em;
+}
+
+.first-column ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  padding: 0%;
+}
+
+.second-column ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  padding: 0%;
+}
+
+.first-column ul li a {
+  color: #a8a39d;
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.second-column ul li a {
+  color: #a8a39d;
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.subscribe-column input {
+  background-color: #d9d9d9;
+  width: 605px;
+  height: 55px;
+  color: #a8a39d;
+  font-family: Nexa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.logo-footer {
+  margin-top: 3%;
+  width: 20%;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  gap: 27px;
+}
+
+.social i {
+  font-size: 2em;
+  color: black;
+}
+
+.secondary-row {
+  display: flex;
+  flex-direction: row;
+  padding: 2em;
+  margin-left: 5%;
+  color: #000;
+  font-family: Nexa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  justify-content: space-between;
+}
+
+.secondary-row a {
+  color: #000;
+  font-family: Nexa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-decoration: none;
 }
 
 /* CATEGORY PAGE */
