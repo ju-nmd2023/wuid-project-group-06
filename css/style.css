@@ -66,25 +66,29 @@ header {
 }
 
 /*HEAD*/
-
-.new-men {
-  width: 708px;
-  height: 450px;
-  grid-row: span 1;
-  grid-column: span 1;
-  display: flex;
-}
-
 .logo {
   width: 15%;
 }
 
-.sale-accessories-shoes {
-  width: 464px;
-  height: 295px;
+.new-men {
   grid-row: span 1;
   grid-column: span 1;
   display: flex;
+}
+
+.logo{
+    width: 15%;
+}
+
+.sale-accessories-shoes {
+  width: 90rem;
+  height: 18.4rem;
+  grid-row: span 1;
+  grid-column: span 1;
+  display: flex;
+  gap: 1.5rem;
+  padding-left: 0.35rem;
+  padding-bottom: 1.5rem;
 }
 
 .grid-home {
