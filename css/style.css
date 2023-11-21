@@ -92,32 +92,59 @@ header {
 
 
 /*HEAD*/
+.logo {
+  width: 15%;
+}
 
 .new-men {
-  width: 708px;
-  height: 450px;
   grid-row: span 1;
   grid-column: span 1;
   display: flex;
+  width: 90rem;
+  height: 28.125rem;
+  gap: 1.5rem;
+  margin: auto;
+  padding-left: 0.5rem;
+  padding-bottom: 1.5rem;
+  flex: 1 1 0;
 }
 
-.logo{
-    width: 15%;
+.new {
+  flex: 1;
+}
+
+.men {
+  flex: 1;
 }
 
 .sale-accessories-shoes {
   width: 464px;
   height: 295px;
+  width: 90rem;
+  height: 18.4rem;
   grid-row: span 1;
   grid-column: span 1;
   display: flex;
+  gap: 1.5rem;
+  padding-left: 0.35rem;
+  padding-bottom: 1.5rem;
 }
 
-.grid-home {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr;
+/*FOOTER*/
+footer {
+  background-color: pink;
+  color: white;
+  bottom: 0;
+  width: 100vw;
+  font-size: 16px;
 }
+
+footer * {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+
 /* CATEGORY PAGE */
 
 /* PRODUCT PAGE */
