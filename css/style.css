@@ -191,7 +191,8 @@ header {
 
 /*FOOTER*/
 footer {
-  background-color: whitesmoke;
+  background-color: white;
+  margin-top: 3%;
 }
 
 footer * {
