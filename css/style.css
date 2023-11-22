@@ -47,18 +47,22 @@
 
   a.active {
     border-bottom: 1px solid #000000;
-    padding: 30px 5% 10px 5%;
+    padding: 5% 0%;
     color: black;
   }
 
  
 
-  header {
+  header #nav-web {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 5% 10px 5%;
     border-bottom: 1px solid #a8a39d;
+  }
+
+  .logo {
+    width: 15%;
   }
 
  .nav-gender a:hover {
@@ -136,9 +140,6 @@
     margin: 1.5rem 0 1.5rem 0;
   }
 
-  .logo {
-    width: 15%;
-  }
 
   #sections {
     display: grid;
@@ -576,6 +577,19 @@
     border-bottom: 0px solid #a8a39d;
   }
 
+  #mobile-left {
+    display: flex;
+    align-items: center;
+ }
+
+ #mobile-dropdown {
+    margin-right: 15px;
+ }
+
+ #mobile-right {
+    margin-left: auto;
+ }
+
   /* Drop down icon */
   #mobile-dropdown {
     list-style: none;
@@ -646,6 +660,10 @@
   }
 
   #web-footer {
+    display: none;
+  }
+
+  #nav-web {
     display: none;
   }
   /* text */
