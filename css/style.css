@@ -1,6 +1,7 @@
 * {
   font-family: "Nexa", sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 /* HOME PAGE */
@@ -92,7 +93,6 @@ header {
 .searchbar {
   float: right;
   width: 30%;
-  margin-right: -1%;
   padding: 5px;
 }
 
