@@ -10,7 +10,17 @@
 
 
 @media screen and (min-width: 1001px) {
-li,
+
+  /*hidden*/
+
+  #mobile-dropdown {
+    display: none;
+  }
+.mobile-gender {
+  display: none;
+}
+
+  li,
 a,
 button {
   text-decoration: none;
@@ -38,9 +48,7 @@ header {
   border-bottom: 1px solid #a8a39d;
 }
 
-.mobile-gender {
-  display: none;
-}
+
 
 .nav-gender {
   list-style: none;
@@ -416,9 +424,20 @@ footer * {
       margin-right: 5%;
       align-items: center;
       padding: 10px 0px;
+      margin: 0px;
       border-bottom: 0px solid #a8a39d;
     }
 
+    /* Drop down icon */
+    #mobile-dropdown{
+      list-style: none;
+      
+    }
+    
+  #mobile-dropdown a {
+    color: black;
+    font-size: 1.5rem;
+  }
   /* nav-gender */
   
   /* mobile-gender */
@@ -442,9 +461,6 @@ footer * {
 
   /* nav-icons */
 
-  .nav-icons {
-
-  }
   
   .nav-icons a {
     list-style: none;
