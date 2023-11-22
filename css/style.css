@@ -674,21 +674,32 @@
 
   /* grid */
   #sections-mobile {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    max-width: 450px;
+    max-height: fit-content;
   }
+
+  #new-sale {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  #accessories-shoes {
+    display: flex;
+    gap: 1rem;
+  }
+
   #men-mobile {
     display: none;
   }
-  #new-mobile {
-    width: 10.625rem;
-    position: relative;
-    height: 6.25rem;
-  }
+
   #shop-new-mobile {
     display: none;
   }
+
+  /* text over pics */
+
+  /*new arrivals*/
 
   #new-mobile-pic {
     width: 10.625rem;
@@ -696,7 +707,97 @@
     height: 6.25rem;
   }
 
+  #new-mobile {
+    width: 10.625rem;
+    position: relative;
+    height: 6.25rem;
+  }
+
   #new-mobile .new-men-text-mobile {
+    position: absolute;
+    text-align: center;
+    font-style: normal;
+    font-size: 16px;
+    height: 1.625rem;
+    width: 6.375rem;
+    font-weight: 900;
+    text-align: center;
+    top: 3rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+  }
+  /* sale */
+  #sale-mobile {
+    width: 10.625rem;
+    position: relative;
+    height: 6.25rem;
+  }
+
+  #sale-pic-mobile {
+    width: 10.625rem;
+    position: relative;
+    height: 6.25rem;
+  }
+
+  #sale-mobile .sas-text-mobile {
+    position: absolute;
+    text-align: center;
+    font-style: normal;
+    font-size: 16px;
+    height: 1.625rem;
+    width: 6.375rem;
+    font-weight: 900;
+    text-align: center;
+    top: 3rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+  }
+
+  /* accessories */
+
+  #accessories-mobile {
+    width: 10.625rem;
+    position: relative;
+    height: 6.25rem;
+  }
+
+  #accessories-pic-mobile {
+    width: 10.625rem;
+    position: relative;
+    height: 6.25rem;
+  }
+
+  #accessories-mobile .sas-text-mobile {
+    position: absolute;
+    text-align: center;
+    font-style: normal;
+    font-size: 16px;
+    height: 1.625rem;
+    width: 6.375rem;
+    font-weight: 900;
+    text-align: center;
+    top: 3rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+  }
+  /* shoes */
+
+  #shoes-mobile {
+    width: 10.625rem;
+    position: relative;
+    height: 6.25rem;
+  }
+
+  #shoes-pic-mobile {
+    width: 10.625rem;
+    position: relative;
+    height: 6.25rem;
+  }
+
+  #shoes-mobile .sas-text-mobile {
     position: absolute;
     text-align: center;
     font-style: normal;
