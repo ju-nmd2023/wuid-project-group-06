@@ -424,6 +424,16 @@
     border-bottom: 0px solid #a8a39d;
   }
 
+    /* Drop down icon */
+    #mobile-dropdown{
+      list-style: none;
+      
+    }
+    
+  #mobile-dropdown a {
+    color: black;
+    font-size: 1.5rem;
+  }
   /* nav-gender */
 
   /* mobile-gender */
@@ -446,9 +456,6 @@
   }
 
   /* nav-icons */
-
-  .nav-icons {
-  }
 
   .nav-icons a {
     list-style: none;
