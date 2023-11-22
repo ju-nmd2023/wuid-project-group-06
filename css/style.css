@@ -262,6 +262,10 @@
     display: none;
   }
 
+  #tablet-footer{
+    display: none;
+  }
+
   footer {
     background-color: white;
     margin-top: 3%;
@@ -409,7 +413,130 @@
 
 /* TABLET DEVICES */
 
+/*hidden*/
+#web-footer{
+  display: none;
+}
+
+#mobile-footer{
+  display: none;
+}
+
+/*footer*/
 @media screen and (min-width: 451px) and (max-width: 1000px) {
+  footer {
+    background-color: whitesmoke;
+    margin-top: 3%;
+  }
+
+  footer * {
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+  }
+
+  .row {
+    padding: 2em 2em;
+  }
+
+  .text-columns-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .subscribe-column {
+    margin-top: 2.125rem;
+  }
+
+  #footer-header {
+    color: black;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 1em;
+  }
+
+  .first-column ul li a {
+    color: #a8a39d;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem;
+    text-decoration: none;
+    
+  }
+
+  .second-column ul li a {
+    color: #a8a39d;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+  .subscribe-column input {
+    background-color: #d9d9d9;
+    width: 100%;
+    height: 3rem;
+    color: #a8a39d;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 0.5rem;
+  }
+
+  .subscribe-column input[type="text"] {
+    text-indent: 15px;
+  }
+
+  .logo-footer {
+    margin-top: 2rem;
+    width: 45%;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    gap: 8%;
+    margin-top: 1.1rem;
+    justify-content: center;
+  }
+
+  .social i {
+    font-size: 2em;
+    color: black;
+  }
+
+  .secondary-row {
+    display: flex;
+    flex-direction: row;
+    padding: 2em;
+    color: #000;
+    font-family: Nexa;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    justify-content: space-between;
+  }
+
+  .secondary-row a {
+    color: #000;
+    font-family: Nexa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
 }
 
 /* MOBILE DEVICES */
@@ -490,6 +617,9 @@
     display: none;
   }
 
+  #tablet-footer{
+    display: none;
+  }
   /* text */
 
   li,
@@ -502,7 +632,7 @@
 /* mobile footer */
 @media screen and (max-width: 450px) {
   footer {
-    background-color: whitesmoke;
+    background-color: white;
     margin-top: 3%;
   }
 
