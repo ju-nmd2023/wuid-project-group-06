@@ -8,6 +8,8 @@
 
 /*Navigation bar 1*/
 
+
+@media screen and (min-width: 1001px) {
 li,
 a,
 button {
@@ -34,6 +36,10 @@ header {
   align-items: center;
   padding: 30px 5% 10px 5%;
   border-bottom: 1px solid #a8a39d;
+}
+
+.mobile-gender {
+  display: none;
 }
 
 .nav-gender {
@@ -319,6 +325,9 @@ footer * {
   text-decoration: none;
   margin-right: 3rem;
 }
+}
+
+
 
 /* CATEGORY PAGE */
 
@@ -333,11 +342,84 @@ footer * {
 /* RESPONSIVENESS */
 
 /* TABLET DEVICES */
+
 @media screen and (min-width: 451px) and (max-width: 1000px) {
 
 }
 
 /* MOBILE DEVICES */
 @media screen and (max-width: 450px) {
+
+ /* header */ 
+  header {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 5%;
+      align-items: center;
+      padding: 10px 0px;
+      border-bottom: 0px solid #a8a39d;
+    }
+
+  /* nav-gender */
   
+  /* mobile-gender */
+
+  .mobile-gender {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 33% 10px 33%;
+  }
+
+  .mobile-gender a {
+    list-style: none;
+    color: black;
+  }
+
+  .mobile-gender li {
+    display: inline-block;
+    align-items: center;
+  }
+
+  /* nav-icons */
+
+  .nav-icons {
+
+  }
+  
+  .nav-icons a {
+    list-style: none;
+    color: black;
+  }
+  
+  .nav-icons li {
+    display: inline-block;
+    padding: 0px 5px;
+  }
+  
+  .nav-icons li a {
+    transition: all 0.3s ease 0s;
+  }
+
+  /* nav-logo */
+    .logo {
+    width: 30%;
+  }
+
+  /* Hidden */
+
+  .nav-category {
+    display: none;
+  }
+
+  .nav-gender {
+    display:none
+  }
+
+  /* text */
+  
+  li, a, button {
+  text-decoration: none;
+}
+
 }
