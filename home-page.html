@@ -18,12 +18,20 @@
   </head>
   <body>
     <header>
-      <div id="nav-web">
       <nav>
         <ul class="nav-gender">
           <li><a class="active" href="#">Women</a></li>
           <li><a href="#">Men</a></li>
           <li><a href="#">Kids</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <ul id="mobile-dropdown">
+          <li>
+            <a href="#">
+              <i class="fa-regular fa-bars"></i>
+            </a>
+          </li>
         </ul>
       </nav>
       <img class="logo" src="img/logo/logo-nextrend.png" alt="logo" />
@@ -46,32 +54,6 @@
           </li>
         </ul>
       </nav>
-      </div>
-      <div id="nav-mobile">
-      <div id="mobile-left"> 
-        <nav> 
-          <ul id="mobile-dropdown">
-            <li><a href="#"> 
-              <i class="fa-regular fa-bars"></i>
-             </a></li>
-             </ul> 
-            </nav> 
-            <img class="logo" src="img/logo/logo-nextrend.png" alt="logo" /> 
-            <nav id="mobile-right">
-              <ul class="nav-icons"> 
-                <li> <a href="#"> 
-                  <i class="fa-regular fa-user"></i> 
-                </a> </li> 
-                <li> <a href="#"> 
-                  <i class="fa-regular fa-heart"></i> 
-                </a> </li> 
-                <li> <a href="#"> 
-                  <i class="fa-solid fa-bag-shopping"></i>
-                 </a> </li> 
-                </ul> 
-              </nav> 
-            </div>
-          </div>
     </header>
     <nav class="gender-mobile">
       <ul>
@@ -139,6 +121,50 @@
         </div>
       </div>
     </div>
+
+    <!-- mobile version of grid -->
+    <div id="sections-mobile">
+        <div id="new-mobile">
+          <img id="new-mobile-pic"
+            src="/img/home-page/new-arrivals.jpg"
+            alt="A picture showing a woman in pose with a button saying 'shop now' that leads to the new arrivals page."
+          />
+          <button id="shop-new-mobile">SHOP NOW</button>
+          <p class="new-men-text-mobile">New arrivals</p>
+        </div>
+        <div id="men-mobile">
+          <img
+            src="img/home-page/men.jpg"
+            alt="A picture showing a man's coat with a button saying 'shop now' that leads to the men's page."
+          /><button id="shop-men">SHOP NOW</button>
+          <p class="new-men-text-mobile">Men's</p>
+        </div>
+
+        <div id="sale-mobile">
+          <img
+            id="sale-accessories-shoes"
+            src="img/home-page/sale.jpg"
+            alt="A picture showing 3 women in pose with a button saying 'shop now' that leads to the sales page."
+          />
+          <p class="sas-text">Sale</p>
+        </div>
+        <div id="accessories">
+          <img
+            id="sale-accessories-shoes"
+            src="img/home-page/accessories.jpg"
+            alt="A picture showing accessories with a button saying 'shop now' that leads to the accessories's page."
+          />
+          <p class="sas-text">Accessories</p>
+        </div>
+        <div id="shoes-mobile">
+          <img
+            id="sale-accessories-shoes"
+            src="img/home-page/shoes.jpg"
+            alt="A picture showing shoes with a button saying 'shop now' that leads to the shoes' page."
+          />
+          <p class="sas-text">Shoes</p>
+        </div>
+        </div>
     <footer>
       <div id="web-footer">
         <div class="row primary">
@@ -183,150 +209,16 @@
             </div>
           </div>
         </div>
-        <div class="secondary-row">
-          <div>
-            <p>
-              <i class="fa-regular fa-copyright"></i>
-              2023 NEXTREND
-            </p>
-          </div>
-  
-          <div class="footer-menu">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-          </div>
+      <div class="secondary-row">
+        <div>
+          <p>
+            <i class="fa-regular fa-copyright"></i>
+            2023 NEXTREND
+          </p>
         </div>
-      </div>
-      <div id="tablet-footer">
-        <div class="row primary">
-          <div class="text-columns-footer">
-            <div class="first-column">
-              <p id="footer-header">Get help</p>
-              <ul>
-                <li><a href="#">Help Centre</a></li>
-                <li><a href="#">Track Order</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Returns</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Gift Cards</a></li>
-              </ul>
-            </div>
-
-            <div class="second-column">
-              <p id="footer-header">Company</p>
-              <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Parthner Programme</a></li>
-                <li><a href="#">Collaborations</a></li>
-                <li><a href="#">Investor Relations</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="subscribe-column">
-            <p id="footer-header">
-              Subscribe so you don't miss out on anything!
-            </p>
-            <div>
-              <input type="text" placeholder="E-mail Address" />
-            </div>
-
-            <img
-              class="logo-footer"
-              src="img/logo/logo-nextrend.png"
-              alt="logo"
-            />
-
-            <div class="social">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-square-instagram"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-youtube"></i>
-              <i class="fa-brands fa-pinterest"></i>
-              <i class="fa-brands fa-tiktok"></i>
-            </div>
-          </div>
-        </div>
-
-        <div class="secondary-row">
-          <div>
-            <p>
-              <i class="fa-regular fa-copyright"></i>
-              2023 NEXTREND
-            </p>
-          </div>
-
-          <div class="footer-menu">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-          </div>
-        </div>
-      </div>
-      <div id="mobile-footer">
-        <div class="row primary">
-          <div class="text-columns-footer">
-            <div class="first-column">
-              <p id="footer-header">Get help</p>
-              <ul>
-                <li><a href="#">Help Centre</a></li>
-                <li><a href="#">Track Order</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Returns</a></li>
-                <li><a href="#">FAQs</a></li>
-                <li><a href="#">Gift Cards</a></li>
-              </ul>
-            </div>
-
-            <div class="second-column">
-              <p id="footer-header">Company</p>
-              <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Parthner Programme</a></li>
-                <li><a href="#">Collaborations</a></li>
-                <li><a href="#">Investor Relations</a></li>
-              </ul>
-            </div>
-          </div>
-
-          <div class="subscribe-column">
-            <p id="footer-header">
-              Subscribe so you don't miss out on anything!
-            </p>
-            <div>
-              <input type="text" placeholder="E-mail Address" />
-            </div>
-
-            <img
-              class="logo-footer"
-              src="img/logo/logo-nextrend.png"
-              alt="logo"
-            />
-
-            <div class="social">
-              <i class="fa-brands fa-facebook"></i>
-              <i class="fa-brands fa-square-instagram"></i>
-              <i class="fa-brands fa-twitter"></i>
-              <i class="fa-brands fa-youtube"></i>
-              <i class="fa-brands fa-pinterest"></i>
-              <i class="fa-brands fa-tiktok"></i>
-            </div>
-          </div>
-        </div>
-
-        <div class="secondary-row">
-          <div>
-            <p>
-              <i class="fa-regular fa-copyright"></i>
-              2023 NEXTREND
-            </p>
-          </div>
-
-          <div class="footer-menu">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
-          </div>
+        <div class="footer-menu">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
         </div>
       </div>
     </footer>
