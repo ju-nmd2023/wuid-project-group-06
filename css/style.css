@@ -682,11 +682,13 @@
     display: flex;
     gap: 1rem;
     padding-bottom: 1rem;
+    justify-content: center;
   }
 
   #accessories-shoes {
     display: flex;
     gap: 1rem;
+    justify-content: center;
   }
 
   #men-mobile {
