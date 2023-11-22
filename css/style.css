@@ -134,7 +134,9 @@ header {
 
 #sas {
   display: flex;
+  width: 90rem;
   gap: 1.5rem;
+  justify-content: space-between;
 }
 
 #new {
@@ -183,7 +185,18 @@ header {
   font-size: 0.875rem;
   font-weight: 900;
 }
-
+#men .new-men-text {
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  top: 12.125rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+}
 #sale-accessories-shoes {
   width: 100%;
   height: 18.4rem;
@@ -195,9 +208,55 @@ header {
   position: relative;
 }
 
+#sale .sas-text {
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  top: 10.125rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+}
+
+#accessories {
+  position: relative;
+}
+
+#accessories .sas-text {
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  top: 10.125rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);}
+
+#shoes {
+  position: relative;
+}
+
+#shoes .sas-text {
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  top: 10.125rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);}
+
 /*FOOTER*/
 footer {
-  background-color: whitesmoke;
+  background-color: white;
+  margin-top: 3%;
 }
 
 footer * {
