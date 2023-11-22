@@ -140,14 +140,28 @@ header {
 
 #new #shop-new {
   position: absolute;
-  top: 50%;
+  top: 16.5rem;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   background-color: #ffffff;
   color: rgb(0, 0, 0);
+  padding: 15px 48px 15px 48px;
+  font-size: 0.875rem;
+  font-weight: 900;
 }
 
+#new .new-men-text {
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  top: 12.125rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+}
 #men {
   position: relative;
   width: 100%;
@@ -156,12 +170,14 @@ header {
 
 #men #shop-men {
   position: absolute;
-  top: 50%;
+  top: 16.5rem;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   background-color: #ffffff;
   color: rgb(0, 0, 0);
+  padding: 15px 48px 15px 48px;
+  font-size: 0.875rem;
+  font-weight: 900;
 }
 
 #sale-accessories-shoes {
