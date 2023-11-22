@@ -126,17 +126,9 @@ header {
   height: 28.125rem;
 }
 
-#sas #sale #accessories #shoes {
-  width: 33.33%;
-  height: auto;
-  max-height: 100%;
-  object-fit: cover;
-}
-
 #sas {
   display: flex;
   justify-content: space-around;
-
   gap: 1.5rem;
 }
 
