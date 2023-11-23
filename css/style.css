@@ -490,7 +490,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1rem;
+    line-height: 1.5rem;
     text-decoration: none;
   }
 
@@ -500,7 +500,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.5rem;
     text-decoration: none;
   }
 
@@ -510,7 +510,7 @@
     height: 3rem;
     color: #a8a39d;
     font-family: Nexa;
-    font-size: 18px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -523,7 +523,7 @@
 
   .logo-footer {
     margin-top: 2rem;
-    width: 45%;
+    width: 40%;
   }
 
   .social {
@@ -535,7 +535,7 @@
   }
 
   .social i {
-    font-size: 2em;
+    font-size: 2.5em;
     color: black;
   }
 
@@ -545,7 +545,7 @@
     padding: 2em;
     color: #000;
     font-family: Nexa;
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -555,12 +555,12 @@
   .secondary-row a {
     color: #000;
     font-family: Nexa;
-    font-size: 12px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     text-decoration: none;
-    margin-right: 1rem;
+    margin-right: 0.3rem;
   }
 }
 
