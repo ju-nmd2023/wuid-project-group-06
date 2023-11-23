@@ -817,6 +817,7 @@
   #sections {
     display: none;
   }
+
   /* mobile footer */
 
   footer {
@@ -829,13 +830,6 @@
     border: none;
     outline: none;
     list-style: none;
-  }
-
-  .row.primary {
-    display: grid;
-    margin-left: 5%;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
   }
 
   .row {
@@ -921,7 +915,7 @@
     padding: 2em;
     color: #000;
     font-family: Nexa;
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
@@ -931,11 +925,11 @@
   .secondary-row a {
     color: #000;
     font-family: Nexa;
-    font-size: 12px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     text-decoration: none;
-    margin-right: 1rem;
+    margin-right: 0.2rem;
   }
 }
