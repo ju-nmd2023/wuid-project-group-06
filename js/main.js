@@ -24,7 +24,7 @@ function changeImg() {
 
     // Increment index or reset to 0 if at the end of the array
     if (i < images.length - 1) {
-        i++;
+        i++; // = plus 1. So if i = 1, then i++ = 2
     } else {
         i = 0;
     }
@@ -53,7 +53,7 @@ function nextImage() {
 function prevImage() {
     // Decrement index or set to the last index if at the beginning of the array
     if (i > 0) {
-        i--;
+        i--; // = miunus 1. So if i = 2, then i-- = 1
     } else {
         i = images.length - 1;
     }
@@ -93,6 +93,8 @@ function updateSliderBar() {
         }
     });
 }
+
+//////
 
 // Call the changeImg function when the window has finished loading
 window.onload = changeImg;
