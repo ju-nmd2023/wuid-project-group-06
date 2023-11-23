@@ -129,6 +129,7 @@
   float: right;
   background-color: #D9D9D9;
   text-indent: 15px;
+  border: none;
   }
 
   /* SLIDESHOW*/
@@ -140,7 +141,51 @@
     background-size: cover;
     background-position: center;
     margin: 1.5rem 0 1.5rem 0;
+    position: relative;
   }
+
+  .sliderBar {
+    position: absolute;
+    bottom: 0.94rem;
+    left: 25%;
+    right: 25%;
+    transform: translateX(-50%, -50%);
+    display: flex;
+  }
+
+  .bar {
+    width: 15.625rem;
+    height: 1rem;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+  }
+
+  .sliderButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+    background-color: #F8F1E9;
+    text-align: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 0.94rem;
+  }
+
+  #prev, #next {
+  width: 2rem; /* Adjust the width of the buttons */
+  height: 100%; /* Make the buttons take the full height of the container */
+  background-color: #F8F1E9;
+  border: none; /* Remove button border if not needed */
+  cursor: pointer;
+}
+
+  /* 2/3 GRID */
 
   #sections {
     display: grid;
@@ -610,7 +655,7 @@
   #mobile-left {
     display: flex;
     align-items: center;
-    margin-left: 1rem;
+    margin-left: 5%;
   }
 
   #mobile-dropdown {
@@ -619,7 +664,7 @@
 
   #mobile-right {
     margin-left: auto;
-    margin-right: 1rem;
+    margin-right: 5%;
   }
 
   /* Drop down icon */
