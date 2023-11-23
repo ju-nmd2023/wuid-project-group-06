@@ -102,15 +102,15 @@
     </nav>
     <div id="slideshow">
       <div class="sliderBar">
-        <label for="r1" class="bar"></label>
-        <label for="r2" class="bar"></label>
-        <label for="r3" class="bar"></label>
-        <label for="r4" class="bar"></label>
-        <label for="r5" class="bar"></label>
+        <label for="r1" class="bar" onclick="changeImageByIndex(0)"></label>
+        <label for="r2" class="bar" onclick="changeImageByIndex(1)"></label>
+        <label for="r3" class="bar" onclick="changeImageByIndex(2)"></label>
+        <label for="r4" class="bar" onclick="changeImageByIndex(3)"></label>
+        <label for="r5" class="bar" onclick="changeImageByIndex(4)"></label>
       </div>
       <div class="sliderButtons">
-        <button id="prev"><i class="fa-solid fa-chevron-left"></i></button>
-        <button id="next"><i class="fa-solid fa-chevron-right"></i></button>
+        <button id="prev" onclick="prevImage()"><i class="fa-solid fa-chevron-left"></i></button>
+        <button id="next" onclick="nextImage()"><i class="fa-solid fa-chevron-right"></i></button>
       </div>
     </div>
     <div id="sections">
