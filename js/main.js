@@ -225,7 +225,6 @@ function updateSliderBarMobile() {
         }
     });
 }
-
 // Function to change the background image and update the slider bar on mobile
 function changeImgMobile() {
     // Set the background image of the mobile slideshow div
