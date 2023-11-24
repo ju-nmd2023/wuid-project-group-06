@@ -276,9 +276,8 @@
 
   .new-men .button {
     position: absolute;
-    top: 16.5rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 17vw;
+    left: 19vw;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     padding: 15px 48px 15px 48px;
@@ -293,11 +292,31 @@
     font-style: normal;
     font-weight: 900;
     text-align: center;
-    top: 12.125rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 12vw;
+    left: 14.5vw;
     color: rgb(255, 255, 255);
   }
+
+#men{
+  position: relative;
+  width: 100%;
+    height: auto;
+    flex: 1;
+}
+
+#men #men-text {
+  position: absolute;
+    text-align: center;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    top: 12vw;
+    left: 20vw;
+    color: rgb(255, 255, 255);
+
+}
+
 
   .sas {
     position: relative;
