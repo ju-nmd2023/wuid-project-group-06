@@ -94,8 +94,5 @@ function updateSliderBar() {
     });
 }
 
-//////
-
 // Call the changeImg function when the window has finished loading
 window.onload = changeImg;
-
