@@ -35,17 +35,6 @@
     display: none;
   }
 
-  #sections-mobile {
-    display: none;
-  }
-
-  #sections-tablet {
-    display: none;
-  }
-
-  #sections-1920 {
-    display: none;
-  }
 
   #mobile-dropdown {
     display: none;
@@ -258,35 +247,38 @@
   }
 
   /* 2/3 GRID */
-
-  #sections {
+  .grid-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100vw;
     gap: 1.5rem;
-    width: 90rem;
-    margin: auto;
+    
   }
 
-  #new-men {
+  .flexbox {
     display: flex;
+    width: 100vw;
+    height: auto;
     gap: 1.5rem;
-    height: 28.125rem;
+  }
+ 
+  .new-men .sas {
+    width: 100vw;
+    padding: 0;
   }
 
-  #sas {
-    display: flex;
-    width: 90rem;
-    gap: 1.5rem;
-    justify-content: space-between;
+  img {
+    width: 100%;
   }
 
-  #new {
+  .new-men {
     position: relative;
     width: 100%;
-    height: 28.125rem;
+    height: auto;
+    flex: 1;
   }
 
-  #new #shop-new {
+  .new-men .button {
     position: absolute;
     top: 16.5rem;
     left: 50%;
@@ -298,35 +290,7 @@
     font-weight: 900;
   }
 
-  #new .new-men-text {
-    position: absolute;
-    text-align: center;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 900;
-    text-align: center;
-    top: 12.125rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
-  #men {
-    position: relative;
-    width: 100%;
-    height: 28.125rem;
-  }
-  #men #shop-men {
-    position: absolute;
-    top: 16.5rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 15px 48px 15px 48px;
-    font-size: 0.875rem;
-    font-weight: 900;
-  }
-  #men .new-men-text {
+  .new-men .new-men-text {
     position: absolute;
     text-align: center;
     font-size: 50px;
@@ -339,18 +303,14 @@
     color: rgb(255, 255, 255);
   }
 
-  #sale-accessories-shoes {
+  .sas {
+    position: relative;
     width: 100%;
-    height: 18.4rem;
-    position: relative;
-    gap: 1.5rem;
+    height: auto;
+    flex: 1;
   }
 
-  #sale {
-    position: relative;
-  }
-
-  #sale .sas-text {
+  .sas .sas-text {
     position: absolute;
     text-align: center;
     font-size: 50px;
@@ -363,39 +323,9 @@
     color: rgb(255, 255, 255);
   }
 
-  #accessories {
-    position: relative;
-  }
 
-  #accessories .sas-text {
-    position: absolute;
-    text-align: center;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 900;
-    text-align: center;
-    top: 10.125rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
 
-  #shoes {
-    position: relative;
-  }
 
-  #shoes .sas-text {
-    position: absolute;
-    text-align: center;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 900;
-    text-align: center;
-    top: 10.125rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
 
   /*WEB FOOTER*/
 
@@ -762,167 +692,7 @@ margin-top: 4rem;
 
   /*end of tablet-header*/
 
-  #sections-mobile {
-    max-width: 450px;
-    max-height: fit-content;
-  }
-
-  #new-sale {
-    display: flex;
-    gap: 1rem;
-    padding-bottom: 1rem;
-    justify-content: center;
-  }
-
-  #accessories-shoes {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-  }
-
-  #men-mobile {
-    display: none;
-  }
-
-  #shop-new-mobile {
-    display: none;
-  }
-
-  /* text over pics */
-
-  /*new arrivals*/
-
-  #sections-tablet {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 2rem;
-    margin: auto;
-  }
-
-  #new-tablet-pic {
-    width: 21.25rem;
-    position: relative;
-    height: 12.5rem;
-  }
-
-  #new-tablet {
-    width: 21.25rem;
-    position: relative;
-    height: 12.5rem;
-    display: flex;
-    gap: 2rem;
-  }
-
-  #new-tablet .new-men-text-tablet {
-    position: absolute;
-    text-align: center;
-    font-style: normal;
-    font-size: 32px;
-    height: 1.625rem;
-    width: 6.375rem;
-    font-weight: 900;
-    text-align: center;
-    top: 7rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
-
-  /* sale */
-  #sale-tablet {
-    width: 21.25rem;
-    position: relative;
-    height: 12.5rem;
-  }
-
-  #sale-pic-tablet {
-    width: 21.25rem;
-    position: relative;
-    height: 12.5rem;
-  }
-
-  #sale-tablet .sas-text-tablet {
-    position: absolute;
-    text-align: center;
-    font-style: normal;
-    font-size: 32px;
-    height: 1.625rem;
-    width: 6.375rem;
-    font-weight: 900;
-    text-align: center;
-    top: 7rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
-
-  #men-tablet {
-    display: none;
-  }
-  /* accessories */
-
-  #accessories-shoes-tablet {
-    display: flex;
-    gap: 2rem;
-  }
-
-  #accessories-tablet {
-    width: 21.25rem;
-    position: relative;
-    height: 12.5rem;
-  }
-
-  #accessories-pic-tablet {
-    width: 21.25rem;
-    position: relative;
-    height: 12.5rem;
-  }
-
-  #accessories-tablet .sas-text-tablet {
-    position: absolute;
-    text-align: center;
-    font-style: normal;
-    font-size: 32px;
-    height: 1.625rem;
-    width: 6.375rem;
-    font-weight: 900;
-    text-align: center;
-    top: 7rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
-  /* shoes */
-
-  #shoes-tablet {
-    width: 21.25rem;
-    position: relative;
-    height: 12.5rem;
-  }
-
-  #shoes-pic-tablet {
-    width: 21.25rem;
-    position: relative;
-    height: 12.5rem;
-  }
-
-  #shoes-tablet .sas-text-tablet {
-    position: absolute;
-    text-align: center;
-    font-style: normal;
-    font-size: 32px;
-    height: 1.625rem;
-    width: 6.375rem;
-    font-weight: 900;
-    text-align: center;
-    top: 7rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
-
-  /* end of grid */
+ 
 
   footer {
     background-color: white;
@@ -1058,9 +828,6 @@ margin-top: 4rem;
     display: none;
   }
 
-  #sections {
-    display: none;
-  }
 
   #tablet-footer {
     display: none;
@@ -1074,18 +841,7 @@ margin-top: 4rem;
     display: none;
   }
 
-  #sections {
-    display: none;
-  }
-
-  #sections-tablet {
-    display: none;
-  }
-
-  #sections-1920 {
-    display: none;
-  }
-
+  
   #slideshow {
     display: none;
   }
@@ -1250,151 +1006,7 @@ margin-top: 4rem;
     text-decoration: none;
   }
 
-  /* grid */
-  #sections-mobile {
-    max-width: 450px;
-    max-height: fit-content;
-  }
-
-  #new-sale {
-    display: flex;
-    gap: 1rem;
-    padding-bottom: 1rem;
-    justify-content: center;
-  }
-
-  #accessories-shoes {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-  }
-
-  #men-mobile {
-    display: none;
-  }
-
-  #shop-new-mobile {
-    display: none;
-  }
-
-  /* text over pics */
-
-  /*new arrivals*/
-
-  #new-mobile-pic {
-    width: 10.625rem;
-    position: relative;
-    height: 6.25rem;
-  }
-
-  #new-mobile {
-    width: 10.625rem;
-    position: relative;
-    height: 6.25rem;
-  }
-
-  #new-mobile .new-men-text-mobile {
-    position: absolute;
-    text-align: center;
-    font-style: normal;
-    font-size: 16px;
-    height: 1.625rem;
-    width: 6.375rem;
-    font-weight: 900;
-    text-align: center;
-    top: 3rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
-  /* sale */
-  #sale-mobile {
-    width: 10.625rem;
-    position: relative;
-    height: 6.25rem;
-  }
-
-  #sale-pic-mobile {
-    width: 10.625rem;
-    position: relative;
-    height: 6.25rem;
-  }
-
-  #sale-mobile .sas-text-mobile {
-    position: absolute;
-    text-align: center;
-    font-style: normal;
-    font-size: 16px;
-    height: 1.625rem;
-    width: 6.375rem;
-    font-weight: 900;
-    text-align: center;
-    top: 3rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
-
-  /* accessories */
-
-  #accessories-mobile {
-    width: 10.625rem;
-    position: relative;
-    height: 6.25rem;
-  }
-
-  #accessories-pic-mobile {
-    width: 10.625rem;
-    position: relative;
-    height: 6.25rem;
-  }
-
-  #accessories-mobile .sas-text-mobile {
-    position: absolute;
-    text-align: center;
-    font-style: normal;
-    font-size: 16px;
-    height: 1.625rem;
-    width: 6.375rem;
-    font-weight: 900;
-    text-align: center;
-    top: 3rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
-  /* shoes */
-
-  #shoes-mobile {
-    width: 10.625rem;
-    position: relative;
-    height: 6.25rem;
-  }
-
-  #shoes-pic-mobile {
-    width: 10.625rem;
-    position: relative;
-    height: 6.25rem;
-  }
-
-  #shoes-mobile .sas-text-mobile {
-    position: absolute;
-    text-align: center;
-    font-style: normal;
-    font-size: 16px;
-    height: 1.625rem;
-    width: 6.375rem;
-    font-weight: 900;
-    text-align: center;
-    top: 3rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
-
-  #sections {
-    display: none;
-  }
+  
 
   /* mobile footer */
 
@@ -1512,165 +1124,3 @@ margin-top: 4rem;
   }
 }
 
-@media screen and (min-width: 1800px) {
-  #sections {
-    display: none;
-  }
-
-  #sections-mobile {
-    display: none;
-  }
-
-  #sections-tablet {
-    display: none;
-  }
-
-  #sections-1920 {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    width: 120rem;
-    margin: auto;
-  }
-
-  .pics-top-1920 {
-    width: 59.25rem;
-  }
-
-  #new-sale-1920 {
-    display: flex;
-    gap: 1.5rem;
-    height: 37.625rem;
-  }
-
-  #sas-1920 {
-    display: flex;
-    width: 120rem;
-    gap: 1.5rem;
-    justify-content: space-between;
-  }
-
-  #new-1920 {
-    position: relative;
-    width: 100%;
-    height: 37.125rem;
-  }
-
-  #new-1920 #shop-new-1920 {
-    position: absolute;
-    top: 22.5rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 21px 54px 21px 51px;
-    font-size: 1rem;
-    font-weight: 900;
-  }
-
-  #new-1920 .new-men-text-1920 {
-    position: absolute;
-    text-align: center;
-    font-size: 68px;
-    font-style: normal;
-    font-weight: 900;
-    text-align: center;
-    top: 17.125rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
-
-  #men-1920 {
-    position: relative;
-    width: 100%;
-    height: 37.125rem;
-  }
-
-  #men-1920 #shop-men-1920 {
-    position: absolute;
-    top: 22.5rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    padding: 21px 54px 21px 51px;
-    font-size: 1rem;
-    font-weight: 900;
-  }
-  #men-1920 .new-men-text-1920 {
-    position: absolute;
-    text-align: center;
-    font-size: 68px;
-    font-style: normal;
-    font-weight: 900;
-    text-align: center;
-    top: 17.125rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
-
-  #sale-accessories-shoes-1920 {
-    width: 100%;
-    height: 24.625rem;
-    position: relative;
-    gap: 1.5rem;
-    display: flex;
-  }
-
-  .small-pics-1920 {
-    width: 39rem;
-  }
-
-  #sale-1920 {
-    position: relative;
-  }
-
-  #sale-1920 .sas-text-1920 {
-    position: absolute;
-    text-align: center;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 900;
-    text-align: center;
-    top: 14.125rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
-
-  #accessories-1920 {
-    position: relative;
-  }
-
-  #accessories-1920 .sas-text-1920 {
-    position: absolute;
-    text-align: center;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 900;
-    text-align: center;
-    top: 14.125rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
-
-  #shoes-1920 {
-    position: relative;
-  }
-
-  #shoes-1920 .sas-text-1920 {
-    position: absolute;
-    text-align: center;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 900;
-    text-align: center;
-    top: 14.125rem;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(255, 255, 255);
-  }
-}
