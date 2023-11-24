@@ -316,11 +316,21 @@
     font-weight: 900;
     text-align: center;
     top: 12vw;
-    left: 20vw;
+    left: 19.75vw;
     color: rgb(255, 255, 255);
 
 }
 
+#men #button-men {
+  position: absolute;
+  top: 17vw;
+  left: 18.5vw;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 15px 48px 15px 48px;
+  font-size: 0.875rem;
+  font-weight: 900;
+}
 
   .sas {
     position: relative;
