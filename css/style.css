@@ -355,12 +355,12 @@
   #accessories #accessories-text {
     position: absolute;
     text-align: center;
-    font-size: 40px;
+    font-size: 6vh;
     font-style: normal;
     font-weight: 900;
     text-align: center;
-    top: 9vw;
-    left: 8.5vw;
+    top: 9.5vw;
+    left: 7.5vw;
     color: rgb(255, 255, 255);
   }
 
