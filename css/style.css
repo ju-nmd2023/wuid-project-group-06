@@ -247,19 +247,15 @@
   }
 
   /* 2/3 GRID */
-  .grid-container {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    width: 100vw;
-    gap: 1.5rem;
-    
-  }
+  
 
   .flexbox {
     display: flex;
     width: 100vw;
     height: auto;
     gap: 1.5rem;
+    height: min-content;
+    margin-bottom: 1.5rem;
   }
  
   .new-men .sas {
@@ -335,8 +331,7 @@
   .sas {
     position: relative;
     width: 100%;
-    height: auto;
-    flex: 1;
+    
   }
 
   .sas .sas-text {
