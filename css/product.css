@@ -1,3 +1,128 @@
-.product-pics{
-    width: 30%;
+/*WEB LAYOUT*/
+
+@media screen and (min-width: 1001px) {
+  /*Pictures + Product Information*/
+  .big-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 6.5%;
+  }
+
+  /*First Two Pictures*/
+  .first-row-pics {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 5%;
+  }
+
+  /*Second Three Pictures*/
+  .second-row-pics {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  /* Style the list */
+  ul.breadcrumb {
+    padding-left: 30px;
+    padding-top: 20px;
+    list-style: none;
+    color: #a8a39d;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+
+  /* Style for the links */
+  ul.breadcrumb li a {
+    color: #a8a39d;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+  /* Style for the arrows before and after */
+  i {
+    padding: 8px;
+    color: #a8a39d;
+  }
+
+  h2 {
+    padding-left: 30px;
+    padding-top: 15px;
+    color: #000;
+    font-family: Nexa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  #price {
+    padding-left: 30px;
+    padding-top: 20px;
+    color: #000;
+    font-family: Nexa;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 900;
+  }
+
+  #colour {
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+  #choose-colour {
+    width: 10%;
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+  .sizing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #size {
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+  #size-info {
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-right: 5%;
+  }
+
+  .sizes-container {
+    padding-left: 30px;
+    padding-top: 20px;
+  }
+
+  .size-rectangle {
+    color: #000;
+    background-color: white;
+    font-family: Nexa;
+    font-size: 18px;
+    font-weight: 700;
+    width: 82px;
+    height: 46px;
+    border: 1px solid black;
+  }
 }
