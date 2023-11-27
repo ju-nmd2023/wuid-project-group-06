@@ -8,6 +8,11 @@
     margin-left: 6.5%;
   }
 
+  .info-container {
+    margin-left: 5%;
+    margin-top: 5%;
+  }
+
   /*First Two Pictures*/
   .first-row-pics {
     width: 100%;
@@ -28,8 +33,6 @@
 
   /* Style the list */
   ul.breadcrumb {
-    padding-left: 30px;
-    padding-top: 20px;
     list-style: none;
     color: #a8a39d;
     font-family: Nexa;
@@ -57,13 +60,12 @@
   }
 
   /* Style for the arrows before and after */
-  i {
+  ul.breadcrumb i {
     padding: 8px;
     color: #a8a39d;
   }
 
-  h2 {
-    padding-left: 30px;
+  #info-heading {
     padding-top: 15px;
     color: #000;
     font-family: Nexa;
@@ -73,7 +75,6 @@
   }
 
   #price {
-    padding-left: 30px;
     padding-top: 20px;
     color: #000;
     font-family: Nexa;
@@ -83,13 +84,11 @@
   }
 
   #colour {
-    padding-left: 30px;
     padding-top: 20px;
   }
 
   #choose-colour {
     width: 10%;
-    padding-left: 30px;
     padding-top: 20px;
   }
 
@@ -100,19 +99,21 @@
   }
 
   #size {
-    padding-left: 30px;
     padding-top: 20px;
   }
 
   #size-info {
-    padding-left: 30px;
     padding-top: 20px;
     margin-right: 5%;
   }
 
   .sizes-container {
-    padding-left: 30px;
-    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 500px;
+    padding-top: 15px;
+    gap: 15px;
   }
 
   .size-rectangle {
@@ -124,5 +125,67 @@
     width: 82px;
     height: 46px;
     border: 1px solid black;
+  }
+
+  .ordering-buttons {
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    gap: 20px;
+  }
+
+  #basket-button {
+    width: 370px;
+    height: 54px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    cursor: pointer;
+  }
+
+  #favourites-button {
+    width: 82px;
+    height: 54px;
+    border: 1px solid #a8a39d;
+    background-color: white;
+    cursor: pointer;
+  }
+
+  #heart {
+    color: #000;
+    font-size: 20px;
+  }
+
+  .extra-info {
+    padding-top: 85px;
+  }
+
+  .extra-info i {
+    color: black;
+    font-size: 15px;
+  }
+
+  .extra-text {
+    color: #000;
+    font-family: Nexa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .dropdown-info {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #a8a39d;
+    width: 460px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
   }
 }
