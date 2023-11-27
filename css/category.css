@@ -1,22 +1,30 @@
+#category-page-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 8.438rem;
+  margin-right: 8.438rem;
+}
+
 section {
-    width: fit-content;
-    float: right;
-    padding-right: 8.438rem;
+  width: fit-content;
+  grid-row: span 4;
+  margin-right: 8.438rem;
 }
 
 #woman-shopping {
-    width: 60.625rem;
-    height: 15.063rem;
-    object-fit: cover;
-    padding-top: 3.125rem;
+  width: 60.625rem;
+  height: 15.063rem;
+  object-fit: cover;
+  margin-top: 3.125rem;
 }
 
 .grid-category {
   display: grid;
   grid-template-rows: repeat(18, 1fr);
   grid-gap: 1.06rem;
-  padding-left: 5.8rem;
+
   padding-top: 3.125rem;
+  padding-right: 6.75rem;
   width: fit-content;
 }
 
@@ -38,6 +46,5 @@ section {
 }
 
 .single-category:nth-last-child(-n + 17):hover {
-    color: #000;
-  }
-
+  color: #000;
+}
