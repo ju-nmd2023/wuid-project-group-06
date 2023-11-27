@@ -597,7 +597,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 5%;
-    border-bottom: 0px solid #a8a39d;
+    border-bottom: 1px solid #a8a39d;
   }
   
   #nav-tablet {
@@ -651,23 +651,36 @@
 
   /* nav-gender */
 
+
+
   /* tablet-gender */
+
 
   .gender-tablet {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 33% 10px 33%;
+    padding: 10px 33% 0px 33%;
+    font-size: 1.2rem;
   }
-
-  .gender-tablet a {
+  
+  .gender-tablet ul {
     list-style: none;
-    color: black;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Make the list take the full width */
   }
-
-  .gender-tablet li {
-    display: inline-block;
-    align-items: center;
+  
+  .gender-tablet a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center; /* Center the text */
+    padding: 10px; /* Adjust padding as needed */
+    margin: 0 10px; /* Increase the gap between text */
+    transition: color 0.3s ease; /* Add transition for smooth color change */
   }
 
 
@@ -919,7 +932,7 @@ margin-top: 4rem;
     align-items: center;
     padding: 10px 0px;
     margin: 0px;
-    border-bottom: 0px solid #a8a39d;
+    border-bottom: 1px solid #a8a39d;
   }
 
   #mobile-left {
@@ -954,17 +967,26 @@ margin-top: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 33% 10px 33%;
+    padding: 10px 33% 0px 33%;
   }
-
-  .gender-mobile a {
+  
+  .gender-mobile ul {
     list-style: none;
-    color: black;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Make the list take the full width */
   }
-
-  .gender-mobile li {
-    display: inline-block;
-    align-items: center;
+  
+  .gender-mobile a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center; /* Center the text */
+    padding: 10px; /* Adjust padding as needed */
+    margin: 0 10px; /* Increase the gap between text */
+    transition: color 0.3s ease; /* Add transition for smooth color change */
   }
 
   /* nav-icons */
