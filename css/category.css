@@ -7,7 +7,6 @@
 
 section {
   width: fit-content;
-
   margin-right: 8.438rem;
 }
 
@@ -22,7 +21,7 @@ section {
 .grid-category {
   display: grid;
   grid-template-rows: repeat(18, 1fr);
-  grid-gap: 1.06rem;
+  grid-gap: 1.063rem;
   padding-top: 3.125rem;
   padding-right: 6.75rem;
   width: fit-content;
@@ -30,8 +29,8 @@ section {
   grid-column: 1;
 }
 
-.single-category:first-child,
-.single-category:nth-last-child(-n + 4) {
+.clothes-category,
+.big-category {
   font-family: Nexa;
   font-size: 20px;
   font-style: normal;
@@ -39,7 +38,16 @@ section {
   line-height: normal;
 }
 
-.single-category:first-child {
+.clothes-category {
+  margin-bottom: -10px;
+}
+
+.big-category {
+  margin-top: -10px;
+  color: #a8a39d;
+}
+
+.clothes-category {
   color: black;
 }
 
@@ -49,6 +57,10 @@ section {
 }
 
 .single-category:nth-last-child(-n + 17):hover {
+  color: #000;
+}
+
+.big-category:hover {
   color: #000;
 }
 
@@ -62,13 +74,11 @@ section {
 
 .shopping-item {
   flex: 1 0 20%;
-  
 }
 
 .item-pic {
-    width: 14.188rem;
-    height: 21.25rem;
-
+  width: 14.188rem;
+  height: 21.25rem;
 }
 
 .product-caption {
@@ -94,11 +104,77 @@ section {
 }
 
 .product-price {
-    color: #000;
+  color: #000;
   padding-top: 1.25rem;
-    font-family: Nexa;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 40px;
-  }
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+/* Style the list */
+ul.breadcrumb {
+  padding-bottom: 0.875rem;
+  padding-top: 3.75rem;
+  list-style: none;
+  color: #a8a39d;
+  font-family: Nexa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Style for the links */
+ul.breadcrumb li a {
+  color: #a8a39d;
+  font-family: Nexa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-decoration: none;
+}
+
+/* Style for the arrows before and after */
+i {
+  padding: 8px;
+  color: #a8a39d;
+}
+
+#viewing {
+  color: #000;
+  font-family: Nexa;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 4.25rem;
+}
+
+#text-show {
+  color: #fff;
+  background-color: #000;
+  padding: 1.118rem 7.688rem 1.118rem 7.688rem;
+  color: #fff;
+  font-family: Nexa;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: normal;
+  width: fit-content;
+}
+ 
+#show-more {
+  display: flex;
+  justify-content: center;
+  padding-top: 0.75rem;
+}
+
