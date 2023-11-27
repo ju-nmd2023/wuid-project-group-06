@@ -1,0 +1,96 @@
+@media screen and (min-width: 1001px)  {
+    .confirmation-container-web {
+        width: 50%;
+        height: 40rem;
+        margin: 0 auto; /* This will center the container horizontally */
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .confirmation-container-web h1 {
+        font-size: 3.125rem;
+        font-weight: 800;
+        color: black;
+    }
+
+    .confirmation-container-web h2 {
+        font-size: 2rem;
+        font-weight: 700;
+        color: black;
+    }
+
+    .order-confirmation-btn {
+        background-color: black;
+        width: 35%;
+        height: 3.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .order-confirmation-btn p {
+        font-size: 1.125rem;
+        font-weight: 800;
+        color: white;
+    }
+
+    .confirmation-contact {
+        width: 30%;
+        height: 7.5rem;
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.94rem;
+    }
+
+    .confirmation-contact h1 {
+        font-size: 1.25rem;
+        font-weight: 700;
+    
+    }
+
+    .confirmation-contact h2 {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+
+    @keyframes checkmarkAnimation {
+        0% {
+          transform: scale(0);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      .animation {
+        margin: 30px; /* Adjust the margin as needed */
+      }
+      
+      .checkmark {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border-radius: 50%;
+        border: 2px solid #4caf50;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: checkmarkAnimation 1s ease-in-out;
+      }
+      
+      .checkmark::before {
+        content: '\2713'; /* Unicode checkmark character */
+        font-size: 4rem;
+        color: #4caf50;
+      }
+      
+}

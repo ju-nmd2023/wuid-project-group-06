@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/category.css" />
     <script src="js/main.js"></script>
     <link href="https://fonts.cdnfonts.com/css/nexa-bold" rel="stylesheet" />
     <link
@@ -16,40 +17,44 @@
     ></script>
     <title>Category</title>
   </head>
-<body>
-<header>
-    <div id="nav-mobile">
+  <body>
+    <header>
+      <!-- Mobile version of top nav-->
+      <div id="nav-mobile">
         <div id="mobile-left">
           <nav>
-             <ul id="mobile-dropdown">
-               <li><a href="#">
-                 <i class="fa-regular fa-bars"></i>
-               </a></li>
-             </ul>
+            <ul id="mobile-dropdown">
+              <li>
+                <a href="#">
+                  <i class="fa-regular fa-bars"></i>
+                </a>
+              </li>
+            </ul>
           </nav>
           <img class="logo" src="img/logo/logo-nextrend.png" alt="logo" />
           <nav id="mobile-right">
-             <ul class="nav-icons">
-               <li>
-                 <a href="#">
+            <ul class="nav-icons">
+              <li>
+                <a href="#">
                   <i class="fa-solid fa-magnifying-glass"></i>
-                 </a>
-               </li>
-               <li>
-                 <a href="#">
-                   <i class="fa-regular fa-heart"></i>
-                 </a>
-               </li>
-               <li>
-                 <a href="#">
-                   <i class="fa-solid fa-bag-shopping"></i>
-                 </a>
-               </li>
-             </ul>
-          </nav> 
-         </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-regular fa-heart"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-solid fa-bag-shopping"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-    <div id="nav-web">
+      <!-- Web version of top nav -->
+      <div id="nav-web">
         <nav>
           <ul class="nav-gender">
             <li><a class="active" href="#">Women</a></li>
@@ -57,7 +62,9 @@
             <li><a href="#">Kids</a></li>
           </ul>
         </nav>
-        <img class="logo" src="img/logo/logo-nextrend.png" alt="logo">
+        <a href="index.html" class="logo-link">
+          <img src="img/logo/logo-nextrend.png" alt="logo" />
+        </a>
         <nav>
           <ul class="nav-icons">
             <li>
@@ -78,26 +85,153 @@
           </ul>
         </nav>
       </div>
-</header>
-<nav class="gender-mobile">
-    <ul>
-      <li><a class="active" href="#">Women</a></li>
-      <li><a href="#">Men</a></li>
-      <li><a href="#">Kids</a></li>
-    </ul>
-  </nav>
-<nav class="nav-category">
-    <ul>
-      <li><a href="#">Clothes</a></li>
-      <li><a href="#">Shoes</a></li>
-      <li><a href="#">Accessories</a></li>
-      <li><a href="#">Sport</a></li>
-      <li><a href="#">Sale</a></li>
-      <input class="searchbar" type="text" placeholder="Search.." />
-    </ul>
-  </nav>
-  <footer>
-    <div id="web-footer">
+      <!-- Tablet version of top nav -->
+      <div id="nav-tablet">
+        <div id="tablet-left">
+          <nav>
+            <ul id="tablet-dropdown">
+              <li>
+                <a href="#">
+                  <i class="fas fa-bars"></i>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <img class="logo" src="img/logo/logo-nextrend.png" alt="logo" />
+        </div>
+        <nav id="tablet-right">
+          <ul class="nav-icons">
+            <li>
+              <a href="#">
+                <i class="fas fa-magnifying-glass"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="far fa-heart"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-bag-shopping"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Mobile version of second nav-->
+    <nav class="gender-mobile">
+      <ul>
+        <li><a class="active" href="#">Women</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Kids</a></li>
+      </ul>
+    </nav>
+    <!-- Tablet verion of second nav -->
+    <nav class="gender-tablet">
+      <ul>
+        <li><a class="active" href="#">Women</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Kids</a></li>
+      </ul>
+    </nav>
+    <!-- Web version of second nav-->
+    <nav class="nav-category">
+      <ul>
+        <li><a href="#">Clothes</a></li>
+        <li><a href="#">Shoes</a></li>
+        <li><a href="#">Accessories</a></li>
+        <li><a href="#">Sport</a></li>
+        <li><a href="#">Sale</a></li>
+        <input id="searchbar" type="text" placeholder="Search.." />
+      </ul>
+    </nav>
+<main id="category-page-grid"> 
+    
+    <div class="grid-category">
+      <div class="single-category">Clothes</div>
+      <div class="single-category">Jeans</div>
+      <div class="single-category">Jackets</div>
+      <div class="single-category">Sweaters</div>
+      <div class="single-category">Dresses</div>
+      <div class="single-category">Coats</div>
+      <div class="single-category">Pants</div>
+      <div class="single-category">T-shirts</div>
+      <div class="single-category">Tops</div>
+      <div class="single-category">Blazers</div>
+      <div class="single-category">Bikini</div>
+      <div class="single-category">Underwear</div>
+      <div class="single-category">Maternity</div>
+      <div class="single-category">Plus-size</div>
+      <div class="single-category">Shoes</div>
+      <div class="single-category">Accessories</div>
+      <div class="single-category">Sport</div>
+      <div class="single-category">Sale</div>
+    </div>
+
+    <section >
+      <img id="woman-shopping"
+        src="img/category-page/women-pic.jpg"
+        alt="Woman with shopping bags."
+      />
+    
+
+    <div id="products-container">
+      <div class="shopping-item">
+        <img class="item-pic"  src="img/product-page/white-dress.jpg">
+        <p class="product-caption">Long sleeve knit midi dress
+          with faux fur</p>
+        <p class="product-price-2line">39,90 € </p>
+      </div>
+
+      <div class="shopping-item"> 
+        <img class="item-pic" src="img/category-page/blouse-item1.jpg">
+        <p class="product-caption">Cotton blouse
+        </p>
+        <p class="product-price">30,90 € </p>
+      </div>
+
+      <div class="shopping-item"> 
+        <img class="item-pic" src="img/category-page/jumpsuit-item2.jpg">
+        <p class="product-caption">Jumpsuit with tie belt
+        </p>
+        <p class="product-price">42,90 € </p>
+      </div>
+
+      <div class="shopping-item"> 
+        <img class="item-pic" src="img/category-page/pants-item3.jpg">
+        <p class="product-caption">Leather pants
+        </p>
+        <p class="product-price">50,90 € </p>
+      </div>
+
+
+
+
+      <div class="shopping-item">Flexbox 3</div>
+      <div class="shopping-item">Flexbox 4</div>
+      <div class="shopping-item">Flexbox 2</div>
+      <div class="shopping-item">Flexbox 3</div>
+      <div class="shopping-item">Flexbox 4</div>
+      <div class="shopping-item">Flexbox 2</div>
+      <div class="shopping-item">Flexbox 2</div>
+      <div class="shopping-item">Flexbox 3</div>
+      <div class="shopping-item">Flexbox 4</div>
+      <div class="shopping-item">Flexbox 2</div>
+      <div class="shopping-item">Flexbox 2</div>
+      <div class="shopping-item">Flexbox 3</div>
+      <div class="shopping-item">Flexbox 4</div>
+      <div class="shopping-item">Flexbox 2</div>
+    </div>
+ 
+  </section>
+    
+
+  </main>
+
+    <footer>
+      <div id="web-footer">
         <div class="row primary">
           <div class="first-column">
             <p id="footer-header">Get help</p>
@@ -110,7 +244,7 @@
               <li><a href="#">Gift Cards</a></li>
             </ul>
           </div>
-  
+
           <div class="second-column">
             <p id="footer-header">Company</p>
             <ul>
@@ -121,15 +255,21 @@
               <li><a href="#">Investor Relations</a></li>
             </ul>
           </div>
-  
+
           <div class="subscribe-column">
-            <p id="footer-header">Subscribe so you don't miss out on anything!</p>
+            <p id="footer-header">
+              Subscribe so you don't miss out on anything!
+            </p>
             <div>
-              <input type="text" placeholder="E-mail Address">
+              <input type="text" placeholder="E-mail Address" />
             </div>
-  
-            <img class="logo-footer" src="img/logo/logo-nextrend.png" alt="logo">
-  
+
+            <img
+              class="logo-footer"
+              src="img/logo/logo-nextrend.png"
+              alt="logo"
+            />
+
             <div class="social">
               <i class="fa-brands fa-facebook"></i>
               <i class="fa-brands fa-square-instagram"></i>
@@ -140,19 +280,19 @@
             </div>
           </div>
         </div>
-      <div class="secondary-row">
-        <div>
-          <p>
-            <i class="fa-regular fa-copyright"></i>
-            2023 NEXTREND
-          </p>
-        </div>
-        <div class="footer-menu">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms of Service</a>
+        <div class="secondary-row">
+          <div>
+            <p>
+              <i class="fa-regular fa-copyright"></i>
+              2023 NEXTREND
+            </p>
+          </div>
+          <div class="footer-menu">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
         </div>
       </div>
-      </div>
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
