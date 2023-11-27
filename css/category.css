@@ -1,0 +1,43 @@
+section {
+    width: fit-content;
+    float: right;
+    padding-right: 8.438rem;
+}
+
+#woman-shopping {
+    width: 60.625rem;
+    height: 15.063rem;
+    object-fit: cover;
+    padding-top: 3.125rem;
+}
+
+.grid-category {
+  display: grid;
+  grid-template-rows: repeat(18, 1fr);
+  grid-gap: 1.06rem;
+  padding-left: 5.8rem;
+  padding-top: 3.125rem;
+  width: fit-content;
+}
+
+.single-category:first-child,
+.single-category:nth-last-child(-n + 4) {
+  font-family: Nexa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.single-category:first-child {
+  color: black;
+}
+
+.single-category {
+  color: #a8a39d;
+}
+
+.single-category:nth-last-child(-n + 17):hover {
+    color: #000;
+  }
+
