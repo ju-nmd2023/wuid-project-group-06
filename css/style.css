@@ -127,6 +127,7 @@
   .nav-category {
     list-style: none;
     padding: 0.938rem 5% 0.938rem 5%;
+    margin-bottom: 1%;
   }
 
   .nav-category input,
@@ -529,22 +530,6 @@
     margin-right: 3rem;
   }
 }
-
-/* CATEGORY PAGE */
-
-/* PRODUCT PAGE */
-
-/* CART PAGE */
-
-/* PAYMENT PAGE */
-
-/* CONFIRMATION PAGE*/
-
-/* RESPONSIVENESS */
-
-/* TABLET DEVICES */
-
-/*hidden*/
 
 @media screen and (min-width: 451px) and (max-width: 1000px) {
   /* HIDDEN */
