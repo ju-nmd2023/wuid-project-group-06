@@ -7,7 +7,7 @@
 
 section {
   width: fit-content;
-  grid-row: span 4;
+
   margin-right: 8.438rem;
 }
 
@@ -16,16 +16,18 @@ section {
   height: 15.063rem;
   object-fit: cover;
   margin-top: 3.125rem;
+  grid-column: 2 / span 4;
 }
 
 .grid-category {
   display: grid;
   grid-template-rows: repeat(18, 1fr);
   grid-gap: 1.06rem;
-
   padding-top: 3.125rem;
   padding-right: 6.75rem;
   width: fit-content;
+  height: fit-content;
+  grid-column: 1;
 }
 
 .single-category:first-child,
@@ -43,8 +45,60 @@ section {
 
 .single-category {
   color: #a8a39d;
+  height: fit-content;
 }
 
 .single-category:nth-last-child(-n + 17):hover {
   color: #000;
 }
+
+#products-container {
+  grid-column: 2 / span 4;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.shopping-item {
+  flex: 1 0 20%;
+  
+}
+
+.item-pic {
+    width: 14.188rem;
+    height: 21.25rem;
+
+}
+
+.product-caption {
+  color: #000;
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  padding-top: 0.75rem;
+  padding-bottom: 0.125rem;
+  width: 12.875rem;
+}
+
+.product-price-2line {
+  color: #000;
+
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+.product-price {
+    color: #000;
+  padding-top: 1.25rem;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+  }
