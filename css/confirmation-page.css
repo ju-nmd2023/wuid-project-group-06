@@ -1,4 +1,25 @@
 @media screen and (min-width: 1001px)  {
+
+/* HIDDEN */
+
+    .confirmation-tablet {
+        display: none;
+    }
+
+    .confirmation-mobile {
+        display: none;
+    }
+
+    .tabet-footer {
+        display: none;
+    }
+
+    .mobile-footer {
+        display: none;
+    }
+
+/* HIDDEN */
+
     .confirmation-container-web {
         width: 50%;
         height: 40rem;
@@ -19,9 +40,10 @@
         font-size: 2rem;
         font-weight: 700;
         color: black;
+        margin: 2rem;
     }
 
-    .order-confirmation-btn {
+    .order-confirmation-btn-web {
         background-color: black;
         width: 35%;
         height: 3.5rem;
@@ -31,14 +53,14 @@
         margin: 0 auto;
     }
 
-    .order-confirmation-btn p {
+    .order-confirmation-btn-web p {
         font-size: 1.125rem;
         font-weight: 800;
         color: white;
     }
 
-    .confirmation-contact {
-        width: 30%;
+    .confirmation-contact-web {
+        width: 50%;
         height: 7.5rem;
         margin-top: 1.5rem;
         display: flex;
@@ -48,13 +70,13 @@
         gap: 1.94rem;
     }
 
-    .confirmation-contact h1 {
+    .confirmation-contact-web h1 {
         font-size: 1.25rem;
         font-weight: 700;
-    
+        margin-top: 50px;
     }
 
-    .confirmation-contact h2 {
+    .confirmation-contact-web h2 {
         font-size: 1.25rem;
         font-weight: 400;
     }
@@ -72,7 +94,7 @@
       }
 
       .animation {
-        margin: 30px; /* Adjust the margin as needed */
+        margin: 50px;
       }
       
       .checkmark {
@@ -91,6 +113,244 @@
         content: '\2713'; /* Unicode checkmark character */
         font-size: 4rem;
         color: #4caf50;
+      }     
+}
+
+@media screen and (min-width: 451px) and (max-width: 1000px) {
+    /* HIDDEN */
+
+    .confirmation-web {
+        display: none;
+    }
+
+    .confirmation-mobile {
+        display: none;
+    }
+
+    .web-footer {
+        display: none;
+    }
+
+    .mobile-footer {
+        display: none;
+    }
+
+    /* HIDDEN */
+
+    .confirmation-container-tablet {
+        width: 50%;
+        height: 30rem;
+        margin: 0 auto; /* This will center the container horizontally */
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .confirmation-container-tablet h1 {
+        font-size: 2rem;
+        font-weight: 800;
+        color: black;
+        margin: 0px;
+    }
+
+    .confirmation-container-tablet h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: black;
+        margin: 1rem 2rem 0rem 2rem;
+    }
+
+    .order-confirmation-btn-tablet {
+        background-color: black;
+        width: 50%;
+        height: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    .order-confirmation-btn-tablet p {
+        font-size: 1rem;
+        font-weight: 800;
+        color: white;
+    }
+
+    .confirmation-contact-tablet {
+        width: 100%;
+        height: 5rem;
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.94rem;
+    }
+
+    .confirmation-contact-tablet h1 {
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin-top: 50px;
+    }
+
+    .confirmation-contact-tablet h2 {
+        font-size: 1.25rem;
+        font-weight: 400;
+        margin: 0px;
+    }
+
+    @keyframes checkmarkAnimation {
+        0% {
+          transform: scale(0);
+        }
+        50% {
+          transform: scale(1.2);
+        }
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      .animation {
+        margin: 25px;
       }
       
+      .checkmark {
+        width: 60px;
+        height: 60px;
+        background-color: white;
+        border-radius: 50%;
+        border: 2px solid #4caf50;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation: checkmarkAnimation 1s ease-in-out;
+      }
+      
+      .checkmark::before {
+        content: '\2713'; /* Unicode checkmark character */
+        font-size: 2rem;
+        color: #4caf50;
+      }     
+}
+
+@media screen and (max-width: 450px) {
+
+    /* HIDDEN */
+
+    .confirmation-tablet {
+        display: none;
+    }
+
+    .confirmation-web {
+        display: none;
+    }
+
+    .tabet-footer {
+        display: none;
+    }
+
+    .web-footer {
+        display: none;
+    }
+
+/* HIDDEN */
+
+.confirmation-container-mobile {
+    width: 50%;
+    height: 30rem;
+    margin: 0 auto; /* This will center the container horizontally */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.confirmation-container-mobile h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: black;
+    margin: 0px;
+}
+
+.confirmation-container-mobile h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+    margin: 1rem 2rem 0rem 2rem;
+}
+
+.order-confirmation-btn-mobile {
+    background-color: black;
+    width: 50%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.order-confirmation-btn-mobile p {
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+}
+
+.confirmation-contact-mobile {
+    width: 100%;
+    height: 5rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.94rem;
+}
+
+.confirmation-contact-mobile h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 50px;
+}
+
+.confirmation-contact-mobile h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0px;
+}
+
+@keyframes checkmarkAnimation {
+    0% {
+      transform: scale(0);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .animation {
+    margin: 25px;
+  }
+  
+  .checkmark {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid #4caf50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: checkmarkAnimation 1s ease-in-out;
+  }
+  
+  .checkmark::before {
+    content: '\2713'; /* Unicode checkmark character */
+    font-size: 2rem;
+    color: #4caf50;
+  } 
 }

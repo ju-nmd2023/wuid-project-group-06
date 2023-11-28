@@ -71,7 +71,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.875rem 5% 0.625rem 5%;
+    padding: 1.875rem 8.438rem 0.625rem 8.438rem;
     border-bottom: 1px solid #a8a39d;
   }
 
@@ -126,8 +126,7 @@
 
   .nav-category {
     list-style: none;
-    padding: 0.938rem 5% 0.938rem 5%;
-    margin-bottom: 1%;
+    padding: 0.938rem 8.438rem 0.938rem 8.438rem;
   }
 
   .nav-category input,
@@ -153,6 +152,7 @@
     background-color: #d9d9d9;
     text-indent: 0.938rem;
     border: none;
+    padding-right: 8.438rem;
   }
 
   /* SLIDESHOW*/
@@ -583,8 +583,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 5%;
-    border-bottom: 1px solid #a8a39d;
+    padding: 3rem 2rem 0px 2rem;
   }
   
   #nav-tablet {
@@ -618,19 +617,20 @@
     margin: 0;
     padding: 0;
     display: flex;
+    gap: 1.5rem;
   }
   
   .nav-icons li {
     margin: 0;
     padding: 0;
     display: inline-block;
-    margin-left: 10px; /* Adjust as needed */
   }
   
   .nav-icons li a {
     color: black;
     text-decoration: none;
   }
+
   
   .logo {
     width: 35%;
@@ -915,17 +915,16 @@ margin-top: 4rem;
   header {
     display: flex;
     justify-content: space-between;
-    margin-right: 5%;
+    margin-right: 1rem;
     align-items: center;
-    padding: 10px 0px;
+    padding: 3rem 10px 0rem 10px;
     margin: 0px;
-    border-bottom: 1px solid #a8a39d;
   }
 
   #mobile-left {
     display: flex;
     align-items: center;
-    margin-left: 5%;
+    margin-left: 1rem;
   }
 
   #mobile-dropdown {
@@ -934,7 +933,7 @@ margin-top: 4rem;
 
   #mobile-right {
     margin-left: auto;
-    margin-right: 5%;
+    margin-right: 1rem;
   }
 
   /* Drop down icon */
@@ -954,7 +953,7 @@ margin-top: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 33% 0px 33%;
+    padding: 0rem 5rem;
   }
   
   .gender-mobile ul {
@@ -968,11 +967,13 @@ margin-top: 4rem;
   
   .gender-mobile a {
     text-decoration: none;
-    color: black;
+    color: #a8a39d;
     display: block;
+    font-weight: 800;
+    font-size: 1rem;
     text-align: center; /* Center the text */
-    padding: 10px; /* Adjust padding as needed */
-    margin: 0 10px; /* Increase the gap between text */
+    padding: 0.625rem 0.75rem; /* Adjust padding as needed */
+    margin: 0 0.625rem; /* Increase the gap between text */
     transition: color 0.3s ease; /* Add transition for smooth color change */
   }
 
