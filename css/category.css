@@ -221,7 +221,7 @@
   }
   #top-part {
     display: flex;
-    gap: 25%;
+    gap: 33%;
   }
 
   #main-mobile {
@@ -236,8 +236,62 @@
   }
 
   .scroll-item {
-    display: inline-block; 
-    
-    margin-right:0.75rem;
+    display: inline-block;
+    margin-right: 0.75rem;
+    color: #a8a39d;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .shopping-item-mobile {
+    width: 171px;
+  }
+
+  #products-container-mobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 10%;
+    width:fit-content ;
+  }
+
+  .item-pic-mobile {
+    width: 10.688rem;
+    height: auto;
+  }
+
+  .product-caption-mobile {
+    color: #000;
+    font-family: Nexa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+   
+    line-height: 20px; 
+  }
+
+  .product-price-mobile {
+    color: #000;
+    font-family: Nexa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    padding-top: 0.75rem;
+  }
+
+  .product-price-2line-mobile {
+    color: #000;
+    padding-top: 0.2rem;
+    font-family: Nexa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+    height: 20px;
   }
 }
