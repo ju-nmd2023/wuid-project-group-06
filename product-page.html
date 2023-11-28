@@ -9,8 +9,15 @@
     <link href="https://fonts.cdnfonts.com/css/nexa-bold" rel="stylesheet" />
     <link
       rel="stylesheet"
-      href="https://fontawesome.com/icons/user?f=classic&s=regular"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      href="https://fontawesome.com/icons/user?f=classic&s=regular"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <script
       src="https://kit.fontawesome.com/3a93dbdd1f.js"
       crossorigin="anonymous"
@@ -120,14 +127,6 @@
         </nav>
       </div>
     </header>
-    <!-- Mobile version of second nav-->
-    <nav class="gender-mobile">
-      <ul>
-        <li><a class="active" href="#">Women</a></li>
-        <li><a href="#">Men</a></li>
-        <li><a href="#">Kids</a></li>
-      </ul>
-    </nav>
     <!-- Tablet verion of second nav -->
     <nav class="gender-tablet">
       <ul>
@@ -148,110 +147,187 @@
       </ul>
     </nav>
 
-    <main class="big-container">
-      <div class="pics-container">
-        <div class="first-row-pics">
+    <!-- Mobile version of first part of body-->
+    <div id="mobile-first-main">
+      <main class="big-container-mobile">
+
+        <div class="product-heading">
+          <i class="fa-solid fa-chevron-left"></i>
+          <h2 id="info-heading">Long sleeve knit midi dress with faux fur</h2>
+        </div>
+
+        <div class="pics-container-mobile">
           <img
-            class="product-pics"
+            class="product-pics-mobile"
             src="img/product-page/white-dress-1.jpg"
             alt="Woman with a white dress"
           />
+          
           <img
-            class="product-pics"
+            class="product-pics-mobile"
             src="img/product-page/white-dress-2.jpg"
             alt="Woman with a white dress"
           />
-        </div>
-
-        <div class="second-row-pics">
           <img
-            class="product-pics"
+            class="product-pics-mobile"
             src="img/product-page/white-dress-3.jpg"
             alt="Woman with a white dress"
           />
           <img
-            class="product-pics"
+            class="product-pics-mobile"
             src="img/product-page/white-dress-4.jpg"
             alt="Woman with a white dress"
           />
           <img
-            class="product-pics"
+            class="product-pics-mobile"
             src="img/product-page/white-dress.jpg"
             alt="White dress"
           />
         </div>
-      </div>
-      <div class="info-container">
-        <ul class="breadcrumb">
-          <li><a href="#">Women</a></li>
-          <i class="fa-solid fa-angle-right"></i>
-          <li><a href="#">Clothes</a></li>
-          <i class="fa-solid fa-angle-right"></i>
-          <li><a href="#">Dresses</a></li>
-          <i class="fa-solid fa-angle-right"></i>
-          <li>Knit dresses</li>
-        </ul>
 
-        <h2 id="info-heading">Long sleeve knit midi dress with faux fur</h2>
+        <div class="info-container">
+          <p id="price">39,90 €</p>
 
-        <p id="price">39,90 €</p>
-
-        <p id="colour">Colour: White</p>
-
-        <img
-        id="choose-colour"
-        src="img/product-page/white-dress.jpg"
-        alt="White dress"
-        onclick="toggleBorder()"
-      />
-
-        <div class="sizing">
-          <p id="size">Size:</p>
-        <div class="size-second-line">
-          <p id="size-info">Uncertain about the size?</p>
-          <a id="size-link" href="#"><p>Size advisor</p></a>
-        </div>
-        </div>
-
-        <div class="sizes-container">
-          <button id="size-rectangle" onclick="btnColor(this)">XS</button>
-          <button id="size-rectangle" onclick="btnColor(this)">S</button>
-          <button id="size-rectangle" onclick="btnColor(this)">M</button>
-          <button id="size-rectangle" onclick="btnColor(this)">L</button>
-          <button id="size-rectangle" onclick="btnColor(this)">XL</button>
-          <button id="size-rectangle" onclick="btnColor(this)">XXL</button>
-        </div>
-
-        <div class="ordering-buttons">
-          <button id="basket-button">Add to Basket</button>
-          <button id="favourites-button" onclick="heartIcon()">
-            <i id="heart" class="far fa-heart"></i>
-          </button>
-        </div>
-
-        <div class="extra-info">
-          <div class="dropdown-info">
-            <p class="extra-text">Design & Extras</p>
-            <i class="fa-solid fa-chevron-down"></i>
+          <div class="sizing">
+            <div class="size-info">
+              <button>Choose size</button>
+              <a id="size-link" href="#"><p>Size advisor</p></a>
+            </div>
           </div>
 
-          <div class="dropdown-info">
-            <p class="extra-text">Size & Fit</p>
-            <i class="fa-solid fa-chevron-down"></i>
-          </div>
 
-          <div class="dropdown-info">
-            <p class="extra-text">Material Instructions</p>
-            <i class="fa-solid fa-chevron-down"></i>
-          </div>
+          <div class="extra-info">
+            <div class="dropdown-info">
+              <p class="extra-text">Design & Extras</p>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
 
-          <div class="dropdown-info">
-            <p class="extra-text">Shipping & Returns</p>
-            <i class="fa-solid fa-chevron-down"></i>
+            <div class="dropdown-info">
+              <p class="extra-text">Size & Fit</p>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class="dropdown-info">
+              <p class="extra-text">Material Instructions</p>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class="dropdown-info">
+              <p class="extra-text">Shipping & Returns</p>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
           </div>
         </div>
-      </div>
-    </main>
+      </main>
+    </div>
+
+    <!-- Web version of first part of body-->
+    <div id="web-first-main">
+      <main class="big-container">
+        <div class="pics-container">
+          <div class="first-row-pics">
+            <img
+              class="product-pics"
+              src="img/product-page/white-dress-1.jpg"
+              alt="Woman with a white dress"
+            />
+            <img
+              class="product-pics"
+              src="img/product-page/white-dress-2.jpg"
+              alt="Woman with a white dress"
+            />
+          </div>
+
+          <div class="second-row-pics">
+            <img
+              class="product-pics"
+              src="img/product-page/white-dress-3.jpg"
+              alt="Woman with a white dress"
+            />
+            <img
+              class="product-pics"
+              src="img/product-page/white-dress-4.jpg"
+              alt="Woman with a white dress"
+            />
+            <img
+              class="product-pics"
+              src="img/product-page/white-dress.jpg"
+              alt="White dress"
+            />
+          </div>
+        </div>
+        <div class="info-container">
+          <ul class="breadcrumb">
+            <li><a href="#">Women</a></li>
+            <i class="fa-solid fa-angle-right"></i>
+            <li><a href="#">Clothes</a></li>
+            <i class="fa-solid fa-angle-right"></i>
+            <li><a href="#">Dresses</a></li>
+            <i class="fa-solid fa-angle-right"></i>
+            <li>Knit dresses</li>
+          </ul>
+
+          <h2 id="info-heading">Long sleeve knit midi dress with faux fur</h2>
+
+          <p id="price">39,90 €</p>
+
+          <p id="colour">Colour: White</p>
+
+          <img
+            id="choose-colour"
+            src="img/product-page/white-dress.jpg"
+            alt="White dress"
+            onclick="toggleBorder()"
+          />
+
+          <div class="sizing">
+            <p id="size">Size:</p>
+            <div class="size-second-line">
+              <p id="size-info">Uncertain about the size?</p>
+              <a id="size-link" href="#"><p>Size advisor</p></a>
+            </div>
+          </div>
+
+          <div class="sizes-container">
+            <button id="size-rectangle" onclick="btnColor(this)">XS</button>
+            <button id="size-rectangle" onclick="btnColor(this)">S</button>
+            <button id="size-rectangle" onclick="btnColor(this)">M</button>
+            <button id="size-rectangle" onclick="btnColor(this)">L</button>
+            <button id="size-rectangle" onclick="btnColor(this)">XL</button>
+            <button id="size-rectangle" onclick="btnColor(this)">XXL</button>
+          </div>
+
+          <div class="ordering-buttons">
+            <button id="basket-button">Add to Basket</button>
+            <button id="favourites-button" onclick="heartIcon()">
+              <i id="heart" class="far fa-heart"></i>
+            </button>
+          </div>
+
+          <div class="extra-info">
+            <div class="dropdown-info">
+              <p class="extra-text">Design & Extras</p>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class="dropdown-info">
+              <p class="extra-text">Size & Fit</p>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class="dropdown-info">
+              <p class="extra-text">Material Instructions</p>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+
+            <div class="dropdown-info">
+              <p class="extra-text">Shipping & Returns</p>
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
 
     <footer>
       <div id="web-footer">

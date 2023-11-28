@@ -1,6 +1,12 @@
-/*WEB LAYOUT*/
+/* WEB LAYOUT */
 
 @media screen and (min-width: 1001px) {
+  /*HIDDEN*/
+  #mobile-first-main {
+    display: none;
+  }
+  /*HIDDEN*/
+
   /*Pictures + Product Information*/
   .big-container {
     display: grid;
@@ -118,7 +124,7 @@
     padding-top: 40px;
   }
 
-  .size-second-line{
+  .size-second-line {
     display: flex;
     flex-direction: row;
     gap: 3px;
@@ -142,7 +148,7 @@
     line-height: normal;
   }
 
-  #size-link{
+  #size-link {
     color: #000;
     font-family: Nexa;
     font-size: 16px;
@@ -255,5 +261,44 @@
     justify-content: space-between;
     padding-bottom: 30px;
     margin-bottom: 30px;
+  }
+}
+
+/* MOBILE LAYOUT */
+
+@media screen and (max-width: 450px) {
+  /*HIDDEN*/
+  #web-first-main {
+    display: none;
+  }
+  /*HIDDEN*/
+
+  .big-container-mobile {
+    padding-top: 30px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .product-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  #info-heading {
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  .pics-container-mobile{
+    padding-top: 15px;
+  }
+
+  .product-pics-mobile{
+    width: 100%;
   }
 }
