@@ -116,7 +116,7 @@
     gap: 15px;
   }
 
-  .size-rectangle {
+  #size-rectangle {
     color: #000;
     background-color: white;
     font-family: Nexa;
@@ -124,6 +124,15 @@
     font-weight: 700;
     width: 82px;
     height: 46px;
+    border: 1px solid #a8a39d;
+  }
+
+  #size-rectangle.active {
+    background-color: black;
+    color: white;
+  }
+
+  #size-rectangle:hover {
     border: 1px solid black;
   }
 
@@ -154,6 +163,14 @@
     border: 1px solid #a8a39d;
     background-color: white;
     cursor: pointer;
+  }
+
+  #favourites-button.active {
+    border: 1px solid black;
+  }
+
+  #favourites-button:hover {
+    border: 1px solid black;
   }
 
   #heart {
