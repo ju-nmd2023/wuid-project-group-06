@@ -295,3 +295,33 @@ window.onload = function () {
     changeImg();
     changeImgTablet();
 };
+
+function btnColor(button) {
+    // Remove 'active' class from all buttons
+    let buttons = document.querySelectorAll("#size-rectangle");
+    buttons.forEach(function(btn) {
+      btn.classList.remove("active");
+    });
+
+    // Add 'active' class to the clicked button
+    button.classList.add("active"); 
+  }
+
+  function heartIcon() {
+    let icon = document.getElementById("heart");
+
+    if (icon.classList.contains("far")) {
+      icon.classList.remove("far");
+      icon.classList.add("fas");
+      document.getElementById("favourites-button").classList.add("active");
+    } else {
+      icon.classList.remove("fas");
+      icon.classList.add("far");
+      document.getElementById("favourites-button").classList.remove("active");
+    }
+  }
+
+  function toggleBorder() {
+    var chooseColour = document.getElementById('choose-colour');
+    chooseColour.classList.toggle('clicked');
+  }
