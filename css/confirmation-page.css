@@ -114,6 +114,10 @@
         font-size: 4rem;
         color: #4caf50;
       }     
+
+      #link {
+        text-decoration: underline;
+      }
 }
 
 @media screen and (min-width: 451px) and (max-width: 1000px) {
@@ -233,6 +237,10 @@
         font-size: 2rem;
         color: #4caf50;
       }     
+      
+      #link {
+        text-decoration: underline;
+      }
 }
 
 @media screen and (max-width: 450px) {
@@ -353,4 +361,8 @@
     font-size: 1.8rem;
     color: #4caf50;
   } 
+
+  #link {
+    text-decoration: underline;
+  }
 }
