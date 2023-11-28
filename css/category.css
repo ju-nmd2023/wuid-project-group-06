@@ -227,7 +227,7 @@
   #main-mobile {
     overflow-x: auto; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevent content from wrapping to the next line */
-    margin: 0;
+    margin: 4%;
   }
 
   .scroll-container {
@@ -237,7 +237,7 @@
 
   .scroll-item {
     display: inline-block; 
-    width: 300px; 
-    margin-right: 10px;
+    
+    margin-right:0.75rem;
   }
 }
