@@ -5,6 +5,11 @@
   #mobile-first-main {
     display: none;
   }
+
+  #tablet-first-main{
+    display: none;
+  }
+
   /*HIDDEN*/
 
   /*Pictures + Product Information*/
@@ -272,6 +277,10 @@
     display: none;
   }
 
+  #tablet-first-main{
+    display: none;
+  }
+
   .web-products {
     display: none;
   }
@@ -377,4 +386,125 @@
     padding-bottom: 20px;
     margin-bottom: 20px;
   }
+}
+
+
+/* TABLET LAYOUT */
+
+@media screen and (min-width: 451px) and (max-width: 1000px) {
+   /*HIDDEN*/
+   #mobile-first-main {
+    display: none;
+  }
+
+  #web-first-main {
+    display: none;
+  }
+  
+  .web-products {
+    display: none;
+  }
+
+  .pics-container-tablet {
+    display: none;
+  }
+  /*HIDDEN*/
+
+  .big-container-tablet {
+    padding-top: 30px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .product-heading-tablet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  #info-heading-tablet {
+    color: #000;
+    font-family: Nexa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  .product-slideshow-tablet {
+    margin-top: 15px;
+    padding-bottom: 0px;
+    width: 100%;
+    border: 1px solid black;
+  }
+
+  .price-and-button-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #price-tablet {
+    color: #000;
+    font-family: Nexa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    padding-top: 20px;
+  }
+
+  #size-button-tablet {
+    width: 13rem;
+    height: 3rem;
+    background-color: #000;
+    border: #000 solid 1px;
+    color: white;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .size-advisor-tab {
+    float: right;
+    padding-top: 10px;
+  }
+
+  #size-link-tablet {
+    color: #000;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .extra-info-tab {
+    padding-top: 60px;
+  }
+
+  .extra-info-tab i {
+    color: black;
+    font-size: 18px;
+    padding-right: 20px;
+  }
+
+  .extra-text-tab {
+    color: #000;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  .dropdown-info-tab {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #a8a39d;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
 }
