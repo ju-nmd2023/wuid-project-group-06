@@ -320,3 +320,8 @@ function btnColor(button) {
       document.getElementById("favourites-button").classList.remove("active");
     }
   }
+
+  function toggleBorder() {
+    var chooseColour = document.getElementById('choose-colour');
+    chooseColour.classList.toggle('clicked');
+  }

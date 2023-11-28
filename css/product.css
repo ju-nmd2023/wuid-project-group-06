@@ -95,7 +95,17 @@
 
   #choose-colour {
     width: 10%;
-    padding-top: 20px;
+    margin-top: 20px;
+    border: 1px solid white;
+    transition: border-color 0.3s ease;
+  }
+
+  #choose-colour:hover {
+    border: 1px solid black;
+  }
+
+  #choose-colour.clicked {
+    border: 1px solid black;
   }
 
   .sizing {
