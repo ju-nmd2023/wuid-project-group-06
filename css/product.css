@@ -75,7 +75,7 @@
   }
 
   #price {
-    padding-top: 20px;
+    padding-top: 40px;
     color: #000;
     font-family: Nexa;
     font-size: 26px;
@@ -84,11 +84,17 @@
   }
 
   #colour {
-    padding-top: 20px;
+    padding-top: 40px;
+    color: #000;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
   }
 
   #choose-colour {
-    width: 15%;
+    width: 10%;
     padding-top: 20px;
   }
 
@@ -97,14 +103,41 @@
     flex-direction: row;
     justify-content: space-between;
     width: 470px;
+    padding-top: 40px;
+  }
+
+  .size-second-line{
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
   }
 
   #size {
-    padding-top: 20px;
+    color: #000;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
   }
 
   #size-info {
-    padding-top: 20px;
+    color: #a8a39d;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  #size-link{
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: underline;
   }
 
   .sizes-container {
