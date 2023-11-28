@@ -294,11 +294,31 @@
     font-weight: 800;
   }
 
-  .pics-container-mobile{
+  .pics-container-mobile {
     padding-top: 15px;
   }
 
-  .product-pics-mobile{
+  .product-pics-mobile {
     width: 100%;
+  }
+
+  #price-mobile {
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+  }
+
+  #size-button-mobile {
+    width: 11.188rem;
+    height: 2.5rem;
+    background-color: #000;
+    border: #000 solid 1px;
+    color: white;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
   }
 }
