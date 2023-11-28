@@ -302,12 +302,17 @@
     font-weight: 800;
   }
 
-
   .product-slideshow-mobile {
     margin-top: 15px;
     padding-bottom: 0px;
     width: 100%;
     border: 1px solid black;
+  }
+
+  .price-and-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   #price-mobile {
@@ -316,6 +321,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 900;
+    padding-top: 20px;
   }
 
   #size-button-mobile {
@@ -328,5 +334,47 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .size-advisor-mob {
+    float: right;
+    padding-top: 10px;
+  }
+
+  #size-link-mobile {
+    color: #000;
+    font-family: Nexa;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .extra-info-mob {
+    padding-top: 50px;
+  }
+
+  .extra-info-mob i {
+    color: black;
+    font-size: 15px;
+    padding-right: 20px;
+  }
+
+  .extra-text-mob {
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  .dropdown-info-mob {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #a8a39d;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 }
