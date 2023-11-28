@@ -88,14 +88,15 @@
   }
 
   #choose-colour {
-    width: 10%;
+    width: 15%;
     padding-top: 20px;
   }
 
   .sizing {
     display: flex;
     flex-direction: row;
-    gap: 8.563rem;
+    justify-content: space-between;
+    width: 470px;
   }
 
   #size {
