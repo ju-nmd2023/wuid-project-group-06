@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* HOME PAGE */
 
 /*Navigation bar 1*/
@@ -67,7 +71,9 @@
     color: black;
   }
 
-  header #nav-web {
+  
+
+  #nav-web {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -305,6 +311,7 @@
   width: 100%;
   height: auto;
   flex: 1;
+  background-image: url();
 }
 
 #men #men-text {
@@ -583,7 +590,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem 2rem 0px 2rem;
+    padding: 3rem 1rem 0px 1rem;
   }
   
   #nav-tablet {
