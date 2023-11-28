@@ -1,8 +1,8 @@
 #category-page-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  margin-left: 8.438rem;
-  margin-right: 8.438rem;
+  grid-template-columns: 1fr 1fr ;
+  margin-left: 10.5vw;
+  margin-right: 10.5vw;
 }
 
 section {
