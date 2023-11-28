@@ -271,6 +271,14 @@
   #web-first-main {
     display: none;
   }
+
+  .web-products {
+    display: none;
+  }
+
+  .pics-container-mobile {
+    display: none;
+  }
   /*HIDDEN*/
 
   .big-container-mobile {
@@ -294,12 +302,12 @@
     font-weight: 800;
   }
 
-  .pics-container-mobile {
-    padding-top: 15px;
-  }
 
-  .product-pics-mobile {
+  .product-slideshow-mobile {
+    margin-top: 15px;
+    padding-bottom: 0px;
     width: 100%;
+    border: 1px solid black;
   }
 
   #price-mobile {

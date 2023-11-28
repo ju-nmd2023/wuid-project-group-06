@@ -654,8 +654,7 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 33% 0px 33%;
-    font-size: 1.2rem;
+    padding: 0rem 5rem;
   }
   
   .gender-tablet ul {
@@ -669,13 +668,17 @@ button {
   
   .gender-tablet a {
     text-decoration: none;
-    color: black;
+    color: #a8a39d;
     display: block;
+    font-weight: 800;
+    font-size: 1rem;
     text-align: center; /* Center the text */
-    padding: 10px; /* Adjust padding as needed */
-    margin: 0 10px; /* Increase the gap between text */
+    padding: 0.625rem 0.75rem; /* Adjust padding as needed */
+    margin: 0 1rem; /* Increase the gap between text */
     transition: color 0.3s ease; /* Add transition for smooth color change */
   }
+
+
 
 
 /* SLIDESHOW */
