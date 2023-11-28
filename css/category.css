@@ -236,8 +236,8 @@
   }
 
   .scroll-item {
-    display: inline-block; /* Make items display in a line */
-    width: 300px; /* Set the width of each item */
+    display: inline-block; 
+    width: 300px; 
     margin-right: 10px;
   }
 }
