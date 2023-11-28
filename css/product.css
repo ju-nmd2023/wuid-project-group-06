@@ -102,10 +102,12 @@
 
   #choose-colour:hover {
     border: 1px solid black;
+    transition: border-color 0.3s ease;
   }
 
   #choose-colour.clicked {
     border: 1px solid black;
+    transition: border-color 0.3s ease;
   }
 
   .sizing {
@@ -168,15 +170,18 @@
     width: 82px;
     height: 46px;
     border: 1px solid #a8a39d;
+    transition: border-color 0.3s ease;
   }
 
   #size-rectangle.active {
     background-color: black;
     color: white;
+    transition: border-color 0.3s ease;
   }
 
   #size-rectangle:hover {
     border: 1px solid black;
+    transition: border-color 0.3s ease;
   }
 
   .ordering-buttons {
@@ -206,14 +211,17 @@
     border: 1px solid #a8a39d;
     background-color: white;
     cursor: pointer;
+    transition: border-color 0.3s ease;
   }
 
   #favourites-button.active {
     border: 1px solid black;
+    transition: border-color 0.3s ease;
   }
 
   #favourites-button:hover {
     border: 1px solid black;
+    transition: border-color 0.3s ease;
   }
 
   #heart {
