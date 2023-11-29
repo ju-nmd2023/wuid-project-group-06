@@ -17,4 +17,3 @@ function wishlist() {
       heartFas.classList.remove("hidden");
     }
   }
-  
