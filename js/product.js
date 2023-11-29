@@ -36,8 +36,54 @@ function prevImageProduct() {
   document.getElementById("product-slideshow-container-mobile").style.backgroundImage = "url('" + imagesProduct[iProduct] + "')";
 }
 
+
+
+let iProductTablet = 0;
+let imagesProductTablet = [];
+
+imagesProductTablet[0] = "img/product-page/white-dress-1.jpg";
+imagesProductTablet[1] = "img/product-page/white-dress-2.jpg";
+imagesProductTablet[2] = "img/product-page/white-dress-3.jpg";
+imagesProductTablet[3] = "img/product-page/white-dress-4.jpg";
+imagesProductTablet[4] = "img/product-page/white-dress.jpg";
+
+function startProductTablet () {
+document.getElementById("product-slideshow-container-tablet").style.backgroundImage = "url('" + imagesProductTablet[iProductTablet] + "')";
+}
+// Function to move to the next image
+function nextImageProductTablet() {
+  // Increment index or reset to 0 if at the end of the array
+  if (iProductTablet < imagesProductTablet.length - 1) {
+    iProductTablet++;
+  } else {
+    iProductTablet = 0;
+  }
+
+  // Set the background image of the slideshow div
+  document.getElementById("product-slideshow-container-tablet").style.backgroundImage = "url('" + imagesProductTablet[iProductTablet] + "')";
+}
+
+// Function to move to the previous image
+function prevImageProductTablet() {
+  // Decrement index or set to the last index if at the beginning of the array
+  if (iProductTablet > 0) {
+    iProductTablet--; // = minus 1. So if i = 2, then i-- = 1
+  } else {
+    iProductTablet = imagesProductTablet.length - 1;
+  }
+
+  // Set the background image of the slideshow div
+  document.getElementById("product-slideshow-container-tablet").style.backgroundImage = "url('" + imagesProductTablet[iProductTablet] + "')";
+}
+
+
+
+
+
+
 window.onload = function (){
     startProduct();
+    startProductTablet();
 }
 
 
@@ -66,7 +112,31 @@ function btnColor(button) {
     }
   }
 
+  function wishlistTablet() {
+    let wishlist = document.getElementById("wishlist-tablet");
+
+    if (wishlist.classList.contains("far")) {
+      wishlist.classList.remove("far");
+      wishlist.classList.add("fas");
+    } else {
+        wishlist.classList.remove("fas");
+        wishlist.classList.add("far");
+    }
+  }
+
+  function wishlist() {
+    let wishlist = document.getElementById("wishlist");
+
+    if (wishlist.classList.contains("far")) {
+      wishlist.classList.remove("far");
+      wishlist.classList.add("fas");
+    } else {
+        wishlist.classList.remove("fas");
+        wishlist.classList.add("far");
+    }
+  }
+
   function toggleBorder() {
-    var chooseColour = document.getElementById('choose-colour');
+    let chooseColour = document.getElementById('choose-colour');
     chooseColour.classList.toggle('clicked');
   }
