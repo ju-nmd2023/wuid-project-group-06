@@ -123,19 +123,7 @@
     background-size: cover;
   }
 
- .back-favorite {
-  position: absolute;
-  width: 20%;
-  bottom: 84%;
-  left: 85%;
-  transform: translateX(-50%);
- }
 
- #heart {
-  color: #000;
-  height: max-content;
- }
-  
 
   /* Style the list */
   ul.breadcrumb {
