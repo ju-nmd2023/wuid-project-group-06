@@ -1,0 +1,108 @@
+/* WEB LAYOUT */
+
+@media screen and (min-width: 1001px) {
+  #web-main {
+    margin-top: 3.438rem;
+    margin-left: 8.438rem;
+    margin-right: 8.438rem;
+  }
+
+  .first-container-web {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .delivery-container-text-web {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #cart-heading-web {
+    color: #000;
+    font-family: Nexa;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  #delivery-text-web {
+    color: #000;
+    font-family: Nexa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    padding-top: 20px;
+  }
+
+  .product-container-web {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+  }
+
+  #product-image-web {
+    padding-top: 2.188rem;
+    width: 40%;
+  }
+
+  .product-info-web {
+    padding-top: 35px;
+    padding-left: 0.75rem;
+  }
+
+  #product-name-web {
+    color: #000;
+    font-family: Nexa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  #product-size-web {
+    color: #000;
+    font-family: Nexa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 10px;
+  }
+
+  .colour-and-bin-web {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+
+  #product-colour-web {
+    color: #000;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  .button-and-price-web{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    bottom:0;
+    justify-content: space-between;
+  }
+
+  #button-container {
+    background-color: #f8f1e9;
+    width: 6.938rem;
+    height: 2.75rem;
+  }
+
+  #product-price-web {
+    color: #000;
+    font-family: Nexa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+  }
+}
