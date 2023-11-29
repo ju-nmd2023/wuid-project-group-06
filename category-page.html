@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/category.css" />
     <script src="js/main.js"></script>
-    <script src="js/category.js" defer></script>
+    <script src="js/category.js"></script>
     <link href="https://fonts.cdnfonts.com/css/nexa-bold" rel="stylesheet" />
     <link
       rel="stylesheet"
@@ -173,7 +173,7 @@
         <div class="big-category">Sale</div>
       </div>
 
-      <section>
+      <section id="section-web">
         <img
           id="woman-shopping"
           src="img/category-page/women-pic.jpg"
@@ -189,104 +189,253 @@
         <div id="products-container">
           <div class="shopping-item">
             <div
-              class="shopping-item-pic"
+              class="item-pic"
               style="background-image: url(img/category-page/whitedress.jpg)"
-            > 
-  
-          </div>
+            >
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
             <p class="product-caption">
               Long sleeve knit midi dress with faux fur
             </p>
             <p class="product-price-2line">39,90 €</p>
-            
-           </div>
+          </div>
 
           <div class="shopping-item">
-            <img class="item-pic" src="img/category-page/blouse-item1.jpg" />
-           
+            <div
+              class="item-pic"
+              style="background-image: url(img/category-page/blouse-item1.jpg)"
+            >
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+            <p class="product-caption">Cotton blouse</p>
             <p class="product-price">30,90 €</p>
           </div>
 
           <div class="shopping-item">
-            <img class="item-pic" src="img/category-page/jumpsuit-item2.jpg" />
+            <div
+              class="item-pic"
+              style="
+                background-image: url(img/category-page/jumpsuit-item2.jpg);
+              "
+            >
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
             <p class="product-caption">Jumpsuit with tie belt</p>
             <p class="product-price">42,90 €</p>
           </div>
 
           <div class="shopping-item">
-            <img class="item-pic" src="img/category-page/pants-item3.jpg" />
+            <div
+              class="item-pic"
+              style="background-image: url(img/category-page/pants-item3.jpg)"
+            >
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
             <p class="product-caption">Leather pants</p>
             <p class="product-price">50,90 €</p>
           </div>
 
           <div class="shopping-item">
-            <img class="item-pic" src="img/category-page/jumpsuit-item4.jpg" />
-            <p class="product-caption">Sequin dress with high slit</p>
-            <p class="product-price-2line">49,90 €</p>
+            <div
+              class="item-pic"
+              style="
+                background-image: url(img/category-page/jumpsuit-item4.jpg);
+              "
+            >
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+              <p class="product-caption">Sequin dress with high slit</p>
+              <p class="product-price">49,90 €</p>
+            
           </div>
 
           <div class="shopping-item">
-            <img class="item-pic" src="img/category-page/dress-item5.jpg" />
+            <div
+              class="item-pic"
+              style="
+                background-image: url(img/category-page/dress-item5.jpg);
+              "
+            >
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
             <p class="product-caption">Satin shirt dress</p>
             <p class="product-price">30,90 €</p>
           </div>
 
           <div class="shopping-item">
-            <img class="item-pic" src="img/category-page/coat-item6.jpg" />
+            <div
+            class="item-pic"
+            style="
+              background-image: url(img/category-page/coat-item6.jpg);
+            "
+          >
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
             <p class="product-caption">Shaggy coat</p>
             <p class="product-price">99,90 €</p>
           </div>
 
           <div class="shopping-item">
-            <img class="item-pic" src="img/category-page/jacket-item7.jpg" />
+            <div
+              class="item-pic"
+              style="
+                background-image: url(img/category-page/jacket-item7.jpg);
+              "
+            >
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
             <p class="product-caption">Leather jacket</p>
             <p class="product-price">40,90 €</p>
           </div>
 
           <div class="shopping-item">
-            <img class="item-pic" src="img/category-page/jacket-item8.jpg" />
+            <div
+            class="item-pic"
+            style="
+              background-image: url(img/category-page/jacket-item8.jpg);
+            "
+          >
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
             <p class="product-caption">Quilted puffer jacket</p>
             <p class="product-price">59,90 €</p>
           </div>
 
           <div class="shopping-item">
-            <img class="item-pic" src="img/category-page/dress-item9.jpg" />
+            <div
+            class="item-pic"
+            style="
+              background-image: url(img/category-page/dress-item9.jpg);
+            "
+          >
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
             <p class="product-caption">Rib knit dress</p>
             <p class="product-price">30,90 €</p>
           </div>
 
           <div class="shopping-item">
-            <img class="item-pic" src="img/category-page/sweater-item10.jpg" />
+            <div
+            class="item-pic"
+            style="
+              background-image: url(img/category-page/sweater-item10.jpg);
+            "
+          >
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
             <p class="product-caption">Cable knit sweater</p>
             <p class="product-price">29,90 €</p>
           </div>
 
           <div class="shopping-item">
-            <img class="item-pic" src="img/category-page/sweater-item11.jpg" />
+            <div
+            class="item-pic"
+            style="
+              background-image: url(img/category-page/sweater-item11.jpg);
+            "
+          >
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
             <p class="product-caption">Jacquard knit sweater</p>
             <p class="product-price">35,90 €</p>
           </div>
 
           <div class="shopping-item">
-            <img class="item-pic" src="img/category-page/blouse-item13.jpg" />
+            <div
+              class="item-pic"
+              style="
+                background-image: url(img/category-page/blouse-item13.jpg);
+              "
+            >
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
             <p class="product-caption">Sequin blouse</p>
             <p class="product-price">28,90 €</p>
           </div>
 
           <div class="shopping-item">
-            <img class="item-pic" src="img/category-page/dress-item13.jpg" />
+            <div
+            class="item-pic"
+            style="
+              background-image: url(img/category-page/dress-item13.jpg);
+            "
+          >
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
             <p class="product-caption">Cotton dress with frills</p>
             <p class="product-price">20,90 €</p>
           </div>
 
           <div class="shopping-item">
-            <img class="item-pic" src="img/category-page/jacket-item14.jpg" />
+            <div
+            class="item-pic"
+            style="
+              background-image: url(img/category-page/jacket-item14.jpg);
+            "
+          >
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
             <p class="product-caption">Quilted jacket with belt</p>
             <p class="product-price">59,90 €</p>
           </div>
 
           <div class="shopping-item">
-            <img class="item-pic" src="img/category-page/blzer-item15.jpg" />
+            <div
+            class="item-pic"
+            style="
+              background-image: url(img/category-page/blzer-item15.jpg);
+            "
+          >
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
             <p class="product-caption">Black blazer</p>
             <p class="product-price">40,90 €</p>
           </div>
@@ -320,7 +469,7 @@
 
       <p id="clothes-mobile">Clothes</p>
     </div>
-    <section>
+    <section id="section-mobile">
       <div class="scroll-container">
         <div class="scroll-item">Jeans</div>
         <div class="scroll-item">Jackets</div>
@@ -427,6 +576,12 @@
       </div>
     </div>
 
+    <p id="viewing-mobile">Viewing 10/420</p>
+
+    <div id="show-more-mobile">
+      <p id="text-show-mobile">Show more</p>
+    </div>
+
     <footer>
       <div id="web-footer">
         <div class="row primary">
@@ -477,6 +632,75 @@
             </div>
           </div>
         </div>
+        <div class="secondary-row">
+          <div>
+            <p>
+              <i class="fa-regular fa-copyright"></i>
+              2023 NEXTREND
+            </p>
+          </div>
+          <div class="footer-menu">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--mobile footer-->
+    <footer>
+      <div id="mobile-footer">
+        <div class="row primary">
+          <div class="text-columns-footer">
+            <div class="first-column">
+              <p id="footer-header">Get help</p>
+              <ul>
+                <li><a href="#">Help Centre</a></li>
+                <li><a href="#">Track Order</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Returns</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Gift Cards</a></li>
+              </ul>
+            </div>
+
+            <div class="second-column">
+              <p id="footer-header">Company</p>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Parthner Programme</a></li>
+                <li><a href="#">Collaborations</a></li>
+                <li><a href="#">Investor Relations</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="subscribe-column">
+            <p id="footer-header">
+              Subscribe so you don't miss out on anything!
+            </p>
+            <div>
+              <input type="text" placeholder="E-mail Address" />
+            </div>
+
+            <img
+              class="logo-footer"
+              src="img/logo/logo-nextrend.png"
+              alt="logo"
+            />
+
+            <div class="social">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-square-instagram"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-pinterest"></i>
+              <i class="fa-brands fa-tiktok"></i>
+            </div>
+          </div>
+        </div>
+
         <div class="secondary-row">
           <div>
             <p>

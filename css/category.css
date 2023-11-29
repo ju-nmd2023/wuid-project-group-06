@@ -12,6 +12,21 @@
     display: none;
   }
 
+  .scroll-container {
+    display: none;
+  }
+
+  #mobile-footer {
+    display: none;
+  }
+
+  #viewing-mobile {
+    display: none;
+  }
+
+  #show-more-mobile {
+    display: none;
+  }
   /* HIDDEN */
 
   #category-page {
@@ -20,11 +35,67 @@
     display: flex;
   }
 
+  #section-web {
+    width: 100%;
+  }
+
   #woman-shopping {
-    min-width: 100%;
-    height: 12vw;
+    width: 100%w;
+    height: 16vw;
     object-fit: cover;
     margin-top: 3.125rem;
+  }
+
+  #heart-web-far,
+  #heart-web-fas {
+    color: #000;
+  }
+
+  .product-heart {
+    position: absolute;
+    color: #000;
+    height: 50%;
+    width: 50%;
+    max-height: 3rem;
+    max-width: 3rem;
+    background-color: #f8f1e9;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    border: none;
+    left: 84%;
+    bottom: 83%;
+    transform: translate(-50%, 0);
+    transition: background-color 0.3s;
+  }
+
+  /* Styles for the heart button when hovered over */
+
+  /* Change background color and text color on hover */
+  .product-heart:hover {
+    background-color: #f8f1e9; /* Change to your desired hover background color */
+    color: black; /* Change to desired hover text color */
+  }
+
+  /* Hide the "far" icon when the heart button is hovered over */
+  .product-heart:hover i.far {
+    display: none; /* Hide the "far" icon on hover */
+  }
+
+  /* Show the "fas" icon when the heart button is hovered over */
+  .product-heart:hover i.fas {
+    display: inline-block; /* Show the "fas" icon on hover */
+  }
+
+  /* Common styling for both "fas" and "far" icons */
+  .product-heart i.fas,
+  .product-heart i.far {
+    display: inline-block;
+  }
+
+  /* Styles for the hidden class, used to hide icons */
+  .product-heart i.hidden {
+    display: none;
   }
 
   .grid-category {
@@ -73,16 +144,21 @@
   }
 
   #products-container {
-    grid-column: 2;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 1.25rem;
+    width: 100%;
   }
 
+  
   .item-pic {
-    max-width: 100%;
-    max-height: 100%;
+    width: auto;
+    height: 20rem;
+    position: relative;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
   }
 
   .product-caption {
@@ -115,15 +191,6 @@
     font-weight: 800;
     line-height: 40px;
   }
-
-  .shopping-item-pic {
-    position: relative;
-    height: 45vh;
-    width: 15.5vw;
-    background-size: cover;
-  }
-
-
 
   /* Style the list */
   ul.breadcrumb {
@@ -246,10 +313,11 @@
     gap: 33%;
   }
 
-  section {
+  #section-mobile {
     overflow-x: auto; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevent content from wrapping to the next line */
     margin: 4%;
+    width: 100%;
   }
 
   .scroll-container {
@@ -316,5 +384,34 @@
     font-weight: 800;
     line-height: 20px;
     height: 20px;
+  }
+
+  #viewing-mobile {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 1.25rem;
+  }
+
+  #show-more-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.563rem;
+  }
+
+  #text-show-mobile {
+    color: #fff;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background-color: #000;
+    padding: 0.75rem 5rem 0.75rem 5rem;
   }
 }
