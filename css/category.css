@@ -1,5 +1,18 @@
 @media screen and (min-width: 1001px) {
   /* HIDDEN */
+#mobile-woman {
+  display: none;
+}
+
+#top-part {
+  display: none;
+}
+
+#main-mobile {
+  display: none;
+}
+ 
+/* HIDDEN */
 
   #category-page {
     padding-left: 10rem;
@@ -224,7 +237,7 @@
     gap: 33%;
   }
 
-  #main-mobile {
+  section {
     overflow-x: auto; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevent content from wrapping to the next line */
     margin: 4%;
@@ -233,6 +246,7 @@
   .scroll-container {
     width: 100%; /* Set the width of the container */
     white-space: nowrap; /* Prevent content from wrapping to the next line */
+  
   }
 
   .scroll-item {
