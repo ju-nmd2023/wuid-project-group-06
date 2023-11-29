@@ -12,6 +12,21 @@
     display: none;
   }
 
+  .scroll-container {
+    display: none;
+  }
+
+  #mobile-footer {
+    display: none;
+  }
+
+  #viewing-mobile {
+    display: none;
+  }
+
+  #show-more-mobile {
+    display: none;
+  }
   /* HIDDEN */
 
   #category-page {
@@ -122,8 +137,6 @@
     width: 15.5vw;
     background-size: cover;
   }
-
-
 
   /* Style the list */
   ul.breadcrumb {
@@ -316,5 +329,34 @@
     font-weight: 800;
     line-height: 20px;
     height: 20px;
+  }
+
+  #viewing-mobile {
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 1.25rem;
+  }
+
+  #show-more-mobile {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.563rem;
+  }
+
+  #text-show-mobile {
+    color: #fff;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    background-color: #000;
+    padding: 0.75rem 5rem 0.75rem 5rem;
   }
 }
