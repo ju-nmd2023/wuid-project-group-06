@@ -302,14 +302,46 @@
     font-weight: 800;
   }
 
-
-  .product-slideshow-mobile {
+  #product-slideshow-container-mobile {
     margin-top: 15px;
     padding-bottom: 0px;
-    width: 100%;
+    position: relative;
+    object-fit: contain;
+    background-size: cover;
     border: 1px solid black;
+    width: 100%;
+    height: 35rem;
   }
 
+  .product-slideshow-mobile {
+    width: 100%;
+  }
+
+  .product-slideshow-mobile-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;
+    height: 2.5rem;
+    background-color: #f8f1e9;
+    text-align: center;
+    position: absolute;
+    border: none;
+    bottom: 0px;
+    right: 0px;
+    margin-bottom: 1.2rem;
+    margin-right: 1rem;
+    
+  }
+
+#product-prev-button, #product-next-button{
+  border: none;
+  background-color: #f8f1e9;
+  font-size: 1.5rem;
+  width: 100%;
+  margin-top: 0.313rem;
+}
+  
   #price-mobile {
     color: #000;
     font-family: Nexa;

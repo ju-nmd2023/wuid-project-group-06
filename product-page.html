@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/product.css" />
     <script src="js/main.js"></script>
+    <script src="js/product.js"></script>
     <link href="https://fonts.cdnfonts.com/css/nexa-bold" rel="stylesheet" />
     <link
       rel="stylesheet"
@@ -155,12 +156,15 @@
           <h2 id="info-heading">Long sleeve knit midi dress with faux fur</h2>
         </div>
 
-        <div class="product-slideshow-container-mobile">
-          <img
-          class="product-slideshow-mobile"
-          src="img/product-page/white-dress-1.jpg"
-          alt="Woman with a white dress"
-        />
+        <div id="product-slideshow-container-mobile">
+          <div class="product-slideshow-mobile-button">
+            <button id="product-prev-button" onclick="prevImageProduct()">
+              <i class="fa-solid fa-chevron-left"></i>
+            </button>
+            <button id="product-next-button" onclick="nextImageProduct()">
+              <i class="fa-solid fa-chevron-right"></i>
+            </button>
+          </div>
         </div>
 
         <div class="pics-container-mobile">
