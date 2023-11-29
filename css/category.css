@@ -35,9 +35,13 @@
     display: flex;
   }
 
+  #section-web {
+    width: 100%;
+  }
+
   #woman-shopping {
-    min-width: 100%;
-    height: 12vw;
+    width: 100%w;
+    height: 16vw;
     object-fit: cover;
     margin-top: 3.125rem;
   }
@@ -140,18 +144,21 @@
   }
 
   #products-container {
-    grid-column: 2;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 1.25rem;
+    width: 100%;
   }
 
+  
   .item-pic {
     width: auto;
-    height: 45vh;
+    height: 20rem;
     position: relative;
     background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
   }
 
   .product-caption {
@@ -306,10 +313,11 @@
     gap: 33%;
   }
 
-  section {
+  #section-mobile {
     overflow-x: auto; /* Enable horizontal scrolling */
     white-space: nowrap; /* Prevent content from wrapping to the next line */
     margin: 4%;
+    width: 100%;
   }
 
   .scroll-container {
