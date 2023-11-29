@@ -119,12 +119,11 @@
   .shopping-item-pic {
     position: relative;
     height: 45vh;
-    width: auto;
+    width: 15.5vw;
     background-size: cover;
   }
 
- 
-  
+
 
   /* Style the list */
   ul.breadcrumb {
