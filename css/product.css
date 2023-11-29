@@ -500,13 +500,12 @@
     position: relative;
     object-fit: contain;
     background-size: cover;
+    background-position: center; /* Center the background image */
     width: 100%;
-    height: 40rem;
+    height: 70rem;
   }
-
-  .product-slideshow-tablet {
-    width: 100%;
-  }
+  
+  
 
   #wishlist-button {
     width: 3rem;
