@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+img {
+  width: 100%;
+}
+
 button {
   cursor: pointer;
 }
@@ -80,6 +84,7 @@ button {
   .logo-link {
     display: block;
     width: 15%;
+    
   }
 
   .nav-gender a:hover {
