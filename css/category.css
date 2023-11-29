@@ -42,7 +42,14 @@
     margin-top: 3.125rem;
   }
 
+  #heart-web-far,
+  #heart-web-fas {
+    color: #000;
+  }
+
   .product-heart {
+    position: absolute;
+    color: #000;
     height: 50%;
     width: 50%;
     max-height: 3rem;
@@ -52,43 +59,40 @@
     font-size: 1.5rem;
     border-radius: 50%;
     border: none;
-    position: absolute;
-    right: 0;
-    transition: background-color 0.3s; /* Adding transition for smooth color change */
+    left: 84%; 
+    bottom: 83%; 
+    transform: translate(-50%, 0); /* Center the button horizontally */
+    transition: background-color 0.3s;
   }
-  
-/* Styles for the heart button when hovered over */
 
-/* Change background color and text color on hover */
-.product-heart:hover {
-  background-color: #f8f1e9; /* Change to your desired hover background color */
-  color: black; /* Change to your desired hover text color */
-}
+  /* Styles for the heart button when hovered over */
 
-/* Hide the "far" icon when the heart button is hovered over */
-.product-heart:hover i.far {
-  display: none; /* Hide the "far" icon on hover */
-}
+  /* Change background color and text color on hover */
+  .product-heart:hover {
+    background-color: #f8f1e9; /* Change to your desired hover background color */
+    color: black; /* Change to your desired hover text color */
+  }
 
-/* Show the "fas" icon when the heart button is hovered over */
-.product-heart:hover i.fas {
-  display: inline-block; /* Show the "fas" icon on hover */
-}
+  /* Hide the "far" icon when the heart button is hovered over */
+  .product-heart:hover i.far {
+    display: none; /* Hide the "far" icon on hover */
+  }
 
-/* Common styling for both "fas" and "far" icons */
-.product-heart i.fas,
-.product-heart i.far {
-  display: inline-block; /* or block, depending on your layout */
-}
+  /* Show the "fas" icon when the heart button is hovered over */
+  .product-heart:hover i.fas {
+    display: inline-block; /* Show the "fas" icon on hover */
+  }
 
-/* Styles for the hidden class, used to hide icons */
-.product-heart i.hidden {
-  display: none;
-}
+  /* Common styling for both "fas" and "far" icons */
+  .product-heart i.fas,
+  .product-heart i.far {
+    display: inline-block; /* or block, depending on your layout */
+  }
 
-
-  
-  
+  /* Styles for the hidden class, used to hide icons */
+  .product-heart i.hidden {
+    display: none;
+  }
 
   .grid-category {
     display: grid;
@@ -144,8 +148,10 @@
   }
 
   .item-pic {
-    max-width: 100%;
-    max-height: 100%;
+    width: auto;
+    height: 45vh;
+    position: relative;
+    background-size: cover;
   }
 
   .product-caption {
@@ -177,13 +183,6 @@
     font-style: normal;
     font-weight: 800;
     line-height: 40px;
-  }
-
-  .shopping-item-pic {
-    position: relative;
-    height: 45vh;
-    width: 15.5vw;
-    background-size: cover;
   }
 
   /* Style the list */
