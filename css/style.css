@@ -135,6 +135,10 @@ button {
     padding: 0.938rem 8.438rem 0.938rem 8.438rem;
   }
 
+  .nav-category a:hover {
+    color: black;
+  }
+
   .nav-category input,
   [type="text"] {
     align-items: center;
