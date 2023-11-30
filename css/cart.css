@@ -10,6 +10,7 @@
   .first-container-web {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 6.25rem;
   }
 
   .delivery-container-text-web {
@@ -104,7 +105,7 @@
     text-align: center;
     bottom: 0;
   }
-  
+
   #button-minus {
     background-color: #f8f1e9;
     border: none;
@@ -134,5 +135,71 @@
     position: absolute;
     bottom: 0;
     right: 0;
+  }
+
+  .cost-container-web {
+    width: 500px;
+    height: 267px;
+    background-color: #f8f1e9;
+    margin-top: 4rem;
+  }
+
+  .first-line-cart-web {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.625rem;
+  }
+
+  .second-line-cart-web {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+  }
+
+  .third-line-cart-web {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+  }
+
+  #cost-text-web {
+    color: #000;
+    font-family: Nexa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+  }
+
+  #total-text-web {
+    color: #000;
+    font-family: Nexa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+  }
+
+  .checkout-btn-container-web {
+    text-align: center;
+    padding-top: 4.375rem;
+    padding-bottom: 1.875rem;
+  }
+
+  #checkout-btn-web {
+    width: 373px;
+    height: 54px;
+    background-color: #000;
+    border: none;
+    color: white;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
   }
 }
