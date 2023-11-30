@@ -109,6 +109,7 @@
     padding-right: 6.75rem;
     width: auto;
     height: fit-content;
+    cursor: pointer;
   }
 
   .clothes-category,
