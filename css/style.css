@@ -84,7 +84,6 @@ button {
   .logo-link {
     display: block;
     width: 15%;
-    
   }
 
   .nav-gender a:hover {
@@ -481,6 +480,10 @@ button {
     display: none;
   }
 
+  .flexbox {
+    display: none;
+  }
+
   #nav-web {
     display: none;
   }
@@ -842,6 +845,10 @@ button {
     display: none;
   }
 
+  .flexbox {
+    display: none;
+  }
+
   /* HIDDEN */
 
   /* header */
@@ -1121,5 +1128,38 @@ button {
     line-height: normal;
     text-decoration: none;
     margin-right: 0.2rem;
+  }
+
+  .grid-home-mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .grid-home-item {
+    position: relative;
+    text-align: center;
+  }
+
+  .grid-home-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .grid-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f8f1e9;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    white-space: nowrap; 
   }
 }
