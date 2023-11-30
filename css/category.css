@@ -27,6 +27,23 @@
   #show-more-mobile {
     display: none;
   }
+
+  #tablet-woman {
+    display: none;
+  }
+
+  #top-part-tablet {
+    display: none;
+  }
+
+  #section-tablet {
+    display: none;
+  }
+
+  #main-tablet {
+    display: none;
+  }
+
   /* HIDDEN */
 
   #category-page {
@@ -452,6 +469,22 @@
   }
 
   .gender-mobile {
+    display: none;
+  }
+
+  #tablet-woman {
+    display: none;
+  }
+
+  #top-part-tablet {
+    display: none;
+  }
+
+  #section-tablet {
+    display: none;
+  }
+
+  #main-tablet {
     display: none;
   }
 
