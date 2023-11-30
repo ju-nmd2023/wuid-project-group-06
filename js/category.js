@@ -1,8 +1,8 @@
 // Function to toggle between "far" and "fas" heart icons when the heart button is clicked
-function wishlist() {
+function wishlist(farId, fasId) {
     // Get references to the "far" and "fas" heart icons
-    let heartFar = document.getElementById("heart-web-far");
-    let heartFas = document.getElementById("heart-web-fas");
+    let heartFar = document.getElementById(farId);
+    let heartFas = document.getElementById(fasId);
   
     // Check if the "far" icon is currently hidden (using the "hidden" class)
     if (heartFar.classList.contains("hidden")) {
@@ -16,4 +16,4 @@ function wishlist() {
       // Make the "fas" icon visible by removing the "hidden" class
       heartFas.classList.remove("hidden");
     }
-  }
+}
