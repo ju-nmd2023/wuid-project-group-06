@@ -306,7 +306,7 @@
   }
 
   #mobile-woman {
-    display:none;
+    display: none;
   }
 
   /*hidden*/
@@ -321,9 +321,9 @@
     margin-right: 0;
   }
 
-.gender-tablet {
-  margin-top: 3%
-}
+  .gender-tablet {
+    margin-top: 3%;
+  }
 
   #top-part-tablet {
     display: flex;
@@ -449,8 +449,6 @@
     background-color: #000;
     padding: 1.5rem 10rem 1.5rem 10rem;
   }
-
-
 }
 
 /* MOBILE DEVICES */
