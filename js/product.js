@@ -148,24 +148,16 @@ function toggleBorder() {
   chooseColour.classList.toggle("clicked");
 }
 
+document.addEventListener("DOMContentLoaded", function() {
+  var nextButton = document.getElementById("Next");
+  var prevButton = document.getElementById("Prev");
+  var slider = document.getElementById("Slider");
 
-/*
-const sliderContainer = document.getElementById('slider-container');
-let currentIndex = 2; // Start with the duplicate set
+  nextButton.addEventListener("click", function() {
+      slider.appendChild(slider.firstElementChild);
+  });
 
-function showSlide(index) {
-  currentIndex = index;
-  sliderContainer.style.transform = `translateX(${-index * 25}%)`;
-}
-
-function nextSlide() {
-  currentIndex++;
-  showSlide(currentIndex);
-}
-
-function prevSlide() {
-  currentIndex--;
-  showSlide(currentIndex);
-}
-
-showSlide(currentIndex);
+  prevButton.addEventListener("click", function() {
+      slider.insertBefore(slider.lastElementChild, slider.firstElementChild);
+  });
+});
