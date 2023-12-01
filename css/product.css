@@ -280,12 +280,14 @@
 
   #Wrapper {
     align-items: center;
-    background-color: #eeeff7;
     display: flex;
     width: 1440px;
     height: 600px;
     justify-content: center;
     width: 100%;
+    padding-left: 8.438rem;
+    padding-right: 8.438rem;
+    padding-top: 8.438rem;
   }
 
   #Slideshow {
@@ -293,14 +295,13 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    overflow: visible;
+    overflow: hidden;
     position: relative;
   }
 
   #Slider {
-    border: 20px solid #1c1d21;
-    height: 300px;
-    overflow: visible;
+    height: 595px;
+    overflow: hidden;
     width: 100%;
   }
 
@@ -309,11 +310,9 @@
     width: 100%;
     transition: all 1s;
     display: flex;
+    gap: 100px;
   }
 
-.display {
-  display: flex;
-}
   #Arrows {
     display: flex;
     justify-content: space-between;

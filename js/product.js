@@ -149,9 +149,9 @@ function toggleBorder() {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-  var nextButton = document.getElementById("Next");
-  var prevButton = document.getElementById("Prev");
-  var slider = document.getElementById("Slider");
+  let nextButton = document.getElementById("Next");
+  let prevButton = document.getElementById("Prev");
+  let slider = document.getElementById("Slider");
 
   nextButton.addEventListener("click", function() {
       slider.appendChild(slider.firstElementChild);
