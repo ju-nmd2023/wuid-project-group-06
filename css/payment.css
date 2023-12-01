@@ -37,6 +37,7 @@ width: 570px;
 height: 42px;
 justify-content: center;
 align-items: center;
+text-align: left;
 flex-shrink: 0;
 border: 1px solid #d9d9d9;
 border-bottom: 0;
@@ -54,6 +55,7 @@ position: relative;
     width: 11%;  
     position: absolute; 
     margin-right: 85%;
+    padding-right: 12px;
 }
 
 #cash-pic {
@@ -62,6 +64,7 @@ height: 50px;
 flex-shrink: 0;
 position: absolute;
 margin-right: 85%;
+padding-right: 12px;
 }
 
 
@@ -78,13 +81,48 @@ position: relative;
 
 .visa-text {
     color: #000;
-
 font-family: Nexa;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
 position: absolute;
-margin-right: 65%;
+margin-right: 67.5%;
+margin-top: 0.5%;
+}
+
+.master-text {
+    color: #000;
+font-family: Nexa;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+margin-right: 57%;
+margin-top: 0.5%;
+}
+
+.maestro-text {
+    color: #000;
+font-family: Nexa;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+margin-right: 55%;
+margin-top: 0.5%;
+}
+
+.cash-text {
+    color: #000;
+font-family: Nexa;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+margin-right: 51.5%;
 margin-top: 0.5%;
 }
