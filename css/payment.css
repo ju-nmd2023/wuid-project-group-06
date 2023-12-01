@@ -40,11 +40,30 @@ align-items: center;
 flex-shrink: 0;
 border: 1px solid #d9d9d9;
 border-bottom: 0;
+position: relative;
 }
 
-#visa-pic {
-    width: 10%;   
+#visa-pic, #maestro-pic {
+    width: 9%;   
+    position: absolute;
+    margin-right: 85%;
+    padding-right: 12px;
 }
+
+#master-pic {
+    width: 11%;  
+    position: absolute; 
+    margin-right: 85%;
+}
+
+#cash-pic {
+    width: 50px;
+height: 50px;
+flex-shrink: 0;
+position: absolute;
+margin-right: 85%;
+}
+
 
 #cash-pay {
     display: flex;
@@ -54,5 +73,18 @@ justify-content: center;
 align-items: center;
 flex-shrink: 0;
 border: 1px solid #d9d9d9;
+position: relative;
+}
 
+.visa-text {
+    color: #000;
+
+font-family: Nexa;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+margin-right: 65%;
+margin-top: 0.5%;
 }
