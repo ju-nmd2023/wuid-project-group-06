@@ -1,5 +1,5 @@
 .payment-container {
-border: 1px solid black;
+
 margin-top: 3.438rem;
 margin-left: 8.44rem;
 margin-right: 8.44rem;
@@ -31,3 +31,28 @@ grid-template-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
 }
 
+.cards {
+    display: flex;
+width: 570px;
+height: 42px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border: 1px solid #d9d9d9;
+border-bottom: 0;
+}
+
+#visa-pic {
+    width: 10%;   
+}
+
+#cash-pay {
+    display: flex;
+width: 570px;
+height: 42px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border: 1px solid #d9d9d9;
+
+}
