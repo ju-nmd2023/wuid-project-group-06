@@ -19,6 +19,11 @@ button {
 @media screen and (min-width: 1001px) {
   /* HIDDEN */
 
+  .grid-home-tablet {
+    display: none;
+  }
+
+
   .grid-home-mobile {
     display: none;
   }
@@ -856,6 +861,10 @@ button {
   /* HIDDEN */
 
   #nav-tablet {
+    display: none;
+  }
+
+  .grid-home-tablet {
     display: none;
   }
 
