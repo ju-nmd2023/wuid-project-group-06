@@ -325,7 +325,8 @@
     justify-content: space-between;
     height: 30px;
     position: absolute;
-    width: 600px;
+    margin-left: 72%;
+    margin-bottom: 50%;
   }
 
   #Arrows i {
@@ -334,17 +335,9 @@
     cursor: pointer;
     height: 1.875rem;
     width: 1.563rem;
-    padding: 0.75rem;
+    
 
     transition: background-color 0.5s, color 0.5s;
-  }
-
-  #Arrows i:first-of-type {
-    padding-right: 20px;
-  }
-
-  #Arrows i:last-of-type {
-    padding-left: 20px;
   }
 
   #Arrows i:hover {
