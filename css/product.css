@@ -281,13 +281,10 @@
   #Wrapper {
     align-items: center;
     display: flex;
-    width: 1440px;
-    height: 600px;
-    justify-content: center;
     width: 100%;
-    padding-left: 8.438rem;
-    padding-right: 8.438rem;
     padding-top: 8.438rem;
+    margin-left: 6%;
+    margin-right: 6%;
   }
 
   #Slideshow {
@@ -300,7 +297,7 @@
   }
 
   #Slider {
-    height: 595px;
+    height: 70vh;
     overflow: hidden;
     width: 100%;
   }
@@ -310,7 +307,17 @@
     width: 100%;
     transition: all 1s;
     display: flex;
-    gap: 100px;
+    gap: 1%;
+  }
+
+  #Slider .slide img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .slider-img {
+    width: fit-content;
+    height: fit-content;
   }
 
   #Arrows {
@@ -325,8 +332,9 @@
     background-color: rgba(255, 255, 255, 0.25);
     color: #1c1d21;
     cursor: pointer;
-    height: 30px;
-    padding: 15px;
+    height: 1.875rem;
+    width: 1.563rem;
+    padding: 0.75rem;
 
     transition: background-color 0.5s, color 0.5s;
   }
