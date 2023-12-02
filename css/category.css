@@ -190,6 +190,11 @@
     width: 12.875rem;
   }
 
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
   .product-price-2line {
     color: #000;
     font-family: Nexa;
@@ -391,6 +396,11 @@
     max-height: 12%;
   }
 
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
   .product-caption-tablet {
     color: #000;
     font-family: Nexa;
@@ -568,6 +578,11 @@
     gap: 1rem;
     margin-top: 10%;
     width: 100%;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
   }
 
   .product-caption-mobile {
