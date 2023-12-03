@@ -161,3 +161,17 @@ document.addEventListener("DOMContentLoaded", function() {
       slider.insertBefore(slider.lastElementChild, slider.firstElementChild);
   });
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  let nextButton = document.getElementById("Next-2");
+  let prevButton = document.getElementById("Prev-2");
+  let slider = document.getElementById("Slider-2");
+
+  nextButton.addEventListener("click", function() {
+      slider.appendChild(slider.firstElementChild);
+  });
+
+  prevButton.addEventListener("click", function() {
+      slider.insertBefore(slider.lastElementChild, slider.firstElementChild);
+  });
+});
