@@ -28,3 +28,19 @@ function updateDisplay() {
 
 // Initial display
 updateDisplay();
+
+/*slideshow*/
+
+document.addEventListener("DOMContentLoaded", function() {
+  let newNextButton = document.getElementById("New-Next");
+  let newPrevButton = document.getElementById("New-Prev");
+  let newSlider = document.getElementById("New-Slider");
+
+  newNextButton.addEventListener("click", function() {
+    newSlider.appendChild(newSlider.firstElementChild);
+  });
+
+  newPrevButton.addEventListener("click", function() {
+    newSlider.insertBefore(newSlider.lastElementChild, newSlider.firstElementChild);
+  });
+});
