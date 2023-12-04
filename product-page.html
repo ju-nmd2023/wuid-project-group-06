@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/product.css" />
+    <link rel="stylesheet" href="css/category.css" />
+    <script src="js/category.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/product.js"></script>
+    <script src="js/product.js" defer></script>
+    
     <link href="https://fonts.cdnfonts.com/css/nexa-bold" rel="stylesheet" />
     <link
       rel="stylesheet"
@@ -394,6 +397,400 @@
       </main>
     </div>
 
+    <p id="get-look">GET THE LOOK</p>
+    <p id="recommended">Recommended  items </p>
+<!--code inspired by https://codepen.io/WretchedDade/pen/XNEjON-->   
+
+  <section id="Wrapper">
+    
+    <div id="Slideshow">
+      
+      <div id="Slider">
+        <div class="slide">
+
+          <div class="shopping-item">
+            <img class="slider-img" src="img/product-page/yellow-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+          <div class="shopping-item">
+            <img class="slider-img" src="img/product-page/black-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress
+              with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+          <div class="shopping-item">
+            <img class="slider-img" src="img/product-page/white-knitted-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+          <div class="shopping-item">
+            <img class="slider-img" src="img/product-page/knitted-line-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+        </div>
+        <div class="slide">
+          <div class="shopping-item">
+            <img src="img/product-page/black-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress
+              with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+          <div class="shopping-item">
+            <img src="img/product-page/white-knitted-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+          <div class="shopping-item">
+            <img src="img/product-page/knitted-line-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+          <div class="shopping-item">
+            <img src="img/product-page/yellow-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+        </div>
+        <div class="slide">
+
+          <div class="shopping-item">
+            <img src="img/product-page/white-knitted-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+          <div class="shopping-item">
+            <img src="img/product-page/knitted-line-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+          <div class="shopping-item">
+            <img src="img/product-page/yellow-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+          <div class="shopping-item">
+            <img src="img/product-page/black-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress
+              with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+          
+        </div>
+
+        <div class="slide">
+
+          <div class="shopping-item">
+            <img src="img/product-page/knitted-line-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+          <div class="shopping-item">
+            <img src="img/product-page/yellow-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+          <div class="shopping-item">
+            <img src="img/product-page/black-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress
+              with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+          <div class="shopping-item">
+            <img src="img/product-page/white-knitted-dress.jpg" />
+            <div class="product-caption">Long sleeve knit midi dress with faux fur</div>
+            <div class="product-price-2line">39,90 €</div>
+            <button class="product-heart" onclick="wishlist()">
+              <i id="heart-web-far" class="far fa-heart"></i>
+              <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+            </button>
+          </div>
+
+
+        </div>
+      </div>
+      </div>
+      <div id="Arrows">
+        <i id="Prev" class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+        <i id="Next" class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+      </div>
+      
+    
+    </div>
+  </section>
+
+ 
+
+  <p id="for-you">FOR YOU</p>
+      <p id="last-viewed">Last viewed </p>
+ 
+  <section id="Wrapper-2">
+
+  <div id="Slideshow-2">
+      
+    <div id="Slider-2">
+      <div class="slide-2">
+
+        <div class="shopping-item">
+          <img src="img/category-page/sweater-item10.jpg" />
+          <div class="product-caption">Cable knit sweater</div>
+          <div class="product-price-2line">29,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item">
+          <img src="img/category-page/sweater-item11.jpg" />
+          <div class="product-caption">Jacquard knit sweater</div>
+          <div class="product-price-2line">35,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item">
+          <img src="img/category-page/jacket-item8.jpg" />
+          <div class="product-caption">Quilted puffer jacket</div>
+          <div class="product-price-2line">59,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item">
+          <img src="img/category-page/dress-item5.jpg" />
+          <div class="product-caption">Satin shirt dress</div>
+          <div class="product-price-2line">30,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+      </div>
+      <div class="slide-2">
+        <div class="shopping-item">
+          <img src="img/category-page/sweater-item11.jpg" />
+          <div class="product-caption">Jacquard knit sweater</div>
+          <div class="product-price-2line">35,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item">
+          <img src="img/category-page/jacket-item8.jpg" />
+          <div class="product-caption">Quilted puffer jacket</div>
+          <div class="product-price-2line">59,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item">
+          <img src="img/category-page/dress-item5.jpg" />
+          <div class="product-caption">Satin shirt dress</div>
+          <div class="product-price-2line">30,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item">
+          <img src="img/category-page/sweater-item10.jpg" />
+          <div class="product-caption">Cable knit sweater</div>
+          <div class="product-price-2line">29,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+      </div>
+      <div class="slide-2">
+
+        <div class="shopping-item">
+          <img src="img/category-page/jacket-item8.jpg" />
+          <div class="product-caption">Quilted puffer jacket</div>
+          <div class="product-price-2line">59,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item">
+          <img src="img/category-page/dress-item5.jpg" />
+          <div class="product-caption">Satin shirt dress</div>
+          <div class="product-price-2line">30,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item">
+          <img src="img/category-page/sweater-item10.jpg" />
+          <div class="product-caption">Cable knit sweater</div>
+          <div class="product-price-2line">29,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+
+        <div class="shopping-item">
+          <img src="img/category-page/sweater-item11.jpg" />
+          <div class="product-caption">Jacquard knit sweater</div>
+          <div class="product-price-2line">35,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+        
+      </div>
+
+      <div class="slide-2">
+
+        <div class="shopping-item">
+          <img src="img/category-page/dress-item5.jpg" />
+          <div class="product-caption">Satin shirt dress</div>
+          <div class="product-price-2line">30,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item">
+          <img src="img/category-page/sweater-item10.jpg" />
+          <div class="product-caption">Cable knit sweater</div>
+          <div class="product-price-2line">29,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+
+        <div class="shopping-item">
+          <img src="img/category-page/sweater-item11.jpg" />
+          <div class="product-caption">Jacquard knit sweater</div>
+          <div class="product-price-2line">35,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+         <div class="shopping-item">
+          <img src="img/category-page/jacket-item8.jpg" />
+          <div class="product-caption">Quilted puffer jacket</div>
+          <div class="product-price-2line">59,90 €</div>
+          <button class="product-heart" onclick="wishlist()">
+            <i id="heart-web-far" class="far fa-heart"></i>
+            <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+          </button>
+        </div>
+
+
+      </div>
+    </div>
+    </div>
+    <div id="Arrows-2">
+      <i id="Prev-2" class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+      <i id="Next-2" class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+    </div>
+
+  </div>
+</section>
+  
     <footer>
       <div id="web-footer">
         <div class="row primary">

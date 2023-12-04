@@ -1,5 +1,5 @@
 .payment-container {
-border: 1px solid black;
+
 margin-top: 3.438rem;
 margin-left: 8.44rem;
 margin-right: 8.44rem;
@@ -152,3 +152,98 @@ h1 {
 
   
   
+.cards {
+    display: flex;
+width: 570px;
+height: 42px;
+justify-content: center;
+align-items: center;
+text-align: left;
+flex-shrink: 0;
+border: 1px solid #d9d9d9;
+border-bottom: 0;
+position: relative;
+}
+
+#visa-pic, #maestro-pic {
+    width: 9%;   
+    position: absolute;
+    margin-right: 85%;
+    padding-right: 12px;
+}
+
+#master-pic {
+    width: 11%;  
+    position: absolute; 
+    margin-right: 85%;
+    padding-right: 12px;
+}
+
+#cash-pic {
+    width: 50px;
+height: 50px;
+flex-shrink: 0;
+position: absolute;
+margin-right: 85%;
+padding-right: 12px;
+}
+
+
+#cash-pay {
+    display: flex;
+width: 570px;
+height: 42px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border: 1px solid #d9d9d9;
+position: relative;
+}
+
+.visa-text {
+    color: #000;
+font-family: Nexa;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+margin-right: 67.5%;
+margin-top: 0.5%;
+}
+
+.master-text {
+    color: #000;
+font-family: Nexa;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+margin-right: 57%;
+margin-top: 0.5%;
+}
+
+.maestro-text {
+    color: #000;
+font-family: Nexa;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+margin-right: 55%;
+margin-top: 0.5%;
+}
+
+.cash-text {
+    color: #000;
+font-family: Nexa;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+margin-right: 51.5%;
+margin-top: 0.5%;
+}

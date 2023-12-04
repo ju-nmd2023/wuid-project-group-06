@@ -19,6 +19,15 @@ button {
 @media screen and (min-width: 1001px) {
   /* HIDDEN */
 
+  .grid-home-tablet {
+    display: none;
+  }
+
+
+  .grid-home-mobile {
+    display: none;
+  }
+
   .gender-mobile {
     display: none;
   }
@@ -84,7 +93,6 @@ button {
   .logo-link {
     display: block;
     width: 15%;
-    
   }
 
   .nav-gender a:hover {
@@ -317,6 +325,7 @@ button {
     font-style: normal;
     font-weight: 900;
     line-height: normal;
+    white-space: nowrap;
   }
 
   .sas-text {
@@ -478,6 +487,14 @@ button {
   /* HIDDEN */
 
   #nav-mobile {
+    display: none;
+  }
+
+  .flexbox {
+    display: none;
+  }
+
+  .grid-home-mobile {
     display: none;
   }
 
@@ -688,6 +705,43 @@ button {
 
   /*end of tablet-header*/
 
+  /*grid*/
+
+  .grid-home-tablet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  .grid-home-item {
+    position: relative;
+    text-align: center;
+  }
+
+  .grid-home-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .grid-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f8f1e9;
+    font-family: Nexa;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  /*end of grid*/
+
   footer {
     background-color: white;
     margin-top: 3%;
@@ -810,6 +864,10 @@ button {
     display: none;
   }
 
+  .grid-home-tablet {
+    display: none;
+  }
+
   .gender-tablet {
     display: none;
   }
@@ -839,6 +897,10 @@ button {
   }
 
   #slideshow-tablet {
+    display: none;
+  }
+
+  .flexbox {
     display: none;
   }
 
@@ -1121,5 +1183,38 @@ button {
     line-height: normal;
     text-decoration: none;
     margin-right: 0.2rem;
+  }
+
+  .grid-home-mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .grid-home-item {
+    position: relative;
+    text-align: center;
+  }
+
+  .grid-home-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .grid-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f8f1e9;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    white-space: nowrap;
   }
 }

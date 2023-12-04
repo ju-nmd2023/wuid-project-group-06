@@ -1,6 +1,11 @@
 /* WEB LAYOUT */
 
 @media screen and (min-width: 1001px) {
+  /*HIDDEN*/
+  #mobile-main {
+    display: none;
+  }
+
   #web-main {
     margin-top: 3.438rem;
     margin-left: 8.438rem;
@@ -10,6 +15,7 @@
   .first-container-web {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 6.25rem;
   }
 
   .delivery-container-text-web {
@@ -104,7 +110,7 @@
     text-align: center;
     bottom: 0;
   }
-  
+
   #button-minus {
     background-color: #f8f1e9;
     border: none;
@@ -134,5 +140,189 @@
     position: absolute;
     bottom: 0;
     right: 0;
+  }
+
+  .cost-container-web {
+    width: 500px;
+    height: 267px;
+    background-color: #f8f1e9;
+    margin-top: 4rem;
+  }
+
+  .first-line-cart-web {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.625rem;
+  }
+
+  .second-line-cart-web {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0.75rem;
+  }
+
+  .third-line-cart-web {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+  }
+
+  #cost-text-web {
+    color: #000;
+    font-family: Nexa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+  }
+
+  #total-text-web {
+    color: #000;
+    font-family: Nexa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+  }
+
+  .checkout-btn-container-web {
+    text-align: center;
+    padding-top: 4.375rem;
+    padding-bottom: 1.875rem;
+  }
+
+  #checkout-btn-web {
+    width: 373px;
+    height: 54px;
+    background-color: #000;
+    border: none;
+    color: white;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+  }
+}
+
+/* MOBILE LAYOUT */
+
+@media screen and (max-width: 450px) {
+  /*HIDDEN*/
+  #web-main {
+    display: none;
+  }
+  /*HIDDEN*/
+
+  #mobile-main {
+    padding-top: 30px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .arrow-heading-mob {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #cart-heading-mob {
+    color: #000;
+    font-family: Nexa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .delivery-container-text-mob {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+  }
+
+  #delivery-text-mob {
+    color: #000;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .product-container-mob {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2.5rem;
+    gap: 1rem;
+  }
+
+  .img-product-cart {
+    width: 100%;
+  }
+
+  #product-name-mob {
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+  }
+
+  #product-size-mob {
+    color: #000;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 0.625rem;
+  }
+
+  #product-colour-mob {
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 0.625rem;
+  }
+
+  .button-and-price-mob {
+    display: flex;
+    padding-top: 5.875rem;
+  }
+
+  #button-container {
+    background-color: #f8f1e9;
+    width: 6.938rem;
+    height: 2.75rem;
+    display: flex; /* Use flexbox */
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+
+  #button-minus {
+    background-color: #f8f1e9;
+    border: none;
+    padding-left: 1rem;
+  }
+
+  #button-plus {
+    background-color: #f8f1e9;
+    border: none;
+    padding-right: 1rem;
+  }
+
+  #quantity {
+    color: #000;
+    font-family: Nexa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
   }
 }

@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/category.css" />
+    <link rel="stylesheet" href="css/product.css" />
     <script src="js/main.js"></script>
     <script src="js/category.js"></script>
+    <script src="js/product.js"></script>
     <link href="https://fonts.cdnfonts.com/css/nexa-bold" rel="stylesheet" />
     <link
       rel="stylesheet"
@@ -27,7 +29,7 @@
             <ul id="mobile-dropdown">
               <li>
                 <a href="#">
-                  <i class="fa-regular fa-bars"></i>
+                  <i class="far fa-bars"></i>
                 </a>
               </li>
             </ul>
@@ -187,18 +189,18 @@
         </ul>
 
         <div id="products-container">
-          <div class="shopping-item">
-            <img src="img/category-page/whitedress.jpg" />
-            <div class="product-caption">
-              Long sleeve knit midi dress with faux fur
+           <div class="shopping-item">
+           <a href="product-page.html"> <img src="img/category-page/whitedress.jpg" /> </a>
+            <div class="product-caption"> <a href="product-page.html">
+              Long sleeve knit midi dress with faux fur </a>
             </div>
-            <div class="product-price-2line">39,90 €</div>
+            <div class="product-price-2line"> <a href="product-page.html"> 39,90 € </a> </div>
             <button class="product-heart" onclick="wishlist()">
               <i id="heart-web-far" class="far fa-heart"></i>
               <i id="heart-web-fas" class="fas fa-heart hidden"></i>
             </button>
           </div>
-
+        
           <div class="shopping-item">
             <img src="img/category-page/blouse-item1.jpg" />
             <div class="product-caption">Cotton blouse</div>
@@ -359,139 +361,6 @@
       <p id="text-show">Show more</p>
     </div>
 
-    <!--mobile categories-->
-
-    <img id="mobile-woman" src="img/category-page/women-pic.jpg" />
-    <div id="top-part">
-      <svg
-        id="back"
-        xmlns="http://www.w3.org/2000/svg"
-        width="11"
-        height="17"
-        viewBox="0 0 11 17"
-        fill="none"
-      >
-        <path
-          d="M0.370073 7.6427C-0.123358 8.11687 -0.123358 8.88692 0.370073 9.3611L7.94918 16.6444C8.44261 17.1185 9.24394 17.1185 9.73737 16.6444C10.2308 16.1702 10.2308 15.4001 9.73737 14.926L3.05039 8.5L9.73343 2.07403C10.2269 1.59985 10.2269 0.8298 9.73343 0.355629C9.23999 -0.118543 8.43866 -0.118543 7.94523 0.355629L0.366126 7.6389L0.370073 7.6427Z"
-          fill="black"
-        />
-      </svg>
-
-      <p id="clothes-mobile">Clothes</p>
-    </div>
-    <section id="section-mobile">
-      <div class="scroll-container">
-        <div class="scroll-item">Jeans</div>
-        <div class="scroll-item">Jackets</div>
-        <div class="scroll-item">Sweaters</div>
-        <div class="scroll-item">Dresses</div>
-        <div class="scroll-item">Coats</div>
-        <div class="scroll-item">Pants</div>
-        <div class="scroll-item">T-shirts</div>
-        <div class="scroll-item">Tops</div>
-        <div class="scroll-item">Blazers</div>
-        <div class="scroll-item">Bikini</div>
-        <div class="scroll-item">Underwear</div>
-        <div class="scroll-item">Maternity</div>
-        <div class="scroll-item">Plus-size</div>
-      </div>
-    </section>
-    <div id="main-mobile">
-      <div id="products-container-mobile">
-        <div class="shopping-item-mobile">
-          <img class="item-pic-mobile" src="img/category-page/whitedress.jpg" />
-          <p class="product-caption-mobile">
-            Long sleeve knit midi dress<br />with faux fur
-          </p>
-          <p class="product-price-2line-mobile">39,90 €</p>
-        </div>
-
-        <div class="shopping-item-mobile">
-          <img
-            class="item-pic-mobile"
-            src="img/category-page/blouse-item1.jpg"
-          />
-          <p class="product-caption-mobile">Cotton blouse</p>
-          <p class="product-price-mobile">30,90 €</p>
-        </div>
-
-        <div class="shopping-item-mobile">
-          <img
-            class="item-pic-mobile"
-            src="img/category-page/jumpsuit-item2.jpg"
-          />
-          <p class="product-caption-mobile">Jumpsuit with tie belt</p>
-          <p class="product-price-mobile">42,90 €</p>
-        </div>
-
-        <div class="shopping-item-mobile">
-          <img
-            class="item-pic-mobile"
-            src="img/category-page/pants-item3.jpg"
-          />
-          <p class="product-caption-mobile">Leather pants</p>
-          <p class="product-price-mobile">50,90 €</p>
-        </div>
-
-        <div class="shopping-item-mobile">
-          <img
-            class="item-pic-mobile"
-            src="img/category-page/jumpsuit-item4.jpg"
-          />
-          <p class="product-caption-mobile">Sequin dress with high slit</p>
-          <p class="product-price-mobile">49,90 €</p>
-        </div>
-
-        <div class="shopping-item-mobile">
-          <img
-            class="item-pic-mobile"
-            src="img/category-page/dress-item5.jpg"
-          />
-          <p class="product-caption-mobile">Satin shirt dress</p>
-          <p class="product-price-mobile">30,90 €</p>
-        </div>
-
-        <div class="shopping-item-mobile">
-          <img class="item-pic-mobile" src="img/category-page/coat-item6.jpg" />
-          <p class="product-caption-mobile">Shaggy coat</p>
-          <p class="product-price-mobile">99,90 €</p>
-        </div>
-
-        <div class="shopping-item-mobile">
-          <img
-            class="item-pic-mobile"
-            src="img/category-page/jacket-item7.jpg"
-          />
-          <p class="product-caption-mobile">Leather jacket</p>
-          <p class="product-price-mobile">40,90 €</p>
-        </div>
-
-        <div class="shopping-item-mobile">
-          <img
-            class="item-pic-mobile"
-            src="img/category-page/jacket-item8.jpg"
-          />
-          <p class="product-caption-mobile">Quilted puffer jacket</p>
-          <p class="product-price-mobile">59,90 €</p>
-        </div>
-
-        <div class="shopping-item-mobile">
-          <img
-            class="item-pic-mobile"
-            src="img/category-page/dress-item9.jpg"
-          />
-          <p class="product-caption-mobile">Rib knit dress</p>
-          <p class="product-price-mobile">30,90 €</p>
-        </div>
-      </div>
-    </div>
-
-    <p id="viewing-mobile">Viewing 10/420</p>
-
-    <div id="show-more-mobile">
-      <p id="text-show-mobile">Show more</p>
-    </div>
-
     <footer>
       <div id="web-footer">
         <div class="row primary">
@@ -557,6 +426,151 @@
       </div>
     </footer>
 
+
+    <!--mobile categories-->
+
+    <img id="mobile-woman" src="img/category-page/women-pic.jpg" />
+    
+   
+    <div id="top-part">
+      <svg
+        id="back"
+        xmlns="http://www.w3.org/2000/svg"
+        width="11"
+        height="17"
+        viewBox="0 0 11 17"
+        fill="none"
+      >
+        <path
+          d="M0.370073 7.6427C-0.123358 8.11687 -0.123358 8.88692 0.370073 9.3611L7.94918 16.6444C8.44261 17.1185 9.24394 17.1185 9.73737 16.6444C10.2308 16.1702 10.2308 15.4001 9.73737 14.926L3.05039 8.5L9.73343 2.07403C10.2269 1.59985 10.2269 0.8298 9.73343 0.355629C9.23999 -0.118543 8.43866 -0.118543 7.94523 0.355629L0.366126 7.6389L0.370073 7.6427Z"
+          fill="black"
+        />
+      </svg>
+
+      <p id="clothes-mobile">Clothes</p>
+    </div>
+    <section id="section-mobile">
+      <div class="scroll-container">
+        <div class="scroll-item">Jeans</div>
+        <div class="scroll-item">Jackets</div>
+        <div class="scroll-item">Sweaters</div>
+        <div class="scroll-item">Dresses</div>
+        <div class="scroll-item">Coats</div>
+        <div class="scroll-item">Pants</div>
+        <div class="scroll-item">T-shirts</div>
+        <div class="scroll-item">Tops</div>
+        <div class="scroll-item">Blazers</div>
+        <div class="scroll-item">Bikini</div>
+        <div class="scroll-item">Underwear</div>
+        <div class="scroll-item">Maternity</div>
+        <div class="scroll-item">Plus-size</div>
+      </div>
+    </section>
+    <div id="main-mobile">
+      <div id="products-container-mobile">
+        <div class="shopping-item-mobile">
+          <a href="product-page.html">
+          <img  src="img/category-page/whitedress.jpg" /> </a>
+          <div class="product-caption-mobile">
+            <a href="product-page.html"> Long sleeve knit midi dress with faux fur </a>
+          </div>
+          <div class="product-price-2line-mobile"> <a href="product-page.html"> 39,90 € </a></div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-mobile">
+          <img  src="img/category-page/blouse-item1.jpg" />
+          <div class="product-caption-mobile">Cotton blouse</div>
+          <div class="product-price-mobile">30,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-mobile">
+          <img  src="img/category-page/jumpsuit-item2.jpg" />
+          <div class="product-caption-mobile">Jumpsuit with tie belt</div>
+          <div class="product-price-2line-mobile">42,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-mobile">
+          <img  src="img/category-page/pants-item3.jpg" />
+          <div class="product-caption-mobile">Leather pants</div>
+          <div class="product-price-2line-mobile">50,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-mobile">
+          <img  src="img/category-page/jumpsuit-item4.jpg" />
+          <div class="product-caption-mobile">Sequin dress with high slit</div>
+          <div class="product-price-2line-mobile">49,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-mobile">
+          <img  src="img/category-page/dress-item5.jpg" />
+          <div class="product-caption-mobile">Satin shirt dress</div>
+          <div class="product-price-2line-mobile">30,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-mobile">
+          <img  src="img/category-page/coat-item6.jpg" />
+          <div class="product-caption-mobile">Shaggy coat</div>
+          <div class="product-price-2line-mobile">99,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-mobile">
+          <img  src="img/category-page/jacket-item7.jpg" />
+          <div class="product-caption-mobile">Leather jacket</div>
+          <div class="product-price-2line-mobile">40,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-mobile">
+          <img  src="img/category-page/jacket-item8.jpg" />
+          <div class="product-caption-mobile">Quilted puffer jacket</div>
+          <div class="product-price-2line-mobile">59,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-mobile">
+          <img  src="img/category-page/dress-item9.jpg" />
+          <div class="product-caption">Rib knit dress</div>
+          <div class="product-price-2line-mobile">30,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+        </div>
+  </section>
+
+    <p id="viewing-mobile">Viewing 10/420</p>
+
+    <div id="show-more-mobile">
+      <p id="text-show-mobile">Show more</p>
+    </div>
+    </div>
+
+   
     <!--mobile footer-->
     <footer>
       <div id="mobile-footer">
@@ -625,5 +639,216 @@
         </div>
       </div>
     </footer>
+
+    <!--Tablet version-->
+
+    <img id="tablet-woman" src="img/category-page/women-pic.jpg" />
+    <div id="top-part-tablet">
+      <svg
+        id="back-tablet"
+        xmlns="http://www.w3.org/2000/svg"
+        width="11"
+        height="17"
+        viewBox="0 0 11 17"
+        fill="none"
+      >
+        <path
+          d="M0.370073 7.6427C-0.123358 8.11687 -0.123358 8.88692 0.370073 9.3611L7.94918 16.6444C8.44261 17.1185 9.24394 17.1185 9.73737 16.6444C10.2308 16.1702 10.2308 15.4001 9.73737 14.926L3.05039 8.5L9.73343 2.07403C10.2269 1.59985 10.2269 0.8298 9.73343 0.355629C9.23999 -0.118543 8.43866 -0.118543 7.94523 0.355629L0.366126 7.6389L0.370073 7.6427Z"
+          fill="black"
+        />
+      </svg>
+
+      <p id="clothes-tablet">Clothes</p>
+    </div>
+    <section id="section-tablet">
+      <div class="scroll-container-tablet">
+        <div class="scroll-item-tablet">Jeans</div>
+        <div class="scroll-item-tablet">Jackets</div>
+        <div class="scroll-item-tablet">Sweaters</div>
+        <div class="scroll-item-tablet">Dresses</div>
+        <div class="scroll-item-tablet">Coats</div>
+        <div class="scroll-item-tablet">Pants</div>
+        <div class="scroll-item-tablet">T-shirts</div>
+        <div class="scroll-item-tablet">Tops</div>
+        <div class="scroll-item-tablet">Blazers</div>
+        <div class="scroll-item-tablet">Bikini</div>
+        <div class="scroll-item-tablet">Underwear</div>
+        <div class="scroll-item-tablet">Maternity</div>
+        <div class="scroll-item-tablet">Plus-size</div>
+      </div>
+    </section>
+
+    <div id="main-tablet">
+      <div id="products-container-tablet">
+        <div class="shopping-item-tablet">
+          <a href="product-page.html"> <img class="item-pic-tablet" src="img/category-page/whitedress.jpg" /> </a>
+          <div class="product-caption-tablet">
+            <a href="product-page.html">
+            Long sleeve knit midi dress with faux fur </a>
+          </div>
+          <div class="product-price-2line-tablet"> <a href="product-page.html">39,90 € </a> </div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-tablet">
+          <img class="item-pic-tablet" src="img/category-page/blouse-item1.jpg" />
+          <div class="product-caption-tablet">Cotton blouse</div>
+          <div class="product-price-2line-tablet">30,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-tablet">
+          <img class="item-pic-tablet" src="img/category-page/jumpsuit-item2.jpg" />
+          <div class="product-caption-tablet">Jumpsuit with tie belt</div>
+          <div class="product-price-2line-tablet">42,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-tablet">
+          <img class="item-pic-tablet" src="img/category-page/pants-item3.jpg" />
+          <div class="product-caption-tablet">Leather pants</div>
+          <div class="product-price-2line-tablet">50,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-tablet">
+          <img class="item-pic-tablet" src="img/category-page/jumpsuit-item4.jpg" />
+          <div class="product-caption-tablet">Sequin dress with high slit</div>
+          <div class="product-price-2line-tablet">49,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-tablet">
+          <img class="item-pic-tablet" src="img/category-page/dress-item5.jpg" />
+          <div class="product-caption-tablet">Satin shirt dress</div>
+          <div class="product-price-2line-tablet">30,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-tablet">
+          <img class="item-pic-tablet" src="img/category-page/coat-item6.jpg" />
+          <div class="product-caption-tablet">Shaggy coat</div>
+          <div class="product-price-2line-tablet">99,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-tablet">
+          <img class="item-pic-tablet" src="img/category-page/jacket-item7.jpg" />
+          <div class="product-caption-tablet">Leather jacket</div>
+          <div class="product-price-2line-tablet">40,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-tablet">
+          <img  src="img/category-page/jacket-item8.jpg" />
+          <div class="product-caption-tablet">Quilted puffer jacket</div>
+          <div class="product-price-2line-tablet">59,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="shopping-item-tablet">
+          <img  src="img/category-page/dress-item9.jpg" />
+          <div class="product-caption-tablet">Rib knit dress</div>
+          <div class="product-price-2line-tablet">30,90 €</div>
+          <button id="wishlist-button" onclick="wishlist()">
+            <i id="wishlist" class="far fa-heart"></i>
+          </button>
+        </div>
+        </div>
+  </section>
+
+    <p id="viewing-tablet">Viewing 10/420</p>
+
+    <div id="show-more-tablet">
+      <p id="text-show-tablet">Show more</p>
+    </div>
+    </div>
+
+<footer id="category-footer-tablet">
+    <div id="tablet-footer">
+      <div class="row primary">
+        <div class="text-columns-footer">
+          <div class="first-column">
+            <p id="footer-header">Get help</p>
+            <ul>
+              <li><a href="#">Help Centre</a></li>
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Returns</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Gift Cards</a></li>
+            </ul>
+          </div>
+
+          <div class="second-column">
+            <p id="footer-header">Company</p>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Parthner Programme</a></li>
+              <li><a href="#">Collaborations</a></li>
+              <li><a href="#">Investor Relations</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="subscribe-column">
+          <p id="footer-header">
+            Subscribe so you don't miss out on anything!
+          </p>
+          <div>
+            <input type="text" placeholder="E-mail Address" />
+          </div>
+
+          <img
+            class="logo-footer"
+            src="img/logo/logo-nextrend.png"
+            alt="logo"
+          />
+
+          <div class="social">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-pinterest"></i>
+            <i class="fa-brands fa-tiktok"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="secondary-row">
+        <div>
+          <p>
+            <i class="fa-regular fa-copyright"></i>
+            2023 NEXTREND
+          </p>
+        </div>
+
+        <div class="footer-menu">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
   </body>
 </html>
