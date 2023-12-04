@@ -51,7 +51,7 @@
   }
 
   /* Style the list */
-  ul.breadcrumb {
+  ul.breadcrumb-cart {
     list-style: none;
     color: #a8a39d;
     font-family: Nexa;
@@ -62,13 +62,13 @@
   }
 
   /* Display list items side by side */
-  ul.breadcrumb li {
+  ul.breadcrumb-cart li {
     display: inline;
     font-size: 18px;
   }
 
   /* Style for the links */
-  ul.breadcrumb li a {
+  ul.breadcrumb-cart li a {
     color: #a8a39d;
     font-family: Nexa;
     font-size: 18px;
