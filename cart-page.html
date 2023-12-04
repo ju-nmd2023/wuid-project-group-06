@@ -122,14 +122,6 @@
       </div>
     </header>
 
-    <!-- Tablet verion of second nav -->
-    <nav class="gender-tablet">
-      <ul>
-        <li><a class="active" href="#">Women</a></li>
-        <li><a href="#">Men</a></li>
-        <li><a href="#">Kids</a></li>
-      </ul>
-    </nav>
     <!-- Web version of second nav-->
     <nav class="nav-category">
       <ul>
@@ -141,6 +133,7 @@
         <input id="searchbar" type="text" placeholder="Search.." />
       </ul>
     </nav>
+
     <!-- Web version of main-->
     <main id="web-main">
       <div class="first-container-web">
@@ -207,7 +200,6 @@
         </div>
       </div>
     </main>
-
     <!-- Mobile version of main-->
     <main id="mobile-main">
       <div class="first-container-mob">
@@ -223,12 +215,13 @@
           </div>
 
           <div class="product-container-mob">
-            <div id="product-image-mob">
+            <div class="product-image-mob">
               <img
-                class="img-product-cart"
+                id="img-product-cart"
                 src="img/whitedress.png"
                 alt="White dress"
               />
+              <i id="bin-icon-mob" class="fa-regular fa-trash-can"></i>
             </div>
 
             <div class="product-info-mob">
@@ -238,7 +231,6 @@
               <p id="product-size-mob">XS</p>
 
               <p id="product-colour-mob">Colour: White</p>
-              <i id="bin-icon-mob" class="fa-regular fa-trash-can"></i>
 
               <div class="button-and-price-mob">
                 <div id="button-container">
@@ -275,6 +267,74 @@
         </div>
       </div>
     </main>
+    <!-- Tablet version of main-->
+    <main id="tablet-main">
+      <div class="first-container-tab">
+        <div class="cart-product-info-tab">
+          <div class="arrow-heading-tab">
+            <i class="fa-solid fa-chevron-left"></i>
+            <h1 id="cart-heading-tab">Shopping Basket</h1>
+          </div>
+
+          <div class="delivery-container-text-tab">
+            <p id="delivery-text-tab">Expected Delivery</p>
+            <p id="delivery-text-tab">15.12 - 17.12</p>
+          </div>
+
+          <div class="product-container-tab">
+            <div class="product-image-tab">
+              <img
+                id="img-product-cart"
+                src="img/whitedress.png"
+                alt="White dress"
+              />
+              <i id="bin-icon-tab" class="fa-regular fa-trash-can"></i>
+            </div>
+
+            <div class="product-info-tab">
+              <p id="product-name-tab">
+                Long sleeve knit midi dress with faux fur
+              </p>
+              <p id="product-size-tab">XS</p>
+
+              <p id="product-colour-tab">Colour: White</p>
+
+              <div class="button-and-price-tab">
+                <div id="button-container">
+                  <button id="button-minus">
+                    <i class="fa-solid fa-minus"></i>
+                  </button>
+                  <span id="quantity">1</span>
+                  <button id="button-plus">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+                <p id="product-price-tab">39,90 €</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cost-container-tab">
+          <div class="first-line-cart-tab">
+            <p id="cost-text-tab">Subtotal</p>
+            <p id="cost-text-tab">39,90 €</p>
+          </div>
+          <div class="second-line-cart-tab">
+            <p id="cost-text-tab">Delivery Costs</p>
+            <p id="cost-text-tab">5,00 €</p>
+          </div>
+          <div class="third-line-cart-tab">
+            <p id="total-text-tab">Total</p>
+            <p id="total-text-tab">44,90 €</p>
+          </div>
+          <div class="checkout-btn-container-tab">
+            <button id="checkout-btn-tab">Proceed to checkout</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
 
     <footer>
       <!-- Web version of footer-->
