@@ -171,11 +171,11 @@
 
               <div class="button-and-price-web">
                 <div id="button-container">
-                  <button id="button-minus">
+                  <button id="button-minus" onclick="decreaseQuantity()">
                     <i class="fa-solid fa-minus"></i>
                   </button>
                   <span id="quantity">1</span>
-                  <button id="button-plus">
+                  <button id="button-plus" onclick="increaseQuantity()">
                     <i class="fa-solid fa-plus"></i>
                   </button>
                 </div>
@@ -188,15 +188,15 @@
         <div class="cost-container-web">
           <div class="first-line-cart-web">
             <p id="cost-text-web">Subtotal</p>
-            <p id="cost-text-web">39,90 €</p>
+            <p id="subTotal">39,90 €</p>
           </div>
           <div class="second-line-cart-web">
             <p id="cost-text-web">Delivery Costs</p>
-            <p id="cost-text-web">5,00 €</p>
+            <p id="deliveryCost">5,00 €</p>
           </div>
           <div class="third-line-cart-web">
             <p id="total-text-web">Total</p>
-            <p id="total-text-web">44,90 €</p>
+            <p id="totalAmount">44,90 €</p>
           </div>
           <div class="checkout-btn-container-web">
             <button id="checkout-btn-web">Proceed to checkout</button>
@@ -204,209 +204,8 @@
         </div>
       </div>
 
-      <section id="New-Wrapper">
-        <div id="New-Slideshow">
-          <div id="New-Slider">
-            <div class="new-slide">
-              <div class="shopping-item">
-                <img src="img/category-page/blouse-item1.jpg" />
-                <div class="product-caption">Cotton blouse</div>
-                <div class="product-price-2line">30,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
 
-              <div class="shopping-item">
-                <img src="img/category-page/pants-item3.jpg" />
-                <div class="product-caption">Leather pants</div>
-                <div class="product-price-2line">50,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
 
-              <div class="shopping-item">
-                <img src="img/category-page/pants-item3.jpg" />
-                <div class="product-caption">Leather pants</div>
-                <div class="product-price-2line">50,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-
-              <div class="shopping-item">
-                <img src="img/category-page/jumpsuit-item4.jpg" />
-                <div class="product-caption">Sequin dress with high slit</div>
-                <div class="product-price-2line">49,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-
-              <div class="shopping-item">
-                <img src="img/category-page/dress-item5.jpg" />
-                <div class="product-caption">Satin shirt dress</div>
-                <div class="product-price-2line">30,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-
-              <div class="shopping-item">
-                <img src="img/category-page/coat-item6.jpg" />
-                <div class="product-caption">Shaggy coat</div>
-                <div class="product-price-2line">99,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-            </div>
-
-            <div class="new-slide">
-              <div class="shopping-item">
-                <img src="img/category-page/jumpsuit-item2.jpg" />
-                <div class="product-caption">Jumpsuit with tie belt</div>
-                <div class="product-price-2line">42,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-
-              <div class="shopping-item">
-                <img src="img/category-page/pants-item3.jpg" />
-                <div class="product-caption">Leather pants</div>
-                <div class="product-price-2line">50,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-
-              <div class="shopping-item">
-                <img src="img/category-page/jumpsuit-item4.jpg" />
-                <div class="product-caption">Sequin dress with high slit</div>
-                <div class="product-price-2line">49,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-
-              <div class="shopping-item">
-                <img src="img/category-page/dress-item5.jpg" />
-                <div class="product-caption">Satin shirt dress</div>
-                <div class="product-price-2line">30,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-
-              <div class="shopping-item">
-                <img src="img/category-page/coat-item6.jpg" />
-                <div class="product-caption">Shaggy coat</div>
-                <div class="product-price-2line">99,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-
-              <div class="shopping-item">
-                <img src="img/category-page/blouse-item1.jpg" />
-                <div class="product-caption">Cotton blouse</div>
-                <div class="product-price-2line">30,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-            </div>
-            <div class="new-slide">
-              <div class="shopping-item">
-                <img src="img/category-page/pants-item3.jpg" />
-                <div class="product-caption">Leather pants</div>
-                <div class="product-price-2line">50,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-
-              <div class="shopping-item">
-                <img src="img/category-page/jumpsuit-item4.jpg" />
-                <div class="product-caption">Sequin dress with high slit</div>
-                <div class="product-price-2line">49,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-
-              <div class="shopping-item">
-                <img src="img/category-page/dress-item5.jpg" />
-                <div class="product-caption">Satin shirt dress</div>
-                <div class="product-price-2line">30,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-
-              <div class="shopping-item">
-                <img src="img/category-page/coat-item6.jpg" />
-                <div class="product-caption">Shaggy coat</div>
-                <div class="product-price-2line">99,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-
-              <div class="shopping-item">
-                <img src="img/category-page/blouse-item1.jpg" />
-                <div class="product-caption">Cotton blouse</div>
-                <div class="product-price-2line">30,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-
-              <div class="shopping-item">
-                <img src="img/category-page/jumpsuit-item2.jpg" />
-                <div class="product-caption">Jumpsuit with tie belt</div>
-                <div class="product-price-2line">42,90 €</div>
-                <button class="product-heart" onclick="wishlist()">
-                  <i id="heart-web-far" class="far fa-heart"></i>
-                  <i id="heart-web-fas" class="fas fa-heart hidden"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-
-          <div id="New-Arrows">
-            <i
-              id="New-Prev"
-              class="fa fa-chevron-left fa-2x"
-              aria-hidden="true"
-            ></i>
-            <i
-              id="New-Next"
-              class="fa fa-chevron-right fa-2x"
-              aria-hidden="true"
-            ></i>
-          </div>
-        </div>
-      </section>
     </main>
     <!-- Mobile version of main-->
     <main id="mobile-main">
@@ -506,19 +305,15 @@
               <p id="product-size-tab">XS</p>
 
               <p id="product-colour-tab">Colour: White</p>
-
-              <div class="button-and-price-tab">
+              <div id="button-and-price-web">
                 <div id="button-container">
-                  <button id="button-minus">
-                    <i class="fa-solid fa-minus"></i>
-                  </button>
+                  <button id="button-minus"><i class="fa-solid fa-minus"></i></button>
                   <span id="quantity">1</span>
-                  <button id="button-plus">
-                    <i class="fa-solid fa-plus"></i>
-                  </button>
+                  <button id="button-plus"><i class="fa-solid fa-plus"></i></button>
                 </div>
-                <p id="product-price-tab">39,90 €</p>
+                <p id="product-price-web">39,90 €</p>
               </div>
+
             </div>
           </div>
         </div>
@@ -542,6 +337,493 @@
         </div>
       </div>
     </main>
+
+  <p id="for-you-cart">FOR YOU</p>
+  <p id="finish-look"> Finish the look </p>
+
+
+</section>
+    <section id="Wrapper-3">
+
+      <div id="Slideshow-3">
+          
+        <div id="Slider-3">
+          <div class="slide-3">
+    
+            <div class="shopping-item">
+              <img src="img/category-page/jacket-item14.jpg" />
+              <div class="product-caption">Quilted jacket with belt</div>
+              <div class="product-price-2line">59,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+    
+            <div class="shopping-item">
+              <img src="img/category-page/blzer-item15.jpg" />
+              <div class="product-caption">Black blazer</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+    
+            <div class="shopping-item">
+              <img src="img/category-page/coat-item6.jpg" />
+              <div class="product-caption">Shaggy coat</div>
+              <div class="product-price-2line">99,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+    
+            <div class="shopping-item">
+              <img src="img/category-page/jacket-item7.jpg" />
+              <div class="product-caption">Leather jacket</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/trench-coat.jpg" />
+              <div class="product-caption">Long trench coat</div>
+              <div class="product-price-2line">50,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+    
+            <div class="shopping-item">
+              <img src="img/category-page/leather-jacket.jpg" />
+              <div class="product-caption">Leather jacket</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+    
+          </div>
+          <div class="slide-3">
+            <div class="shopping-item">
+              <img src="img/category-page/blzer-item15.jpg" />
+              <div class="product-caption">Black blazer</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+    
+            <div class="shopping-item">
+              <img src="img/category-page/coat-item6.jpg" />
+              <div class="product-caption">Shaggy coat</div>
+              <div class="product-price-2line">99,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+    
+            <div class="shopping-item">
+              <img src="img/category-page/jacket-item7.jpg" />
+              <div class="product-caption">Leather jacket</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/trench-coat.jpg" />
+              <div class="product-caption">Long trench coat</div>
+              <div class="product-price-2line">50,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+    
+            <div class="shopping-item">
+              <img src="img/category-page/leather-jacket.jpg" />
+              <div class="product-caption">Leather jacket</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/sweater-item11.jpg" />
+              <div class="product-caption">Jacquard knit sweater</div>
+              <div class="product-price-2line">35,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            </div>
+    
+          <div class="slide-3">
+    
+            <div class="shopping-item">
+              <img src="img/category-page/coat-item6.jpg" />
+              <div class="product-caption">Shaggy coat</div>
+              <div class="product-price-2line">99,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+    
+            <div class="shopping-item">
+              <img src="img/category-page/jacket-item7.jpg" />
+              <div class="product-caption">Leather jacket</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/trench-coat.jpg" />
+              <div class="product-caption">Long trench coat</div>
+              <div class="product-price-2line">50,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+    
+            <div class="shopping-item">
+              <img src="img/category-page/leather-jacket.jpg" />
+              <div class="product-caption">Leather jacket</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/sweater-item11.jpg" />
+              <div class="product-caption">Jacquard knit sweater</div>
+              <div class="product-price-2line">35,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/jacket-item14.jpg" />
+              <div class="product-caption">Quilted jacket with belt</div>
+              <div class="product-price-2line">59,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+
+          </div>
+
+
+          <div class="slide-3">
+    
+            <div class="shopping-item">
+              <img src="img/category-page/jacket-item7.jpg" />
+              <div class="product-caption">Leather jacket</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/trench-coat.jpg" />
+              <div class="product-caption">Long trench coat</div>
+              <div class="product-price-2line">50,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+    
+            <div class="shopping-item">
+              <img src="img/category-page/leather-jacket.jpg" />
+              <div class="product-caption">Leather jacket</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/sweater-item11.jpg" />
+              <div class="product-caption">Jacquard knit sweater</div>
+              <div class="product-price-2line">35,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/jacket-item14.jpg" />
+              <div class="product-caption">Quilted jacket with belt</div>
+              <div class="product-price-2line">59,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/blzer-item15.jpg" />
+              <div class="product-caption">Black blazer</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+    
+          </div>
+
+          <div class="slide-3">
+  
+
+            <div class="shopping-item">
+              <img src="img/category-page/trench-coat.jpg" />
+              <div class="product-caption">Long trench coat</div>
+              <div class="product-price-2line">50,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+    
+            <div class="shopping-item">
+              <img src="img/category-page/leather-jacket.jpg" />
+              <div class="product-caption">Leather jacket</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/sweater-item11.jpg" />
+              <div class="product-caption">Jacquard knit sweater</div>
+              <div class="product-price-2line">35,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/jacket-item14.jpg" />
+              <div class="product-caption">Quilted jacket with belt</div>
+              <div class="product-price-2line">59,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/blzer-item15.jpg" />
+              <div class="product-caption">Black blazer</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/coat-item6.jpg" />
+              <div class="product-caption">Shaggy coat</div>
+              <div class="product-price-2line">99,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+
+    
+          </div>
+
+
+          <div class="slide-3">
+
+    
+            <div class="shopping-item">
+              <img src="img/category-page/leather-jacket.jpg" />
+              <div class="product-caption">Leather jacket</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/sweater-item11.jpg" />
+              <div class="product-caption">Jacquard knit sweater</div>
+              <div class="product-price-2line">35,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/jacket-item14.jpg" />
+              <div class="product-caption">Quilted jacket with belt</div>
+              <div class="product-price-2line">59,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/blzer-item15.jpg" />
+              <div class="product-caption">Black blazer</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/coat-item6.jpg" />
+              <div class="product-caption">Shaggy coat</div>
+              <div class="product-price-2line">99,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+
+            <div class="shopping-item">
+              <img src="img/category-page/jacket-item7.jpg" />
+              <div class="product-caption">Leather jacket</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+    
+          </div>
+
+
+          
+          <div class="slide-3">
+
+
+            <div class="shopping-item">
+              <img src="img/category-page/sweater-item11.jpg" />
+              <div class="product-caption">Jacquard knit sweater</div>
+              <div class="product-price-2line">35,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/jacket-item14.jpg" />
+              <div class="product-caption">Quilted jacket with belt</div>
+              <div class="product-price-2line">59,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/blzer-item15.jpg" />
+              <div class="product-caption">Black blazer</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/coat-item6.jpg" />
+              <div class="product-caption">Shaggy coat</div>
+              <div class="product-price-2line">99,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+
+            <div class="shopping-item">
+              <img src="img/category-page/jacket-item7.jpg" />
+              <div class="product-caption">Leather jacket</div>
+              <div class="product-price-2line">40,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+            <div class="shopping-item">
+              <img src="img/category-page/trench-coat.jpg" />
+              <div class="product-caption">Long trench coat</div>
+              <div class="product-price-2line">50,90 €</div>
+              <button class="product-heart" onclick="wishlist()">
+                <i id="heart-web-far" class="far fa-heart"></i>
+                <i id="heart-web-fas" class="fas fa-heart hidden"></i>
+              </button>
+            </div>
+
+
+            
+          </div>
+
+
+
+
+        </div>
+        </div>
+        <div id="Arrows-3">
+          <i id="Prev-3" class="fa fa-chevron-left fa-2x" aria-hidden="true"></i>
+          <i id="Next-3" class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+        </div>
+    
+      </div>
+    </section>
+
+
 
     <footer>
       <!-- Web version of footer-->
