@@ -99,7 +99,7 @@
     font-style: normal;
     font-weight: 400;
   }
-
+  
   .button-and-price-web {
     display: flex;
     flex-direction: row;
@@ -187,6 +187,36 @@
   }
 
   #total-text-web {
+    color: #000;
+    font-family: Nexa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+  }
+
+  #deliveryCost {
+    color: #000;
+    font-family: Nexa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+  }
+
+  #subTotal {
+    color: #000;
+    font-family: Nexa;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+  }
+
+  #totalAmount {
     color: #000;
     font-family: Nexa;
     font-size: 24px;
@@ -608,39 +638,43 @@
     padding-top: 0.625rem;
   }
 
-  .button-and-price-tab {
-    display: flex;
-    justify-content: space-between;
-  }
 
+  
+  #button-and-price-web {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100%; /* Push the button container to the bottom */
+  }
+  
   #button-container {
     background-color: #f8f1e9;
-    width: 4.875rem;
-    height: 1.938rem;
+    width: 6.938rem;
+    height: 2.75rem;
     display: flex; /* Use flexbox */
-    justify-content: space-between;
+    justify-content: space-between; /* Equal gap between buttons */
     align-items: center;
     text-align: center;
   }
-
-  #button-minus {
-    background-color: #f8f1e9;
-    border: none;
-    padding-left: 1rem;
-  }
-
+  
+  #button-minus,
   #button-plus {
     background-color: #f8f1e9;
     border: none;
-    padding-right: 1rem;
+    padding: 0 1rem; /* Equal padding on left and right */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
   }
-
+  
   #quantity {
     color: #000;
     font-family: Nexa;
-    font-size: 14px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 800;
+    margin: 0; /* Remove margin to center the text vertically */
   }
 
   #product-price-tab {
