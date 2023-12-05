@@ -1,249 +1,299 @@
 .payment-container {
+  margin-left: 8.44rem;
+  margin-right: 8.44rem;
+  gap: 1.87rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
-margin-top: 3.438rem;
-margin-left: 8.44rem;
-margin-right: 8.44rem;
-gap: 1.87rem;
-display: grid;
-grid-template-columns: 1fr 1fr;
+#main-heading {
+  color: #000;
+  font-family: Nexa;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 3.438rem;
 }
 
 h1 {
-    font-weight: 700;
-    font-size: 1.5rem;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .payment-container h1 {
-    margin-top: 3rem;
+  margin-top: 2.625rem;
 }
 
 .payment-fields {
-    margin-top: 1.44rem;
+  margin-top: 1.44rem;
 }
 
-.payment-fields p{
-    font-size: 1.25rem;
+.payment-fields p {
+  font-size: 1.25rem;
 }
 
 #payment-info {
-    height: 2.625rem;
-    width: 100%;
-    border: 1px solid #d9d9d9;
+  height: 2.625rem;
+  width: 100%;
+  border: 1px solid #d9d9d9;
 }
 
 .picture {
-    width: 50%;
-    margin-top: 1.44rem;
-    margin-right: 20px;
-  }
-  
-  .order-information {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .content {
-    display: flex;
-  }
-  
-  .img-product-payment {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
-  }
-  
-  .info {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1.44rem;
-  }
-  
-  .info h2 {
-    font-size: 1.25rem;
-    font-weight: 800;
-    line-height: 1.4375rem;
-    margin-bottom: 5px;
-  }
-  
-  .info p {
-    font-size: 1.25rem;
-    font-weight: 400;
-    line-height: 2.5rem;
-    margin: 0;
-  }
-  
-  .info i {
-    margin-top: 5px; /* Adjust the margin-top for better spacing */
-    margin-left: 55%;
-  }
-
-  #product-price-web {
-    margin-right: 1.44rem;
-  }
-  
-  #button-and-price-web {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: auto; /* Push the button container to the bottom */
-  }
-  
-  #button-container {
-    background-color: #f8f1e9;
-    width: 6.938rem;
-    height: 2.75rem;
-    display: flex; /* Use flexbox */
-    justify-content: space-between; /* Equal gap between buttons */
-    align-items: center;
-    text-align: center;
-  }
-  
-  #button-minus,
-  #button-plus {
-    background-color: #f8f1e9;
-    border: none;
-    padding: 0 1rem; /* Equal padding on left and right */
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 1rem;
-  }
-  
-  #quantity {
-    color: #000;
-    font-family: Nexa;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 800;
-    margin: 0; /* Remove margin to center the text vertically */
-  }
-  
-.price-box {
-  margin-top: 3rem;
-  background-color: #F8F1E9;
-  height: 10rem;
-  width: 30rem;
-  display: flex;
-  flex-direction: column;
+  width: 50%;
+  margin-top: 1.44rem;
+  margin-right: 20px;
 }
 
-.price-item{
+.order-information {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5.5rem;
+}
+
+.content {
+  display: flex;
+}
+
+.img-product-payment {
+  max-width: 100%;
+  height: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.44rem;
+}
+
+.info h2 {
+  font-size: 1.25rem;
+  font-weight: 800;
+  line-height: 1.4375rem;
+  margin-bottom: 5px;
+}
+
+.info p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  margin: 0;
+}
+
+.colour-and-bin-web {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#bin-icon-web {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  margin: 0;
+}
+
+#product-price-web {
+  color: #000;
+  font-family: Nexa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+}
+
+#button-and-price-web {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto; /* Push the button container to the bottom */
+}
+
+#button-container {
+  background-color: #f8f1e9;
+  width: 6.938rem;
+  height: 2.75rem;
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Equal gap between buttons */
+  align-items: center;
+  text-align: center;
+}
+
+#button-minus,
+#button-plus {
+  background-color: #f8f1e9;
+  border: none;
+  padding: 0 1rem; /* Equal padding on left and right */
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#quantity {
+  color: #000;
+  font-family: Nexa;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 800;
+  margin: 0; /* Remove margin to center the text vertically */
+}
+
+.price-box {
+  margin-top: 3rem;
+  background-color: #f8f1e9;
+  height: 9%;
+  width: 89%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.625rem;
+  padding-left: 1.938rem;
+  padding-right: 1.938rem;
+}
+
+.price-item-1 {
   display: flex;
   justify-content: space-between;
-  padding: 1rem 1rem 0.25rem 1rem;
-  font-size: 1.25rem;
+}
+
+.price-item-2 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.75rem;
 }
 
 .price-item-total {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 1rem 0.25rem 1rem;
-    font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
 }
 
-
-.price {
-  float: right; /* Float prices to the right */
-  font-size: 1.25rem;
+#first-text {
+  color: #000;
+  font-family: Nexa;
+  font-size: 20px;
+  font-style: normal;
   font-weight: 800;
 }
 
-#total {
-    font-size: 1.5rem;
+#big-text {
+  color: #000;
+  font-family: Nexa;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
 }
 
-  
-  
+.price {
+  float: right;
+  color: #000;
+  font-family: Nexa;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+#total-price {
+  float: right;
+  color: #000;
+  font-family: Nexa;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+}
+
 .cards {
-    display: flex;
-width: 570px;
-height: 42px;
-justify-content: center;
-align-items: center;
-text-align: left;
-flex-shrink: 0;
-border: 1px solid #d9d9d9;
-border-bottom: 0;
-position: relative;
+  display: flex;
+  width: 570px;
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  flex-shrink: 0;
+  border: 1px solid #d9d9d9;
+  border-bottom: 0;
+  position: relative;
 }
 
-#visa-pic, #maestro-pic {
-    width: 9%;   
-    position: absolute;
-    margin-right: 85%;
-    padding-right: 12px;
+#visa-pic,
+#maestro-pic {
+  width: 9%;
+  position: absolute;
+  margin-right: 85%;
+  padding-right: 12px;
 }
 
 #master-pic {
-    width: 11%;  
-    position: absolute; 
-    margin-right: 85%;
-    padding-right: 12px;
+  width: 11%;
+  position: absolute;
+  margin-right: 85%;
+  padding-right: 12px;
 }
 
 #cash-pic {
-    width: 50px;
-height: 50px;
-flex-shrink: 0;
-position: absolute;
-margin-right: 85%;
-padding-right: 12px;
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  position: absolute;
+  margin-right: 85%;
+  padding-right: 12px;
 }
 
-
 #cash-pay {
-    display: flex;
-width: 570px;
-height: 42px;
-justify-content: center;
-align-items: center;
-flex-shrink: 0;
-border: 1px solid #d9d9d9;
-position: relative;
+  display: flex;
+  width: 570px;
+  height: 42px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border: 1px solid #d9d9d9;
+  position: relative;
 }
 
 .visa-text {
-    color: #000;
-font-family: Nexa;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-position: absolute;
-margin-right: 67.5%;
-margin-top: 0.5%;
+  color: #000;
+  font-family: Nexa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  margin-right: 67.5%;
+  margin-top: 0.5%;
 }
 
 .master-text {
-    color: #000;
-font-family: Nexa;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-position: absolute;
-margin-right: 57%;
-margin-top: 0.5%;
+  color: #000;
+  font-family: Nexa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  margin-right: 57%;
+  margin-top: 0.5%;
 }
 
 .maestro-text {
-    color: #000;
-font-family: Nexa;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-position: absolute;
-margin-right: 55%;
-margin-top: 0.5%;
+  color: #000;
+  font-family: Nexa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  margin-right: 55%;
+  margin-top: 0.5%;
 }
 
 .cash-text {
-    color: #000;
-font-family: Nexa;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-position: absolute;
-margin-right: 51.5%;
-margin-top: 0.5%;
+  color: #000;
+  font-family: Nexa;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  margin-right: 51.5%;
+  margin-top: 0.5%;
 }
+

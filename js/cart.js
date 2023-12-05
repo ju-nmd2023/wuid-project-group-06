@@ -1,31 +1,48 @@
-//Elliots things *LEAVE THEM BE*
+let quantity;
 
+        function increaseQuantity() {
+            var quantitySpan = document.getElementById('quantity');
+            var currentQuantity = parseInt(quantitySpan.innerText);
+            quantitySpan.innerText = currentQuantity + 1;
+            updateSubTotalAndTotal();
+        }
 
-<div id="container2">
-  <h2>Item Cost Calculator</h2>
-  <p id="item-cost">Total Cost: $0</p>
-  <div id=container>
-  <button onclick="updateCost(-1)">-</button>
-  <span id="quantity">1</span>
-  <button onclick="updateCost(1)">+</button>
-  </div>
-</div>
+        function decreaseQuantity() {
+            var quantitySpan = document.getElementById('quantity');
+            var currentQuantity = parseInt(quantitySpan.innerText);
 
-let quantity = 1;
-const costPerItem = 39.90;
-const deliveryCost = 5.00;
+            // Ensure the quantity is at least 1
+            if (currentQuantity > 1) {
+                quantitySpan.innerText = currentQuantity - 1;
+                updateSubTotalAndTotal();
+            } 
+        }
 
-function updateCost(change) {
-  quantity = Math.max(1, quantity + change);
-  updateDisplay();
-}
+        function updateSubTotalAndTotal() {
+            var quantity = parseInt(document.getElementById('quantity').innerText);
+            var pricePerItem = 39.90; // Update this with the actual price per item
 
-function updateDisplay() {
-  const totalCost = (quantity * costPerItem) + deliveryCost;
-  document.getElementById('item-cost').textContent = `Total Cost: $${totalCost.toFixed(2)}`;
-  document.getElementById('quantity').textContent = quantity;
-}
+            // Calculate subtotal and update the element
+            var subTotal = quantity * pricePerItem;
+            document.getElementById('subTotal').innerText = subTotal.toFixed(2) + " €";
 
-// Initial display
-updateDisplay();
+            // Add delivery cost (assuming it's a fixed cost)
+            var deliveryCost = 5.00;
+            var totalAmount = subTotal + deliveryCost;
+            document.getElementById('totalAmount').innerText = totalAmount.toFixed(2) + " €";
+        }
+/*slideshow*/
 
+document.addEventListener("DOMContentLoaded", function() {
+  let newNextButton = document.getElementById("New-Next");
+  let newPrevButton = document.getElementById("New-Prev");
+  let newSlider = document.getElementById("New-Slider");
+
+  newNextButton.addEventListener("click", function() {
+    newSlider.appendChild(newSlider.firstElementChild);
+  });
+
+  newPrevButton.addEventListener("click", function() {
+    newSlider.insertBefore(newSlider.lastElementChild, newSlider.firstElementChild);
+  });
+});

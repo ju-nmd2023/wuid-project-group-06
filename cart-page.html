@@ -171,11 +171,11 @@
 
               <div class="button-and-price-web">
                 <div id="button-container">
-                  <button id="button-minus">
+                  <button id="button-minus" onclick="decreaseQuantity()">
                     <i class="fa-solid fa-minus"></i>
                   </button>
                   <span id="quantity">1</span>
-                  <button id="button-plus">
+                  <button id="button-plus" onclick="increaseQuantity()">
                     <i class="fa-solid fa-plus"></i>
                   </button>
                 </div>
@@ -188,15 +188,15 @@
         <div class="cost-container-web">
           <div class="first-line-cart-web">
             <p id="cost-text-web">Subtotal</p>
-            <p id="cost-text-web">39,90 €</p>
+            <p id="subTotal">39,90 €</p>
           </div>
           <div class="second-line-cart-web">
             <p id="cost-text-web">Delivery Costs</p>
-            <p id="cost-text-web">5,00 €</p>
+            <p id="deliveryCost">5,00 €</p>
           </div>
           <div class="third-line-cart-web">
             <p id="total-text-web">Total</p>
-            <p id="total-text-web">44,90 €</p>
+            <p id="totalAmount">44,90 €</p>
           </div>
           <div class="checkout-btn-container-web">
             <button id="checkout-btn-web">Proceed to checkout</button>
@@ -305,19 +305,15 @@
               <p id="product-size-tab">XS</p>
 
               <p id="product-colour-tab">Colour: White</p>
-
-              <div class="button-and-price-tab">
+              <div id="button-and-price-web">
                 <div id="button-container">
-                  <button id="button-minus">
-                    <i class="fa-solid fa-minus"></i>
-                  </button>
+                  <button id="button-minus"><i class="fa-solid fa-minus"></i></button>
                   <span id="quantity">1</span>
-                  <button id="button-plus">
-                    <i class="fa-solid fa-plus"></i>
-                  </button>
+                  <button id="button-plus"><i class="fa-solid fa-plus"></i></button>
                 </div>
-                <p id="product-price-tab">39,90 €</p>
+                <p id="product-price-web">39,90 €</p>
               </div>
+
             </div>
           </div>
         </div>
