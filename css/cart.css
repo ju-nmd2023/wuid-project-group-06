@@ -39,6 +39,7 @@
     line-height: normal;
   }
 
+
   #delivery-text-web {
     color: #000;
     font-family: Nexa;
@@ -449,9 +450,20 @@
     padding-top: 0.625rem;
   }
 
-  .button-and-price-mob {
+  .product-info-mob {
+    position: relative;
+  }
+
+  #button-and-price-mobile {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    background-color: #fff; /* Optional: Set a background color if needed */
   }
 
   #button-container {
@@ -476,7 +488,7 @@
     padding-right: 1rem;
   }
 
-  #quantity {
+  #quantity-mobile {
     color: #000;
     font-family: Nexa;
     font-size: 14px;
@@ -484,7 +496,7 @@
     font-weight: 800;
   }
 
-  #product-price-mob {
+  #product-price-mobile {
     color: #000;
     font-family: Nexa;
     font-size: 18px;
@@ -524,6 +536,28 @@
     color: #000;
     font-family: Nexa;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 1.563rem;
+    padding-right: 1.563rem;
+  }
+
+  #deliveryCost, #subTotalMobile{
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 1.563rem;
+    padding-right: 1.563rem;
+  }
+
+
+
+  #totalAmountMobile {
+    color: #000;
+    font-family: Nexa;
+    font-size: 18px;
     font-style: normal;
     font-weight: 800;
     padding-left: 1.563rem;
@@ -612,26 +646,29 @@
     grid-template-columns: 1fr 1fr;
     padding-top: 2.5rem;
     gap: 1rem;
-  }
+}
 
-  .product-image-tab {
+.product-image-tab {
     position: relative;
-  }
+    height: 100%; /* Set the height to 100% */
+}
 
-  #img-product-cart {
+#img-product-cart {
     display: block;
     width: 100%;
-  }
+    height: 100%; /* Set the height to 100% */
+    object-fit: cover; /* Optional: This property specifies how the contents of the image should be resized to fit the box. */
+}
 
-  .product-image-tab #bin-icon-tab {
+.product-image-tab #bin-icon-tab {
     position: absolute;
     bottom: 0.5rem;
     right: 0.5rem;
-  }
+}
 
-  #bin-icon-tab {
+#bin-icon-tab {
     font-size: 25px;
-  }
+}
 
   #product-name-tab {
     color: #000;
@@ -663,12 +700,20 @@
 
 
   
-  #button-and-price-web {
+  .product-info-tab {
+    position: relative; /* Set the position to relative for absolute positioning inside */
+  }
+  
+  #button-and-price-tab {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100%; /* Push the button container to the bottom */
+    background-color: #fff; /* Optional: Set a background color if needed */
   }
   
   #button-container {
@@ -691,7 +736,7 @@
     font-size: 1rem;
   }
   
-  #quantity {
+  #quantity-tab {
     color: #000;
     font-family: Nexa;
     font-size: 1.25rem;
@@ -747,6 +792,16 @@
   }
 
   #total-text-tab {
+    color: #000;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    padding-left: 1.563rem;
+    padding-right: 1.563rem;
+  }
+
+  #totalAmountTab, #subTotalTab, #deliverCostTab {
     color: #000;
     font-family: Nexa;
     font-size: 18px;

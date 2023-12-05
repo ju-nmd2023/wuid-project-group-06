@@ -239,17 +239,17 @@
 
               <p id="product-colour-mob">Colour: White</p>
 
-              <div class="button-and-price-mob">
+              <div id="button-and-price-mobile">
                 <div id="button-container">
-                  <button id="button-minus">
+                  <button id="button-minus" onclick="decreaseQuantityMobile()">
                     <i class="fa-solid fa-minus"></i>
                   </button>
-                  <span id="quantity">1</span>
-                  <button id="button-plus">
+                  <span id="quantity-mobile">1</span>
+                  <button id="button-plus" onclick="increaseQuantityMobile()">
                     <i class="fa-solid fa-plus"></i>
                   </button>
                 </div>
-                <p id="product-price-mob">39,90 €</p>
+                <p id="product-price-mobile">39.90 €</p>
               </div>
             </div>
           </div>
@@ -258,15 +258,15 @@
         <div class="cost-container-mob">
           <div class="first-line-cart-mob">
             <p id="cost-text-mob">Subtotal</p>
-            <p id="cost-text-mob">39,90 €</p>
+            <p id="subTotalMobile">39,90 €</p>
           </div>
           <div class="second-line-cart-mob">
             <p id="cost-text-mob">Delivery Costs</p>
-            <p id="cost-text-mob">5,00 €</p>
+            <p id="deliveryCost">5,00 €</p>
           </div>
           <div class="third-line-cart-mob">
             <p id="total-text-mob">Total</p>
-            <p id="total-text-mob">44,90 €</p>
+            <p id="totalAmountMobile">44,90 €</p>
           </div>
           <div class="checkout-btn-container-mob">
             <button id="checkout-btn-mob">Proceed to checkout</button>
@@ -305,15 +305,19 @@
               <p id="product-size-tab">XS</p>
 
               <p id="product-colour-tab">Colour: White</p>
-              <div id="button-and-price-web">
+              
+              <div id="button-and-price-tab">
                 <div id="button-container">
-                  <button id="button-minus"><i class="fa-solid fa-minus"></i></button>
-                  <span id="quantity">1</span>
-                  <button id="button-plus"><i class="fa-solid fa-plus"></i></button>
+                  <button id="button-minus" onclick="decreaseQuantityTab()">
+                    <i class="fa-solid fa-minus"></i>
+                  </button>
+                  <span id="quantity-tab">1</span>
+                  <button id="button-plus" onclick="increaseQuantityTab()">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
                 </div>
-                <p id="product-price-web">39,90 €</p>
+                <p id="product-price-tab">39.90 €</p>
               </div>
-
             </div>
           </div>
         </div>
@@ -321,15 +325,15 @@
         <div class="cost-container-tab">
           <div class="first-line-cart-tab">
             <p id="cost-text-tab">Subtotal</p>
-            <p id="cost-text-tab">39,90 €</p>
+            <p id="subTotalTab">39,90 €</p>
           </div>
           <div class="second-line-cart-tab">
             <p id="cost-text-tab">Delivery Costs</p>
-            <p id="cost-text-tab">5,00 €</p>
+            <p id="deliverCostTab">5,00 €</p>
           </div>
           <div class="third-line-cart-tab">
             <p id="total-text-tab">Total</p>
-            <p id="total-text-tab">44,90 €</p>
+            <p id="totalAmountTab">44,90 €</p>
           </div>
           <div class="checkout-btn-container-tab">
             <button id="checkout-btn-tab">Proceed to checkout</button>
