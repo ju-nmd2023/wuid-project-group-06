@@ -297,3 +297,8 @@ h1 {
   margin-top: 0.5%;
 }
 
+.checkbox-container {
+  display: flex;
+  padding-top: 30px;
+  gap: 10px;
+}
