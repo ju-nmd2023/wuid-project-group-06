@@ -227,3 +227,21 @@ document.addEventListener("DOMContentLoaded", function() {
       slider.insertBefore(slider.lastElementChild, slider.firstElementChild);
   });
 });
+
+/*tablet slideshow 1*/
+
+document.addEventListener("DOMContentLoaded", function() {
+  let nextButton = document.getElementById("Next-tablet1");
+  let prevButton = document.getElementById("Prev-tablet1");
+  let slider = document.getElementById("Slider-tablet1");
+
+  nextButton.addEventListener("click", function() {
+      slider.appendChild(slider.firstElementChild);
+  });
+
+  prevButton.addEventListener("click", function() {
+      slider.insertBefore(slider.lastElementChild, slider.firstElementChild);
+  });
+});
+
+

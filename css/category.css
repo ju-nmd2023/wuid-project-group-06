@@ -554,15 +554,6 @@
     position: relative;
   }
 
-  #wishlist-button {
-    position: absolute;
-    left: 59%;
-    top: 2%;
-    height: 100%;
-    width: 100%;
-    max-width: 26%;
-    max-height: 12%;
-  }
 
   #products-container-mobile {
     display: grid;
