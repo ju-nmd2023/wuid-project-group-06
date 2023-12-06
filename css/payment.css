@@ -48,6 +48,8 @@
     height: 2.625rem;
     width: 100%;
     border: 1px solid #d9d9d9;
+    font-size: 1rem;
+    padding-left: 10px;
   }
 
   .go-back-pay-web {
@@ -78,6 +80,14 @@
     width: 65%;
     height: 3.5rem;
     float: right;
+  }
+
+  .go-back-web a {
+    color: black;
+  }
+
+  .pay-web, a {
+    color: white;
   }
 
   .pay-web h1 {

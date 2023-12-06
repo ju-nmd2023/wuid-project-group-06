@@ -46,6 +46,12 @@
 
   /* HIDDEN */
 
+  .nav-icons {
+    color: black;
+  }
+
+  /* HEADER */
+
   #category-page {
     padding-left: 10rem;
     padding-right: 8.5rem;
@@ -238,7 +244,7 @@
   }
 
   /* Style for the arrows before and after */
-  i {
+  .breadcrumb i {
     padding: 8px;
     color: #a8a39d;
   }
