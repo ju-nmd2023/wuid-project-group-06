@@ -156,6 +156,8 @@ function toggleBorder() {
   chooseColour.classList.toggle("clicked");
 }
 
+/*slideshow 1*/
+
 document.addEventListener("DOMContentLoaded", function() {
   let nextButton = document.getElementById("Next");
   let prevButton = document.getElementById("Prev");
@@ -169,6 +171,8 @@ document.addEventListener("DOMContentLoaded", function() {
       slider.insertBefore(slider.lastElementChild, slider.firstElementChild);
   });
 });
+
+/*slideshow 2*/
 
 document.addEventListener("DOMContentLoaded", function() {
   let nextButton = document.getElementById("Next-2");
@@ -184,10 +188,44 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+/*slideshow 3-cart page*/
+
 document.addEventListener("DOMContentLoaded", function() {
   let nextButton = document.getElementById("Next-3");
   let prevButton = document.getElementById("Prev-3");
   let slider = document.getElementById("Slider-3");
+
+  nextButton.addEventListener("click", function() {
+      slider.appendChild(slider.firstElementChild);
+  });
+
+  prevButton.addEventListener("click", function() {
+      slider.insertBefore(slider.lastElementChild, slider.firstElementChild);
+  });
+});
+
+/*mobile slideshow 1*/
+
+document.addEventListener("DOMContentLoaded", function() {
+  let nextButton = document.getElementById("Next-mobile");
+  let prevButton = document.getElementById("Prev-mobile");
+  let slider = document.getElementById("Slider-mobile");
+
+  nextButton.addEventListener("click", function() {
+      slider.appendChild(slider.firstElementChild);
+  });
+
+  prevButton.addEventListener("click", function() {
+      slider.insertBefore(slider.lastElementChild, slider.firstElementChild);
+  });
+});
+
+/*mobile slideshow 2*/
+
+document.addEventListener("DOMContentLoaded", function() {
+  let nextButton = document.getElementById("Next-mobile1");
+  let prevButton = document.getElementById("Prev-mobile1");
+  let slider = document.getElementById("Slider-mobile1");
 
   nextButton.addEventListener("click", function() {
       slider.appendChild(slider.firstElementChild);

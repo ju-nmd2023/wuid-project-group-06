@@ -18,6 +18,14 @@
     display: none;
   }
 
+#Wrapper-mobile {
+  display: none;
+}
+
+#Wrapper-mobile-1 {
+  display: none;
+}
+
   /*HIDDEN*/
 
   /*Pictures + Product Information*/
@@ -519,6 +527,33 @@
     display: none;
   }
 
+  #Wrapper {
+    display: none;
+  }
+  
+#for-you {
+  display: none;
+}
+
+#last-viewed {
+  display: none;
+}
+
+#get-look {
+  display: none;
+}
+
+#recommended {
+display: none;
+}
+
+
+
+  #Wrapper-2 {
+    display: none;
+  }
+
+
   #tablet-first-main {
     display: none;
   }
@@ -675,6 +710,193 @@
     padding-bottom: 20px;
     margin-bottom: 20px;
   }
+
+/*slideshow 1 */
+
+#Wrapper-mobile1 {
+  align-items: center;
+  display: flex;
+  width: fit-content;
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#Slideshow-mobile1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: fit-content;
+}
+
+#Slider-mobile1 {
+  overflow: hidden;
+  width: fit-content;
+  position: relative;
+  height: 25vh;
+}
+
+#Slider-mobile1 .slide-mobile1 {
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  display: flex;
+  gap: 1rem;
+}
+
+
+#Arrows-mobile1 {
+  display: flex;
+  position: absolute;
+  right: 1%;
+  bottom: 106%;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  background-color:  #F8F1E9;
+}
+
+#Arrows-mobile1 i {
+  color: #1c1d21;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.5s, color 0.5s;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+#Arrows-mobile1 i:first-of-type {
+  padding-right: 0.8rem;
+}
+
+#Arrows-mobile1 i:last-of-type {
+  padding-left: 0.8rem;
+}
+
+#get-look-mobile {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #A8A39D;
+font-family: Nexa;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 0.313rem;
+padding-top: 2.25rem;
+}
+
+#recommended-mobile {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #000;
+font-family: Nexa;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 1.063rem;
+}
+
+
+
+
+/*end of slideshow 1*/
+
+/*slideshow 2*/
+#Wrapper-mobile {
+  align-items: center;
+  display: flex;
+  width: fit-content;
+  position: relative;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#Slideshow-mobile {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  width: fit-content;
+}
+
+#Slider-mobile {
+  overflow: hidden;
+  width: fit-content;
+  position: relative;
+  height: 25vh;
+}
+
+#Slider-mobile .slide-mobile {
+  height: 100%;
+  width: 100%;
+  transition: all 1s;
+  display: flex;
+  gap: 1rem;
+}
+
+
+#Arrows-mobile {
+  display: flex;
+  position: absolute;
+  right: 1%;
+  bottom: 106%;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  background-color:  #F8F1E9;
+}
+
+#Arrows-mobile i {
+  color: #1c1d21;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.5s, color 0.5s;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+#Arrows-mobile i:first-of-type {
+  padding-right: 0.8rem;
+}
+
+#Arrows-mobile i:last-of-type {
+  padding-left: 0.8rem;
+}
+
+#for-you-mobile {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #A8A39D;
+font-family: Nexa;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 0.313rem;
+}
+
+#last-viewed-mobile {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #000;
+font-family: Nexa;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 1.063rem;
+}
+
+
+
+/*end of slideshow 2*/
+
+
 }
 
 /* TABLET LAYOUT */

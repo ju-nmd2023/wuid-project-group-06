@@ -169,15 +169,6 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 1.25rem;
     width: 100%;
-    margin: 0 auto;
-  }
-
-  .item-pic {
-    width: auto;
-    height: 20rem;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
   }
 
   .product-caption {
@@ -470,6 +461,8 @@
   #category-page {
     display: none;
   }
+
+
 
   #viewing {
     display: none;
