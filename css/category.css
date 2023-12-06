@@ -63,17 +63,19 @@
     margin-top: 3.125rem;
   }
 
+
+
+  .shopping-item {
+    position: relative;
+  }
+
   /* Set the color for both "far" and "fas" icons to black */
   #heart-web-far,
   #heart-web-fas {
     color: #000;
   }
 
-  .shopping-item {
-    position: relative;
-  }
-
-  .product-heart {
+  #product-heart {
     position: absolute;
     color: #000;
     height: 100%;
@@ -94,24 +96,24 @@
   /* Styles for the heart button when hovered over */
 
   /* Hide the "far" icon when the heart button is hovered over */
-  .product-heart:hover i.far {
+  #product-heart:hover i.far {
     display: none; /* Hide the "far" icon on hover */
   }
 
   /* Show the "fas" icon when the heart button is hovered over */
-  .product-heart:hover i.fas {
+  #product-heart:hover i.fas {
     display: inline-block; /* Show the "fas" icon on hover */
   }
 
   /* Common styling for both "fas" and "far" icons */
-  .product-heart i.fas,
-  .product-heart i.far {
+  #product-heart i.fas,
+  #product-heart i.far {
     display: inline-block;
     color: black;
   }
 
   /* Styles for the hidden class, used to hide icons */
-  .product-heart i.hidden {
+  #product-heart i.hidden {
     display: none;
   }
 
@@ -268,6 +270,7 @@
     display: flex;
     justify-content: center;
     padding-top: 0.75rem;
+    cursor: pointer;
   }
 }
 

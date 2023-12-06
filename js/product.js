@@ -131,15 +131,23 @@ function wishlistTablet() {
   }
 }
 
-function wishlist() {
-  let wishlist = document.getElementById("wishlist");
+// Function to toggle between "far" and "fas" heart icons when the heart button is clicked
+function wishlist(farId, fasId) {
+  // Get references to the "far" and "fas" heart icons
+  let heartFar = document.getElementById(farId);
+  let heartFas = document.getElementById(fasId);
 
-  if (wishlist.classList.contains("far")) {
-    wishlist.classList.remove("far");
-    wishlist.classList.add("fas");
+     // Check if the "far" icon is currently hidden (using the "hidden" class)
+  if (heartFar.classList.contains("hidden")) {
+    // If "far" is hidden, make it visible by removing the "hidden" class
+    heartFar.classList.remove("hidden");
+    // Hide the "fas" icon by adding the "hidden" class
+    heartFas.classList.add("hidden");
   } else {
-    wishlist.classList.remove("fas");
-    wishlist.classList.add("far");
+    // If "far" is visible, hide it by adding the "hidden" class
+    heartFar.classList.add("hidden");
+    // Make the "fas" icon visible by removing the "hidden" class
+    heartFas.classList.remove("hidden");
   }
 }
 
