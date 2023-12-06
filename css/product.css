@@ -619,6 +619,14 @@ display: none;
   .pics-container-mobile {
     display: none;
   }
+
+  #get-look-tablet {
+    display: none;
+  }
+
+  #recommended-tablet {
+    display: none;
+  }
   /*HIDDEN*/
 
   .big-container-mobile {
@@ -748,6 +756,8 @@ display: none;
     margin-bottom: 20px;
   }
 
+
+
 /*slideshow 1 */
 
 #Wrapper-mobile1 {
@@ -773,7 +783,7 @@ display: none;
   overflow: hidden;
   width: fit-content;
   position: relative;
-  height: 45vh;
+  height: 50vh;
 }
 
 #Slider-mobile1 .slide-mobile1 {
@@ -949,7 +959,7 @@ padding-bottom: 1.063rem;
   overflow: hidden;
   width: fit-content;
   position: relative;
-  height: 45vh;
+  height: 50vh;
 }
 
 #Slider-mobile .slide-mobile {
