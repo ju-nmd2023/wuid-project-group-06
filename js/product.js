@@ -131,15 +131,23 @@ function wishlistTablet() {
   }
 }
 
-function wishlist() {
-  let wishlist = document.getElementById("wishlist");
+// Function to toggle between "far" and "fas" heart icons when the heart button is clicked
+function wishlist(farId, fasId) {
+  // Get references to the "far" and "fas" heart icons
+  let heartFar = document.getElementById(farId);
+  let heartFas = document.getElementById(fasId);
 
-  if (wishlist.classList.contains("far")) {
-    wishlist.classList.remove("far");
-    wishlist.classList.add("fas");
+     // Check if the "far" icon is currently hidden (using the "hidden" class)
+  if (heartFar.classList.contains("hidden")) {
+    // If "far" is hidden, make it visible by removing the "hidden" class
+    heartFar.classList.remove("hidden");
+    // Hide the "fas" icon by adding the "hidden" class
+    heartFas.classList.add("hidden");
   } else {
-    wishlist.classList.remove("fas");
-    wishlist.classList.add("far");
+    // If "far" is visible, hide it by adding the "hidden" class
+    heartFar.classList.add("hidden");
+    // Make the "fas" icon visible by removing the "hidden" class
+    heartFas.classList.remove("hidden");
   }
 }
 
@@ -147,6 +155,8 @@ function toggleBorder() {
   let chooseColour = document.getElementById("choose-colour");
   chooseColour.classList.toggle("clicked");
 }
+
+/*slideshow 1*/
 
 document.addEventListener("DOMContentLoaded", function() {
   let nextButton = document.getElementById("Next");
@@ -162,6 +172,8 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+/*slideshow 2*/
+
 document.addEventListener("DOMContentLoaded", function() {
   let nextButton = document.getElementById("Next-2");
   let prevButton = document.getElementById("Prev-2");
@@ -176,10 +188,44 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+/*slideshow 3-cart page*/
+
 document.addEventListener("DOMContentLoaded", function() {
   let nextButton = document.getElementById("Next-3");
   let prevButton = document.getElementById("Prev-3");
   let slider = document.getElementById("Slider-3");
+
+  nextButton.addEventListener("click", function() {
+      slider.appendChild(slider.firstElementChild);
+  });
+
+  prevButton.addEventListener("click", function() {
+      slider.insertBefore(slider.lastElementChild, slider.firstElementChild);
+  });
+});
+
+/*mobile slideshow 1*/
+
+document.addEventListener("DOMContentLoaded", function() {
+  let nextButton = document.getElementById("Next-mobile");
+  let prevButton = document.getElementById("Prev-mobile");
+  let slider = document.getElementById("Slider-mobile");
+
+  nextButton.addEventListener("click", function() {
+      slider.appendChild(slider.firstElementChild);
+  });
+
+  prevButton.addEventListener("click", function() {
+      slider.insertBefore(slider.lastElementChild, slider.firstElementChild);
+  });
+});
+
+/*mobile slideshow 2*/
+
+document.addEventListener("DOMContentLoaded", function() {
+  let nextButton = document.getElementById("Next-mobile1");
+  let prevButton = document.getElementById("Prev-mobile1");
+  let slider = document.getElementById("Slider-mobile1");
 
   nextButton.addEventListener("click", function() {
       slider.appendChild(slider.firstElementChild);
