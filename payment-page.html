@@ -58,7 +58,7 @@
     <div id="nav-web">
       <nav>
         <ul class="nav-gender">
-          <li><a class="active" href="#">Women</a></li>
+          <li><a class="active" href="index.html">Women</a></li>
           <li><a href="#">Men</a></li>
           <li><a href="#">Kids</a></li>
         </ul>
@@ -79,7 +79,7 @@
             </a>
           </li>
           <li>
-            <a href="#">
+            <a href="cart-page.html">
               <i class="fa-solid fa-bag-shopping"></i>
             </a>
           </li>
@@ -124,7 +124,7 @@
   <!-- Web version of second nav-->
   <nav class="nav-category">
     <ul>
-      <li><a href="#">Clothes</a></li>
+      <li><a href="category-page.html">Clothes</a></li>
       <li><a href="#">Shoes</a></li>
       <li><a href="#">Accessories</a></li>
       <li><a href="#">Sport</a></li>
@@ -377,7 +377,7 @@
               <button id="button-minus" onclick="decreaseQuantity()">
                 <i class="fa-solid fa-minus"></i>
               </button>
-              <span id="quantity">1</span>
+              <span id="quantity-mobile">1</span>
               <button id="button-plus" onclick="increaseQuantity()">
                 <i class="fa-solid fa-plus"></i>
               </button>
@@ -389,15 +389,15 @@
       <div class="cost-container-mob">
         <div class="first-line-cart-mob">
           <p id="cost-text-mob">Subtotal</p>
-          <p id="subTotal">39,90 €</p>
+          <p id="subTotalMobile">39,90 €</p>
         </div>
         <div class="second-line-cart-mob">
           <p id="cost-text-mob">Delivery Costs</p>
-          <p id="deliveryCost">5,00 €</p>
+          <p id="deliveryCostMobile">5,00 €</p>
         </div>
         <div class="third-line-cart-mob">
           <p id="total-text-mob">Total</p>
-          <p id="totalAmount">44,90 €</p>
+          <p id="totalAmountMobile">44,90 €</p>
         </div>
       </div>
 
@@ -515,30 +515,30 @@
 
           <div id="button-and-price-tab">
             <div id="button-container">
-              <button id="button-minus" onclick="decreaseQuantity()">
+              <button id="button-minus" onclick="decreaseQuantityTab()">
                 <i class="fa-solid fa-minus"></i>
               </button>
-              <span id="quantity">1</span>
-              <button id="button-plus" onclick="increaseQuantity()">
+              <span id="quantity-tab">1</span>
+              <button id="button-plus" onclick="increaseQuantityTab()">
                 <i class="fa-solid fa-plus"></i>
               </button>
             </div>
-            <p id="product-price-tab">39,90 €</p>
+            <p id="product-price-tab">39.90 €</p>
           </div>
         </div>
       </div>
       <div class="cost-container-tab">
         <div class="first-line-cart-tab">
           <p id="cost-text-tab">Subtotal</p>
-          <p id="subTotal">39,90 €</p>
+          <p id="subTotalTab">39,90 €</p>
         </div>
         <div class="second-line-cart-tab">
           <p id="cost-text-tab">Delivery Costs</p>
-          <p id="deliveryCost">5,00 €</p>
+          <p id="deliverCostTab">5,00 €</p>
         </div>
         <div class="third-line-cart-tab">
           <p id="total-text-tab">Total</p>
-          <p id="totalAmount">44,90 €</p>
+          <p id="totalAmountTab">44,90 €</p>
         </div>
       </div>
 
@@ -586,7 +586,9 @@
             <input type="text" placeholder="E-mail Address">
           </div>
 
+        <a href="index.html">
           <img class="logo-footer" src="img/logo/logo-nextrend.png" alt="logo">
+        </a>
 
           <div class="social">
             <i class="fa-brands fa-facebook"></i>

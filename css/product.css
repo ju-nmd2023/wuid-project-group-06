@@ -428,26 +428,26 @@
   #Arrows {
     display: flex;
     position: absolute;
-    right: 17%;
+    right: 15%;
     bottom: 104%;
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
     background-color:  #F8F1E9;;
   }
-
+  
   #Arrows i {
     color: #1c1d21;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 0.8rem;
     transition: background-color 0.5s, color 0.5s;
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
-
+  
   #Arrows i:first-of-type {
     padding-right: 0.8rem;
   }
-
+  
   #Arrows i:last-of-type {
     padding-left: 0.8rem;
   }
@@ -516,26 +516,26 @@
   #Arrows-2 {
     display: flex;
     position: absolute;
-    right: 17%;
+    right: 15%;
     bottom: 104%;
     padding-top: 0.4rem;
     padding-bottom: 0.4rem;
     background-color:  #F8F1E9;;
   }
-
+  
   #Arrows-2 i {
     color: #1c1d21;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 0.8rem;
     transition: background-color 0.5s, color 0.5s;
-    padding-top: 0.625rem;
-    padding-bottom: 0.625rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
-
+  
   #Arrows-2 i:first-of-type {
     padding-right: 0.8rem;
   }
-
+  
   #Arrows-2 i:last-of-type {
     padding-left: 0.8rem;
   }

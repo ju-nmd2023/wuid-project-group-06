@@ -861,7 +861,7 @@
 
   #payment-info-tab {
     height: 2rem;
-    width: 100%;
+    width: 70%;
     border: 1px solid #d9d9d9;
   }
 
@@ -871,7 +871,7 @@
 
   .cards-tab {
     display: flex;
-    width: 100%;
+    width: 70%;
     height: 40px;
     justify-content: center;
     align-items: center;
@@ -907,7 +907,7 @@
 
   #cash-pay-tab {
     display: flex;
-    width: 100%;
+    width: 70%;
     height: 40px;
     justify-content: center;
     align-items: center;
@@ -1108,7 +1108,7 @@
     font-size: 1rem;
   }
 
-  #quantity {
+  #quantity-tab {
     color: #000;
     font-family: Nexa;
     font-size: 1.25rem;
@@ -1164,7 +1164,7 @@
     font-weight: 800;
   }
 
-  #deliveryCost {
+  #deliverCostTab {
     color: #000;
     font-family: Nexa;
     font-size: 16px;
@@ -1172,7 +1172,7 @@
     font-weight: 800;
   }
 
-  #subTotal {
+  #subTotalTab {
     color: #000;
     font-family: Nexa;
     font-size: 16px;
@@ -1180,7 +1180,7 @@
     font-weight: 800;
   }
 
-  #totalAmount {
+  #totalAmountTab {
     color: #000;
     font-family: Nexa;
     font-size: 18px;
