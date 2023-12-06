@@ -349,6 +349,42 @@
     margin-bottom: 30px;
   }
 
+  .product-caption {
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.125rem;
+    width: 12.875rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .product-price-2line {
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+  }
+
+  .product-price {
+    color: #000;
+    padding-top: 1.25rem;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+  }
+
   /*sliders*/
 
   #Wrapper {
@@ -1002,7 +1038,7 @@ padding-bottom: 1.063rem;
     height: 70rem;
   }
 
-  #wishlist-button {
+  #wishlist-button-tablet {
     width: 3rem;
     height: 3rem;
     border-radius: 1.5625rem;
@@ -1013,10 +1049,14 @@ padding-bottom: 1.063rem;
     align-items: center;
     text-align: center;
     position: absolute;
-    bottom: 0px;
     font-size: 1.5rem;
-    margin-bottom: 1.2rem;
-    margin-left: 1rem;
+    top: 1rem;
+    left: 1rem;
+    position: absolute;
+  }
+
+  .shopping-item-tablet {
+    position: relative;
   }
 
   .product-slideshow-tablet-button {
@@ -1072,6 +1112,37 @@ padding-bottom: 1.063rem;
     margin-top: 10px;
   }
 
+  .product-caption-tablet {
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .product-price-tablet {
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    padding-top: 2.05rem;
+  }
+
+  .product-price-2line-tablet {
+    color: #000;
+    padding-top: 1.5rem;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+    height: 20px;
+  }
+
+
   .size-advisor-tab {
     float: right;
     padding-top: 10px;
@@ -1121,10 +1192,9 @@ padding-bottom: 1.063rem;
   #Wrapper-tablet1 {
     align-items: center;
     display: flex;
-    width: fit-content;
     position: relative;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   
   #Slideshow-tablet1 {
@@ -1139,9 +1209,12 @@ padding-bottom: 1.063rem;
   
   #Slider-tablet1 {
     overflow: hidden;
-    width: fit-content;
     position: relative;
-    height: 41vh;
+    height: 78vh;
+  }
+
+  .slide-tablet1 {
+    width: 100%;
   }
   
   #Slider-tablet1 .slide-tablet1 {
