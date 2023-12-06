@@ -682,7 +682,7 @@ display: none;
   overflow: hidden;
   width: fit-content;
   position: relative;
-  height: 28vh;
+  height: 25vh;
 }
 
 #Slider-mobile1 .slide-mobile1 {
@@ -698,10 +698,10 @@ display: none;
   display: flex;
   position: absolute;
   right: 1%;
-  bottom: 10%;
+  bottom: 106%;
   padding-left: 0.4rem;
   padding-right: 0.4rem;
-  background-color:  #F8F1E9;;
+  background-color:  #F8F1E9;
 }
 
 #Arrows-mobile1 i {
@@ -730,6 +730,8 @@ font-size: 16px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+padding-bottom: 0.313rem;
+padding-top: 2.25rem;
 }
 
 #recommended-mobile {
@@ -741,6 +743,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+padding-bottom: 1.063rem;
 }
 
 
@@ -772,7 +775,7 @@ line-height: normal;
   overflow: hidden;
   width: fit-content;
   position: relative;
-  height: 28vh;
+  height: 25vh;
 }
 
 #Slider-mobile .slide-mobile {
@@ -787,11 +790,11 @@ line-height: normal;
 #Arrows-mobile {
   display: flex;
   position: absolute;
-  right: 17%;
-  bottom: 10%;
+  right: 1%;
+  bottom: 106%;
   padding-left: 0.4rem;
   padding-right: 0.4rem;
-  background-color:  #F8F1E9;;
+  background-color:  #F8F1E9;
 }
 
 #Arrows-mobile i {
@@ -820,6 +823,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+padding-bottom: 0.313rem;
 }
 
 #last-viewed-mobile {
@@ -831,6 +835,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+padding-bottom: 1.063rem;
 }
 
 
