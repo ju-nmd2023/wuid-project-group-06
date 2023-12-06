@@ -39,6 +39,46 @@ h1 {
   border: 1px solid #d9d9d9;
 }
 
+.go-back-pay {
+  height: 3.5rem;
+  display: flex;
+  gap: 10%;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+.go-back {
+  width: 25%;
+  height: 3.5rem;
+}
+
+.go-back h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
+
+.pay {
+  background-color: black;
+  color: white;
+  width: 65%;
+  height: 3.5rem;
+  float: right;
+}
+
+.pay h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  height: 100%;
+}
+
+
 .picture {
   width: 50%;
   margin-top: 1.44rem;
@@ -138,7 +178,7 @@ h1 {
   margin: 0; /* Remove margin to center the text vertically */
 }
 
-.price-box {
+.cost-container-web {
   margin-top: 3rem;
   background-color: #f8f1e9;
   height: 9%;
@@ -148,23 +188,78 @@ h1 {
   padding-top: 1.625rem;
   padding-left: 1.938rem;
   padding-right: 1.938rem;
+  padding-bottom: 1.625rem;
 }
 
-.price-item-1 {
+.first-line-cart-web {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
+  padding-top: 1.625rem;
 }
 
-.price-item-2 {
+.second-line-cart-web {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   padding-top: 0.75rem;
 }
 
-.price-item-total {
+.third-line-cart-web {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   padding-top: 1.5rem;
+}
+
+#cost-text-web {
+  color: #000;
+  font-family: Nexa;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 800;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+}
+
+#total-text-web {
+  color: #000;
+  font-family: Nexa;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+}
+
+#deliveryCost {
+  color: #000;
+  font-family: Nexa;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+}
+
+#subTotal {
+  color: #000;
+  font-family: Nexa;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
+}
+
+#totalAmount {
+  color: #000;
+  font-family: Nexa;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
 }
 
 #first-text {

@@ -228,7 +228,14 @@
         <span class="checkmark"></span>
         <p>I agree to the Terms and Conditions and understand the Privacy Policy.</p>
     </label>
-    
+      <div class="go-back-pay">
+        <div class="go-back">
+          <h1>Go Back</h1>
+        </div>
+        <div class="pay">
+          <h1>Pay Now</h1>
+        </div>
+      </div>
     </div>
     <div class="order-information">
       <h1>Order Information</h1>
@@ -247,26 +254,30 @@
 
           <div id="button-and-price-web">
             <div id="button-container">
-              <button id="button-minus"><i class="fa-solid fa-minus"></i></button>
+              <button id="button-minus" onclick="decreaseQuantity()">
+                <i class="fa-solid fa-minus"></i>
+              </button>
               <span id="quantity">1</span>
-              <button id="button-plus"><i class="fa-solid fa-plus"></i></button>
+              <button id="button-plus" onclick="increaseQuantity()">
+                <i class="fa-solid fa-plus"></i>
+              </button>
             </div>
             <p id="product-price-web">39,90 €</p>
           </div>
         </div>
       </div>
-      <div class="price-box">
-        <div class="price-item-1">
-          <h2 id="first-text">Subtotal</h2>
-          <span class="price">39.90 €</span>
+      <div class="cost-container-web">
+        <div class="first-line-cart-web">
+          <p id="cost-text-web">Subtotal</p>
+          <p id="subTotal">39,90 €</p>
         </div>
-        <div class="price-item-2">
-          <h2 id="first-text">Delivery Cost</h2>
-          <span class="price">5.00 €</span>
+        <div class="second-line-cart-web">
+          <p id="cost-text-web">Delivery Costs</p>
+          <p id="deliveryCost">5,00 €</p>
         </div>
-        <div class="price-item-total">
-          <h2 id="big-text">Total</h2>
-          <span id="total-price">44.90 €</span>
+        <div class="third-line-cart-web">
+          <p id="total-text-web">Total</p>
+          <p id="totalAmount">44,90 €</p>
         </div>
       </div>
         
