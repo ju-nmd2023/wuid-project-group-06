@@ -930,9 +930,6 @@ padding-bottom: 1.063rem;
     display: none;
   }
 
-
-
-
 /*end of slideshow 1*/
 
 /*slideshow 2*/
@@ -1341,7 +1338,7 @@ padding-bottom: 1.063rem;
   #Slider-tablet1 {
     overflow: hidden;
     position: relative;
-    height: 78vh;
+    height: 82vh;
   }
 
   .slide-tablet1 {
@@ -1407,5 +1404,99 @@ font-weight: 800;
 line-height: normal;
 padding-bottom: 1.063rem;
 }
+
+/*slideshow1 tablet*/
+
+
+  #Wrapper-tablet {
+    align-items: center;
+    display: flex;
+    position: relative;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  #Slideshow-tablet {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: fit-content;
+  }
+  
+  #Slider-tablet {
+    overflow: hidden;
+    position: relative;
+    height: 95vh;
+  }
+
+  .slide-tablet {
+    width: 100%;
+  }
+  
+  #Slider-tablet .slide-tablet {
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  #Arrows-tablet {
+    display: flex;
+    position: absolute;
+    right: 1%;
+    bottom: 106%;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    background-color: #F8F1E9;
+  }
+  
+  #Arrows-tablet i {
+    color: #1c1d21;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.5s, color 0.5s;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+  }
+  
+  #Arrows-tablet i:first-of-type {
+    padding-right: 0.8rem;
+  }
+  
+  #Arrows-tablet i:last-of-type {
+    padding-left: 0.8rem;
+  }
+  
+#get-look-tablet {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: #A8A39D;
+font-family: Nexa;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 0.313rem;
+padding-top: 2.25rem;
+}
+
+#last-viewed-tablet {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: #000;
+font-family: Nexa;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-bottom: 1.063rem;
+}
+
+
+
 
 }

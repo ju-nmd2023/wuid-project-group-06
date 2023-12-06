@@ -252,4 +252,20 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+/*tablet slideshow 2*/
+
+document.addEventListener("DOMContentLoaded", function() {
+  let nextButton = document.getElementById("Next-tablet");
+  let prevButton = document.getElementById("Prev-tablet");
+  let slider = document.getElementById("Slider-tablet");
+
+  nextButton.addEventListener("click", function() {
+      slider.appendChild(slider.firstElementChild);
+  });
+
+  prevButton.addEventListener("click", function() {
+      slider.insertBefore(slider.lastElementChild, slider.firstElementChild);
+  });
+});
+
 
