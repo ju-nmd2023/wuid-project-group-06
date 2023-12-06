@@ -570,6 +570,11 @@
 
 @media screen and (max-width: 450px) {
   /*HIDDEN*/
+
+#Wrapper-tablet1 {
+  display: none;
+}
+
   #web-first-main {
     display: none;
   }
@@ -654,8 +659,6 @@ display: none;
   .product-slideshow-mobile {
     width: 100%;
   }
-
-  
 
   .product-slideshow-mobile-button {
     display: flex;
@@ -770,7 +773,7 @@ display: none;
   overflow: hidden;
   width: fit-content;
   position: relative;
-  height: 25vh;
+  height: 45vh;
 }
 
 #Slider-mobile1 .slide-mobile1 {
@@ -779,6 +782,38 @@ display: none;
   transition: all 1s;
   display: flex;
   gap: 1rem;
+}
+
+
+.product-caption-mobile {
+  color: #000;
+  font-family: Nexa;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+
+  line-height: 20px;
+}
+
+.product-price-mobile {
+  color: #000;
+  font-family: Nexa;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+  padding-top: 0.75rem;
+}
+
+.product-price-2line-mobile {
+  color: #000;
+  padding-top: 0.2rem;
+  font-family: Nexa;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+  height: 20px;
 }
 
 
@@ -834,6 +869,57 @@ line-height: normal;
 padding-bottom: 1.063rem;
 }
 
+#heart-web-far,
+  #heart-web-fas {
+    color: #000;
+  }
+
+  .shopping-item-mobile {
+    position: relative;
+  }
+
+  #product-heart {
+    position: absolute;
+    color: #000;
+    height: 100%;
+    width: 100%;
+    max-height: 3rem;
+    max-width: 3rem;
+    background-color: #f8f1e9;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    border: none;
+    left: 83%;
+    bottom: 82%;
+    transform: translate(-50%, 0);
+    transition: background-color 0.3s;
+  }
+
+  /* Styles for the heart button when hovered over */
+
+  /* Hide the "far" icon when the heart button is hovered over */
+  #product-heart:hover i.far {
+    display: none; /* Hide the "far" icon on hover */
+  }
+
+  /* Show the "fas" icon when the heart button is hovered over */
+  #product-heart:hover i.fas {
+    display: inline-block; /* Show the "fas" icon on hover */
+  }
+
+  /* Common styling for both "fas" and "far" icons */
+  #product-heart i.fas,
+  #product-heart i.far {
+    display: inline-block;
+    color: black;
+  }
+
+  /* Styles for the hidden class, used to hide icons */
+  #product-heart i.hidden {
+    display: none;
+  }
+
 
 
 
@@ -863,7 +949,7 @@ padding-bottom: 1.063rem;
   overflow: hidden;
   width: fit-content;
   position: relative;
-  height: 25vh;
+  height: 45vh;
 }
 
 #Slider-mobile .slide-mobile {
