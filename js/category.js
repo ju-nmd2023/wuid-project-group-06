@@ -4,7 +4,7 @@ function wishlist(farId, fasId) {
     let heartFar = document.getElementById(farId);
     let heartFas = document.getElementById(fasId);
   
-    // Check if the "far" icon is currently hidden (using the "hidden" class)
+       // Check if the "far" icon is currently hidden (using the "hidden" class)
     if (heartFar.classList.contains("hidden")) {
       // If "far" is hidden, make it visible by removing the "hidden" class
       heartFar.classList.remove("hidden");

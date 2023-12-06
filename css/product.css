@@ -243,10 +243,67 @@
     transition: border-color 0.3s ease;
   }
 
-  #heart {
-    color: #000;
-    font-size: 20px;
-  }
+
+
+.heart-icon {
+  font-size: 1.5rem;
+  color: black;
+}
+
+/* Set the color for both "far" and "fas" icons to black */
+#heart-web-far,
+#heart-web-fas {
+  color: #000;
+}
+
+#product-heart {
+  position: absolute;
+  color: #000;
+  height: 100%;
+  width: 100%;
+  max-height: 10%;
+  max-width: 20%;
+  background-color: #f8f1e9;
+  color: black;
+  font-size: 1.5rem;
+  border-radius: 50%;
+  border: none;
+  left: 84%;
+  bottom: 86%;
+  transform: translate(-50%, 0);
+  transition: background-color 0.3s;
+}
+
+/* Styles for the heart button when hovered over */
+
+/* Hide the "far" icon when the heart button is hovered over */
+#product-heart:hover i.far {
+  display: none; /* Hide the "far" icon on hover */
+}
+
+/* Show the "fas" icon when the heart button is hovered over */
+#product-heart:hover i.fas {
+  display: inline-block; /* Show the "fas" icon on hover */
+}
+
+/* Common styling for both "fas" and "far" icons */
+#product-heart i.fas,
+#product-heart i.far {
+  display: inline-block;
+  color: black;
+}
+
+/* Styles for the hidden class, used to hide icons */
+#product-heart i.hidden {
+  display: none;
+}
+
+
+.shopping-item {
+  position: relative;
+  width: 100%;
+}
+
 
   .extra-info {
     padding-top: 85px;
@@ -278,9 +335,6 @@
 
   /*sliders*/
 
-.shopping-item {
-  width: 100%;
-}
   #Wrapper {
     align-items: center;
     display: flex;
