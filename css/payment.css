@@ -7,6 +7,10 @@
     display: none;
   }
 
+  .payment-container-tab{
+    display: none;
+  }
+
   /*HIDDEN*/
 
   .payment-container-web {
@@ -424,6 +428,10 @@
   .payment-container-web {
     display: none;
   }
+
+  .payment-container-tab{
+    display: none;
+  }
   /*HIDDEN*/
 
   .payment-container-mob {
@@ -809,5 +817,375 @@
     display: none;
   }
   /*HIDDEN*/
+
+  .payment-container-tab {
+    padding-top: 30px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+
+  .arrow-heading-tab {
+    display: flex;
+    gap: 10px;
+  }
+
+  #payment-heading-tab {
+    color: #000;
+    font-family: Nexa;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  #headings-tab {
+    color: #000;
+    font-family: Nexa;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 1.063rem;
+  }
+
+  .payment-fields-tab {
+    margin-top: 1.44rem;
+  }
+
+  .payment-fields-tab p {
+    color: #000;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+  }
+
+  #payment-info-tab {
+    height: 2rem;
+    width: 100%;
+    border: 1px solid #d9d9d9;
+  }
+
+  .cards-container-tab {
+    padding-top: 1rem;
+  }
+
+  .cards-tab {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-shrink: 0;
+    border: 1px solid #d9d9d9;
+    border-bottom: 0;
+    position: relative;
+  }
+
+  #visa-pic-tab,
+  #maestro-pic-tab {
+    width: 7%;
+    position: absolute;
+    margin-right: 85%;
+    padding-right: 12px;
+  }
+
+  #master-pic-tab {
+    width: 9%;
+    position: absolute;
+    margin-right: 85%;
+    padding-right: 12px;
+  }
+
+  #cash-pic-tab {
+    width: 7%;
+    flex-shrink: 0;
+    position: absolute;
+    margin-right: 85%;
+    padding-right: 12px;
+  }
+
+  #cash-pay-tab {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #d9d9d9;
+    position: relative;
+  }
+
+  .visa-text-tab {
+    color: #000;
+    font-family: Nexa;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-right: 65%;
+    margin-top: 0.5%;
+  }
+
+  .master-text-tab {
+    color: #000;
+    font-family: Nexa;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-right: 57%;
+    margin-top: 0.5%;
+  }
+
+  .maestro-text-tab {
+    color: #000;
+    font-family: Nexa;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-right: 56%;
+    margin-top: 0.5%;
+  }
+
+  .cash-text-tab {
+    color: #000;
+    font-family: Nexa;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-right: 54%;
+    margin-top: 0.5%;
+  }
+
+  .go-back-pay-tab {
+    height: 3.5rem;
+    display: flex;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+
+  .go-back-tab {
+    width: 50%;
+    height: 3rem;
+  }
+
+  .go-back-tab h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    color: black;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  .pay-tab {
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 3rem;
+    float: right;
+  }
+
+  .pay-tab h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    color: white;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  .picture-tab {
+    width: 50%;
+    margin-top: 1.44rem;
+    margin-right: 20px;
+  }
+
+  .order-information-tab {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+  }
+
+  .content-tab {
+    display: flex;
+  }
+
+  .img-product-payment-tab {
+    max-width: 100%;
+    height: 100%;
+  }
+
+  .info-tab {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.44rem;
+  }
+
+  .info-tab h2 {
+    color: #000;
+    font-family: Nexa;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    margin-bottom: 0.625rem;
+  }
+
+  .info-tab p {
+    color: #000;
+    font-family: Nexa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.5rem;
+    margin: 0;
+  }
+
+  .colour-and-bin-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #bin-icon-tab {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2.5rem;
+    margin: 0;
+  }
+
+  #product-price-tab {
+    color: #000;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+  }
+
+  #button-and-price-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto; /* Push the button container to the bottom */
+  }
+
+  #button-container {
+    background-color: #f8f1e9;
+    width: 6.938rem;
+    height: 2.75rem;
+    display: flex; /* Use flexbox */
+    justify-content: space-between; /* Equal gap between buttons */
+    align-items: center;
+    text-align: center;
+  }
+
+  #button-minus,
+  #button-plus {
+    background-color: #f8f1e9;
+    border: none;
+    padding: 0 1rem; /* Equal padding on left and right */
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+
+  #quantity {
+    color: #000;
+    font-family: Nexa;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 800;
+    margin: 0; /* Remove margin to center the text vertically */
+  }
+
+  .cost-container-tab {
+    margin-top: 2rem;
+    background-color: #f8f1e9;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.125rem;
+    padding-left: 1.438rem;
+    padding-right: 1.438rem;
+    padding-bottom: 1.125rem;
+  }
+
+  .first-line-cart-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .second-line-cart-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 0.625rem;
+  }
+
+  .third-line-cart-tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.25rem;
+  }
+
+  #cost-text-tab {
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  #total-text-tab {
+    color: #000;
+    font-family: Nexa;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  #deliveryCost {
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  #subTotal {
+    color: #000;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+  }
+
+  #totalAmount {
+    color: #000;
+    font-family: Nexa;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+  }
 
 }

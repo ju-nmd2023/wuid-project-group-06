@@ -274,7 +274,6 @@
 
    <!-- Mobile version of main-->
    <div class="payment-container-mob">
-
     <div class="payment-details-mob">
       
       <div class="arrow-heading-mob">
@@ -357,7 +356,6 @@
       <div class="payment-fields-mob">
           <input id="payment-info-mob" type="text" required/>
       </div>
-
     </div>
     <div class="order-information-mob">
       <h1 id="headings-mob">Order Information</h1>
@@ -411,10 +409,149 @@
           <h1>Pay Now</h1>
         </div>
       </div>
-      
+
     </div>
   </div>
 
+  <!-- Tablet version of main-->
+  <div class="payment-container-tab">
+    <div class="payment-details-tab">
+      
+      <div class="arrow-heading-tab">
+        <i class="fa-solid fa-chevron-left"></i>
+        <h1 id="payment-heading-tab">Checkout</h1>
+      </div>
+
+      <h1 id="headings-tab">Payment Details</h1>
+      <div class="payment-fields-tab">
+        <p>First Name</p>
+        <input id="payment-info-tab" type="text" required/>
+      </div>
+      <div class="payment-fields-tab">
+        <p>Last Name</p>
+        <input id="payment-info-tab" type="text" required/>
+      </div>
+      <div class="payment-fields-tab">
+        <p>Town</p>
+        <input id="payment-info-tab" type="text" required/>
+      </div>
+      <div class="payment-fields-tab">
+        <p>Street Name and Number</p>
+        <input id="payment-info-tab" type="text" required/>
+      </div>
+      <div class="payment-fields-tab">
+        <p>Postcode</p>
+        <input id="payment-info-tab" type="text" required/>
+      </div>
+      <div class="payment-fields-tab">
+        <p>Phone Number</p>
+        <input id="payment-info-tab" type="text" required/>
+      </div>
+      <h1 id="headings-tab">Billing Address</h1>
+      <div class="payment-fields-tab">
+        <p>First Name</p>
+        <input id="payment-info-tab" type="text" required/>
+      </div>
+      <div class="payment-fields-tab">
+        <p>Last Name</p>
+        <input id="payment-info-tab" type="text" required/>
+      </div>
+      <div class="payment-fields-tab">
+        <p>Town</p>
+        <input id="payment-info-tab" type="text" required/>
+      </div>
+      <div class="payment-fields-tab">
+        <p>Street Name and Number</p>
+        <input id="payment-info-tab" type="text" required/>
+      </div>
+      <div class="payment-fields-tab">
+        <p>Postcode</p>
+        <input id="payment-info-tab" type="text" required/>
+      </div>
+      <h1 id="headings-tab">Payment Options</h1>
+
+      <div class="cards-container-tab">
+        <div class="cards-tab">
+          <img id="visa-pic-tab" src="img/payment-page/visa.svg" alt="visa card">
+          <p class="visa-text-tab">Visa</p>
+        </div>
+        <div class="cards-tab">
+          <img id="master-pic-tab" src="img/payment-page/master.svg"
+          alt="mastercard">
+          <p class="master-text-tab">Mastercard</p>
+        </div>
+        <div class="cards-tab"
+        >
+          <img id="maestro-pic-tab" src="img/payment-page/maestro.png" 
+          alt="maestrocard">
+          <p class="maestro-text-tab">Maestrocard</p>
+        </div>
+        <div id="cash-pay-tab">
+          <img id="cash-pic-tab" src="img/payment-page/cash.svg"
+          alt="cash payment">
+          <p class="cash-text-tab">Pay on delivery</p>
+        </div>
+      </div>
+      
+      <h1 id="headings-tab" >Discount code/Gift card number</h1>
+      <div class="payment-fields-tab">
+          <input id="payment-info-tab" type="text" required/>
+      </div>
+    </div>
+    <div class="order-information-tab">
+      <h1 id="headings-tab">Order Information</h1>
+      <div class="content-tab">
+        <div class="picture-tab">
+          <img class="img-product-payment-mob" src="img/whitedress.png" alt="White dress" />
+        </div>
+        <div class="info-tab">
+          <h2>Long sleeve knit midi dress with faux fur</h2>
+          <p>Size: XS</p>
+
+          <div class="colour-and-bin-tab">
+            <p id="product-colour-tab">Colour: White</p>
+            <i id="bin-icon-tab" class="fa-regular fa-trash-can"></i>
+          </div>
+
+          <div id="button-and-price-tab">
+            <div id="button-container">
+              <button id="button-minus" onclick="decreaseQuantity()">
+                <i class="fa-solid fa-minus"></i>
+              </button>
+              <span id="quantity">1</span>
+              <button id="button-plus" onclick="increaseQuantity()">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+            <p id="product-price-tab">39,90 €</p>
+          </div>
+        </div>
+      </div>
+      <div class="cost-container-tab">
+        <div class="first-line-cart-tab">
+          <p id="cost-text-tab">Subtotal</p>
+          <p id="subTotal">39,90 €</p>
+        </div>
+        <div class="second-line-cart-tab">
+          <p id="cost-text-tab">Delivery Costs</p>
+          <p id="deliveryCost">5,00 €</p>
+        </div>
+        <div class="third-line-cart-tab">
+          <p id="total-text-tab">Total</p>
+          <p id="totalAmount">44,90 €</p>
+        </div>
+      </div>
+
+      <div class="go-back-pay-tab">
+        <div class="go-back-tab">
+          <h1>Go Back</h1>
+        </div>
+        <div class="pay-tab">
+          <h1>Pay Now</h1>
+        </div>
+      </div>
+    </div>
+  </div>
 
 <footer>
   <!-- Web version of footer-->
