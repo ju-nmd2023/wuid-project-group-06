@@ -24,6 +24,18 @@
     display: none;
   }
 
+  #for-you-cart-mobile {
+    display: none;
+  }
+
+  #finish-look-cart {
+    display: none;
+  }
+
+  #Wrapper-mobile3 {
+    display: none;
+  }
+
   /*HIDDEN*/
 
   #web-main {
@@ -534,7 +546,7 @@
     font-weight: 800;
     line-height: normal;
     padding-bottom: 0.313rem;
-   
+   padding-top: 1rem;
   } 
 
 #finish-look-cart {
@@ -791,6 +803,16 @@
     display: none;
   }
 
+  #for-you-cart-mobile{
+    display: none;
+  }
+  #Wrapper-mobile3 {
+    display: none;
+  }
+#finish-look-cart {
+  display: none;
+}
+
   #mobile-main{
     display: none;
   }
@@ -852,7 +874,7 @@
     display: flex;
     position: absolute;
     right: 1%;
-    bottom: 106%;
+    bottom: 104%;
     padding-left: 0.4rem;
     padding-right: 0.4rem;
     background-color: #f8f1e9;
@@ -885,7 +907,7 @@
       font-weight: 800;
       line-height: normal;
       padding-bottom: 0.313rem;
-      padding-top: 2.25rem;
+      padding-top: 4rem;
   }
 
   #finish-look-tablet-cart {
