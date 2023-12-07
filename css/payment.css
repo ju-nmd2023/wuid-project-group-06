@@ -724,7 +724,7 @@
     font-size: 1rem;
   }
 
-  #quantity {
+  #quantity-mobile {
     color: #000;
     font-family: Nexa;
     font-size: 1.25rem;
@@ -780,7 +780,7 @@
     font-weight: 800;
   }
 
-  #deliveryCost {
+  #deliveryCostMobile {
     color: #000;
     font-family: Nexa;
     font-size: 16px;
@@ -788,7 +788,7 @@
     font-weight: 800;
   }
 
-  #subTotal {
+  #subTotalMobile {
     color: #000;
     font-family: Nexa;
     font-size: 16px;
@@ -796,7 +796,7 @@
     font-weight: 800;
   }
 
-  #totalAmount {
+  #totalAmountMobile {
     color: #000;
     font-family: Nexa;
     font-size: 18px;
