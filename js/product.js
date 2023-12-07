@@ -296,3 +296,19 @@ document.addEventListener("DOMContentLoaded", function() {
       slider.insertBefore(slider.lastElementChild, slider.firstElementChild);
   });
 });
+
+/* cart slideshow mobile */
+
+document.addEventListener("DOMContentLoaded", function() {
+  let nextButton = document.getElementById("Next-mobile3");
+  let prevButton = document.getElementById("Prev-mobile3");
+  let slider = document.getElementById("Slider-mobile3");
+
+  nextButton.addEventListener("click", function() {
+      slider.appendChild(slider.firstElementChild);
+  });
+
+  prevButton.addEventListener("click", function() {
+      slider.insertBefore(slider.lastElementChild, slider.firstElementChild);
+  });
+});

@@ -426,10 +426,135 @@
   }
   /*HIDDEN*/
 
+  /*slideshow*/
+
+  /*slideshow 1 */
+
+  #Wrapper-mobile3 {
+    align-items: center;
+    display: flex;
+    width: fit-content;
+    position: relative;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #mobile-main 
+
+  #Slideshow-mobile3 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    width: fit-content;
+  }
+
+  #Slider-mobile3 {
+    overflow: hidden;
+    width: fit-content;
+    position: relative;
+    height: 50vh;
+  }
+
+  #Slider-mobile3 .slide-mobile3 {
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+    display: flex;
+    gap: 1rem;
+  }
+
+  .product-caption-mobile {
+    color: #000;
+    font-family: Nexa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+
+    line-height: 20px;
+  }
+
+  .product-price-mobile {
+    color: #000;
+    font-family: Nexa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    padding-top: 0.75rem;
+  }
+
+  .product-price-2line-mobile {
+    color: #000;
+    padding-top: 0.2rem;
+    font-family: Nexa;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 20px;
+    height: 20px;
+  }
+
+  #Arrows-mobile3 {
+    display: flex;
+    position: absolute;
+    right: 1%;
+    bottom: 106%;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    background-color: #f8f1e9;
+  }
+
+  #Arrows-mobile3 i {
+    color: #1c1d21;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.5s, color 0.5s;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+  }
+
+  #Arrows-mobile3 i:first-of-type {
+    padding-right: 0.8rem;
+  }
+
+  #Arrows-mobile3 i:last-of-type {
+    padding-left: 0.8rem;
+  }
+
+  #for-you-cart-mobile {
+    margin-left: 5%;
+    margin-right: 5%;
+    color: #a8a39d;
+    font-family: Nexa;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 0.313rem;
+   
+  } 
+
+#finish-look-cart {
+  margin-left: 5%;
+  margin-right: 5%;
+  color: #000;
+  font-family: Nexa;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 1.063rem;
+}
+
+
   #mobile-main {
     padding-top: 30px;
     margin-right: 1rem;
     margin-left: 1rem;
+    padding-bottom: 2rem;
   }
 
   .arrow-heading-mob {
