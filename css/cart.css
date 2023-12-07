@@ -398,7 +398,7 @@
 
   .arrow-heading-mob {
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
   }
 
   #cart-heading-mob {
@@ -643,7 +643,7 @@
 
   .arrow-heading-tab {
     display: flex;
-    justify-content: space-between;
+    gap: 10px;
   }
 
   #cart-heading-tab {

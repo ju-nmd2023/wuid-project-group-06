@@ -131,6 +131,19 @@ function wishlistTablet() {
   }
 }
 
+function wishlistMobile() {
+  let wishlistMobile = document.getElementById("wishlist-mobile");
+
+  if (wishlistMobile.classList.contains("far")) {
+    wishlistMobile.classList.remove("far");
+    wishlistMobile.classList.add("fas");
+  } else {
+    wishlistMobile.classList.remove("fas");
+    wishlistMobile.classList.add("far");
+  }
+}
+
+
 // Function to toggle between "far" and "fas" heart icons when the heart button is clicked
 function wishlist(farId, fasId) {
   // Get references to the "far" and "fas" heart icons
