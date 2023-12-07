@@ -12,6 +12,18 @@
     display: none;
   }
 
+  #Wrapper-tablet3 {
+    display: none;
+  }
+
+  #for-you-tablet-cart {
+    display: none;
+  }
+
+  #finish-look-tablet-cart {
+    display: none;
+  }
+
   /*HIDDEN*/
 
   #web-main {
@@ -386,6 +398,30 @@
   }
 
   #tablet-main {
+    display: none;
+  }
+
+  #for-you-tablet-cart {
+    display: none;
+  }
+
+#Wrapper-3 {
+  display: none;
+}
+
+  #for-you-cart {
+    display: none;
+  }
+
+  #finish-look {
+    display: none;
+  }
+
+  #finish-look-tablet-cart {
+    display: none;
+  }
+
+  #Wrapper-tablet3 {
     display: none;
   }
   /*HIDDEN*/
