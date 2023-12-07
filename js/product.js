@@ -281,4 +281,18 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+/* cart slideshow tablet */
 
+document.addEventListener("DOMContentLoaded", function() {
+  let nextButton = document.getElementById("Next-tablet3");
+  let prevButton = document.getElementById("Prev-tablet3");
+  let slider = document.getElementById("Slider-tablet3");
+
+  nextButton.addEventListener("click", function() {
+      slider.appendChild(slider.firstElementChild);
+  });
+
+  prevButton.addEventListener("click", function() {
+      slider.insertBefore(slider.lastElementChild, slider.firstElementChild);
+  });
+});
