@@ -457,15 +457,15 @@
     position: absolute;
     right: 15%;
     bottom: 104%;
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     background-color: #f8f1e9;
   }
 
   #Arrows i {
     color: #1c1d21;
     cursor: pointer;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     transition: background-color 0.5s, color 0.5s;
     padding-left: 1rem;
     padding-right: 1rem;
@@ -544,15 +544,15 @@
     position: absolute;
     right: 15%;
     bottom: 104%;
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     background-color: #f8f1e9;
   }
 
   #Arrows-2 i {
     color: #1c1d21;
     cursor: pointer;
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     transition: background-color 0.5s, color 0.5s;
     padding-left: 1rem;
     padding-right: 1rem;
