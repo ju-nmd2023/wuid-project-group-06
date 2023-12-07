@@ -347,15 +347,15 @@
   position: absolute;
   right: 15%;
   bottom: 104%;
-  padding-top: 0.4rem;
-  padding-bottom: 0.4rem;
+  padding-top: 1rem;
+    padding-bottom: 1rem;
   background-color:  #F8F1E9;;
 }
 
 #Arrows-3 i {
   color: #1c1d21;
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 1rem;
   transition: background-color 0.5s, color 0.5s;
   padding-left: 1rem;
   padding-right: 1rem;
@@ -855,7 +855,7 @@
   #Slider-tablet3 {
     overflow: hidden;
     position: relative;
-    height: 102vh;
+    height: 80vh;
   }
 
   .slide-tablet3 {
